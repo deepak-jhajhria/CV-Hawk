@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+:root {
+  --white: #fffefe;
+  --primaryWhite: #fafafa;
+  --secondaryWhite: #f9f9f9;
+  --black: #000;
+  --primaryBlack: #010101;
+  --orange: #f36a3e;
+  --ff-rubi: "Rubik", sans-serif;
+}
+.ff-rubi {
+  font-family: var(--ff-rubi);
+}
+.bs-orange {
+  color: var(--orange);
+}
+.bs-black {
+  color: var(--black);
+}
+.bs-primaryBlack {
+  color: var(--primaryBlack);
+}
+.bg-secondaryWhite {
+  background: var(--secondaryWhite);
+}
+.bg-primaryWhite {
+  background: var(--primaryWhite);
+}
