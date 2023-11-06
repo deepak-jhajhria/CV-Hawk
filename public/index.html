@@ -17,31 +17,42 @@
 </head>
 
 <body>
-    <header class="bgWhite">
+    <header class="bgWhite relative overflow-hidden">
         <nav>
-            <div class="container flex flex-row justify-between items-center">
+            <div class="container flex flex-row justify-between items-center sm:px-10 px-8">
                 <a href="#logo"><img src="./assets/images/logo.png" alt="logo"></a>
-                <ul class="flex items-center gap-10">
-                    <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">Home</a></li>
-                    <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">About</a></li>
-                    <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">We’ll help you</a></li>
-                    <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">Testimonials</a></li>
-                </ul>
-                <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full hover:animate-pulse" type="button">Get in Touch</button>
+                <div class="flex items-center gap-8">
+                    <ul class="flex items-center gap-10 mobileView">
+                        <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">Home</a></li>
+                        <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">About</a></li>
+                        <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">We’ll help you</a></li>
+                        <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">Testimonials</a></li>
+                        <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full hover:animate-pulse sm:hidden block" type="button">Get in Touch</button>
+                    </ul>
+                    <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full hover:animate-pulse sm:block hidden lg:hidden" type="button">Get in Touch</button>
+                    <label class="menu">
+                        <span class="span1"></span>
+                        <span class="span2"></span>
+                        <span class="span3"></span>
+                    </label>
+                </div>
+                <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full hover:animate-pulse lg:block hidden" type="button">Get in Touch</button>
             </div>
         </nav>
-        <div class="container">
-            <div class="max-w-[766px] mx-auto pt-40 min-h-[80vh]">
-                <h1 class="text-black text-center ff-rubi font-semibold text-[52px] leading-normal">Unlock Your Potential with a Professional <span>CV Builder</span></h1>
+        <div class="container relative overflow-hidden">
+            <div class="max-w-[766px] mx-auto pt-40 min-h-[704px]">
+                <h1 class="text-black text-center ff-rubi font-semibold text-[52px] leading-normal">Unlock Your Potential with a Professional<span>CV Builder</span></h1>
                 <p class="text-center ff-rubi font-normal text-base text-black opacity-70 max-w-[565px] mx-auto pt-[14px]"> Our user-friendly platform guides you through the process, allowing you to customize every section to align with your unique career goals.</p>
                 <div class="flex items-center gap-4 justify-center pt-10">
                     <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full hover:animate-pulse" type="button">Get Started</button>
                     <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full hover:animate-pulse" type="button">Watch Demo</button>
                 </div>
             </div>
+        </div>
+        <div class="container min-h-[589px] flex items-end">
             <div class="grid grid-cols-2 gap-3 mb-40">
                 <div class="flex">
-                    <img class="max-w-full" src="./assets/images/gifImg1.png" alt="Gif">
+                    <img class="max-w-full rounded-xl" src="./assets/images/gifImg1.png" alt="Gif">
                 </div>
                 <div class="flex flex-col">
                     <div class="headerSlider">
@@ -74,10 +85,69 @@
                     <p class="text-black opacity-90 text-base ff-rubi font-normal max-w-lg mt-10">Theme's robust features allow you to showcase your skills, accomplishments, and experiences in a captivating way. From customizing the layout to selecting the perfect color scheme, every detail can be tailored to match your style and industry. </p>
                 </div>
             </div>
+            <!-- position images  -->
+            <!-- circle  -->
+            <span class="absolute top-[14%] left-[35%] animate-rotate"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                <mask id="mask0_24708_1916" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="56" height="56">
+                  <path d="M59.6332 36.3351C62.0449 21.087 51.6282 6.77255 36.3668 4.36294C21.1054 1.95333 6.77849 12.361 4.36678 27.6091C1.95508 42.8572 12.3718 57.1716 27.6332 59.5812C42.8946 61.9909 57.2215 51.5832 59.6332 36.3351Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_24708_1916)">
+                  <path d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="#F36A3E"/>
+                  <path style="mix-blend-mode:overlay" d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="url(#paint0_radial_24708_1916)"/>
+                </g>
+                <defs>
+                  <radialGradient id="paint0_radial_24708_1916" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.0809 22.857) rotate(-11.82) scale(46.1566 46.1198)">
+                    <stop stop-color="#FFFFFB"/>
+                    <stop offset="0.02" stop-color="#FFFEF4" stop-opacity="0.94"/>
+                    <stop offset="0.09" stop-color="#FFFBDB" stop-opacity="0.75"/>
+                    <stop offset="0.17" stop-color="#FFF9C4" stop-opacity="0.57"/>
+                    <stop offset="0.25" stop-color="#FFF6B0" stop-opacity="0.42"/>
+                    <stop offset="0.34" stop-color="#FFF4A0" stop-opacity="0.29"/>
+                    <stop offset="0.43" stop-color="#FFF392" stop-opacity="0.18"/>
+                    <stop offset="0.53" stop-color="#FFF288" stop-opacity="0.1"/>
+                    <stop offset="0.65" stop-color="#FFF181" stop-opacity="0.04"/>
+                    <stop offset="0.78" stop-color="#FFF07C" stop-opacity="0.01"/>
+                    <stop offset="1" stop-color="#FFF07B" stop-opacity="0"/>
+                  </radialGradient>
+                </defs>
+              </svg></span>
+            <!-- background ellipse  -->
+            <span class="absolute left-[30%]  ellipse1 top-[18%] opacity-50"></span>
         </div>
+        <!-- position images  -->
+        <img class="absolute top-36 -rotate-[20deg] shadow-lg rounded-xl left-20" src="./assets/images/CleanImg.png" alt="CleanImg1">
+        <img class="absolute top-[36%] -rotate-[20deg] shadow-lg rounded-xl left-[12%]" src="./assets/images/CleanImg.png" alt="CleanImg1">
+        <img class="absolute top-36 rotate-[20deg] shadow-lg rounded-xl right-20" src="./assets/images/CleanImg.png" alt="CleanImg1">
+        <img class="absolute top-[36%] rotate-[20deg] shadow-lg rounded-xl right-[12%]" src="./assets/images/CleanImg.png" alt="CleanImg1">
+        <span class="absolute left-0 top-[30%]"><svg xmlns="http://www.w3.org/2000/svg" width="61" height="92" viewBox="0 0 61 92" fill="none">
+            <path d="M24 63.5588L39.3732 0L61 21.4412L45.6268 85L24 63.5588Z" fill="#FFC3B0"/>
+            <path d="M23.3492 63.2803L0 70L15.6508 6.71967L39 0L23.3492 63.2803Z" fill="#FFC3B0"/>
+            <path d="M46 85.0524L22.3246 92L0 69.9416L23.6754 63L46 85.0524Z" fill="#F36A3E"/>
+          </svg></span>
+        <span class="absolute right-20 top-[30%]"><svg xmlns="http://www.w3.org/2000/svg" width="76" height="53" viewBox="0 0 76 53" fill="none">
+            <path d="M1.25623 0L11.728 2.43902C7.93366 16.2375 16.5286 30.1786 30.8899 33.5144C35.8239 34.649 40.9727 34.4331 45.7942 32.8895C50.6157 31.3459 54.9313 28.5318 58.2864 24.7434C60.8743 21.8072 62.7621 18.3229 63.8079 14.5526L74.3 16.9848C72.834 22.2852 70.1835 27.1843 66.5482 31.3132C61.8418 36.6279 55.7878 40.5759 49.024 42.7413C42.2602 44.9066 35.037 45.2091 28.1156 43.6169C7.99486 38.9223 -4.06125 19.3627 1.25623 0Z" fill="#E24A28"/>
+            <path d="M13.433 9.87151L11.7263 2.43896C10.6455 6.33511 10.5427 10.4374 11.4271 14.3827L13.1066 21.8084C12.2266 17.8636 12.3388 13.7624 13.433 9.87151Z" fill="#E24A28"/>
+            <path d="M66.5739 31.2998C61.8674 36.6145 55.8134 40.5625 49.0496 42.7279C42.2858 44.8932 35.0626 45.1957 28.1412 43.6035C13.9227 40.2949 3.73657 29.5877 0.839844 16.7676L2.5194 24.1933C5.41613 37.0134 15.6023 47.7274 29.8207 51.0293C36.7421 52.623 43.9657 52.3212 50.7298 50.1557C57.4939 47.9903 63.5479 44.0414 68.2534 38.7255C71.8877 34.5996 74.5361 29.7024 75.9984 24.4039L74.3257 16.9714C72.8596 22.2718 70.2092 27.1709 66.5739 31.2998Z" fill="#F36A3E"/>
+          </svg></span>
+        <span class="absolute top-1/2 left-1/2 animate-pulse"><svg xmlns="http://www.w3.org/2000/svg" width="68" height="84" viewBox="0 0 68 84" fill="none">
+            <path d="M10.5123 24L1.23248 33.2757C-3.12016 37.6331 4.42227 52.2452 18.0869 65.9105C31.7515 79.5758 46.3584 87.1232 50.7202 82.7657L60 73.4901L10.5123 24Z" fill="#F36A3E"/>
+            <path d="M60.0988 73.9331C64.4625 69.5732 56.9037 54.9521 43.2156 41.276C29.5276 27.5998 14.8938 20.0476 10.5301 24.4075C6.16638 28.7674 13.7252 43.3884 27.4133 57.0646C41.1013 70.7407 55.7351 78.293 60.0988 73.9331Z" fill="#F36A3E"/>
+            <path style="mix-blend-mode:multiply" d="M60.0988 73.9331C64.4625 69.5732 56.9037 54.9521 43.2156 41.276C29.5276 27.5998 14.8938 20.0476 10.5301 24.4075C6.16638 28.7674 13.7252 43.3884 27.4133 57.0646C41.1013 70.7407 55.7351 78.293 60.0988 73.9331Z" fill="url(#paint0_radial_24708_1922)"/>
+            <path d="M10.1839 5.58008L3.8425 11.7664C0.866491 14.6696 6.02582 24.4284 15.3618 33.5179C24.6977 42.6074 34.6919 47.6767 37.6586 44.7509L44 38.5691L10.1839 5.58008Z" fill="#FFDBDB"/>
+            <path d="M43.5885 38.9022C46.5444 35.9489 41.4226 26.0433 32.1486 16.7774C22.8746 7.51146 12.9603 2.39409 10.0044 5.3474C7.04855 8.3007 12.1704 18.2063 21.4444 27.4722C30.7184 36.7382 40.6326 41.8555 43.5885 38.9022Z" fill="#FFDBDB"/>
+            <defs>
+              <radialGradient id="paint0_radial_24708_1922" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20.5272 35.9129) rotate(44.975) scale(36.8115 16.1971)">
+                <stop stop-color="#413655"/>
+                <stop offset="0.2" stop-color="#685F78" stop-opacity="0.79"/>
+                <stop offset="1" stop-color="white" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+          </svg></span>
+        <span class="absolute left-[-4%]  ellipseCircle top-[64%] opacity-50"></span>
+        <span class="absolute right-[-4%]  ellipseCircle top-3/4 opacity-50"></span>
     </header>
     <!-- section 1  -->
-    <section class="bg-secondaryWhite min-h-[589px] flex items-center">
+    <section class="bg-secondaryWhite min-h-[589px] flex items-center relative">
         <div class="container grid grid-cols-2 items-center">
             <div class="flex flex-col max-w-lg ">
                 <h2 class="text-4xl bs-primaryBlack ff-rubi font-medium pr-3">Powerful Tools to Create <span class="bs-orange"> Your Standout CV</span></h2>
@@ -87,9 +157,43 @@
                 <img class="max-w-full" src="./assets/images/sec1img1.png" alt="sec1img1">
             </div>
         </div>
+        <span class="absolute top-[14%] left-[5%] animate-rotate"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+            <mask id="mask0_24708_1916" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="56" height="56">
+              <path d="M59.6332 36.3351C62.0449 21.087 51.6282 6.77255 36.3668 4.36294C21.1054 1.95333 6.77849 12.361 4.36678 27.6091C1.95508 42.8572 12.3718 57.1716 27.6332 59.5812C42.8946 61.9909 57.2215 51.5832 59.6332 36.3351Z" fill="white"/>
+            </mask>
+            <g mask="url(#mask0_24708_1916)">
+              <path d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="#F36A3E"/>
+              <path style="mix-blend-mode:overlay" d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="url(#paint0_radial_24708_1916)"/>
+            </g>
+            <defs>
+              <radialGradient id="paint0_radial_24708_1916" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.0809 22.857) rotate(-11.82) scale(46.1566 46.1198)">
+                <stop stop-color="#FFFFFB"/>
+                <stop offset="0.02" stop-color="#FFFEF4" stop-opacity="0.94"/>
+                <stop offset="0.09" stop-color="#FFFBDB" stop-opacity="0.75"/>
+                <stop offset="0.17" stop-color="#FFF9C4" stop-opacity="0.57"/>
+                <stop offset="0.25" stop-color="#FFF6B0" stop-opacity="0.42"/>
+                <stop offset="0.34" stop-color="#FFF4A0" stop-opacity="0.29"/>
+                <stop offset="0.43" stop-color="#FFF392" stop-opacity="0.18"/>
+                <stop offset="0.53" stop-color="#FFF288" stop-opacity="0.1"/>
+                <stop offset="0.65" stop-color="#FFF181" stop-opacity="0.04"/>
+                <stop offset="0.78" stop-color="#FFF07C" stop-opacity="0.01"/>
+                <stop offset="1" stop-color="#FFF07B" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+          </svg></span>
+        <span class="absolute right-[5%] top-[12%]"><svg xmlns="http://www.w3.org/2000/svg" width="61" height="92" viewBox="0 0 61 92" fill="none">
+            <path d="M24 63.5588L39.3732 0L61 21.4412L45.6268 85L24 63.5588Z" fill="#FFC3B0"/>
+            <path d="M23.3492 63.2803L0 70L15.6508 6.71967L39 0L23.3492 63.2803Z" fill="#FFC3B0"/>
+            <path d="M46 85.0524L22.3246 92L0 69.9416L23.6754 63L46 85.0524Z" fill="#F36A3E"/>
+        </svg></span>
+        <span class="absolute right-[52%] bottom-[15%]"><svg xmlns="http://www.w3.org/2000/svg" width="76" height="53" viewBox="0 0 76 53" fill="none">
+            <path d="M1.25623 0L11.728 2.43902C7.93366 16.2375 16.5286 30.1786 30.8899 33.5144C35.8239 34.649 40.9727 34.4331 45.7942 32.8895C50.6157 31.3459 54.9313 28.5318 58.2864 24.7434C60.8743 21.8072 62.7621 18.3229 63.8079 14.5526L74.3 16.9848C72.834 22.2852 70.1835 27.1843 66.5482 31.3132C61.8418 36.6279 55.7878 40.5759 49.024 42.7413C42.2602 44.9066 35.037 45.2091 28.1156 43.6169C7.99486 38.9223 -4.06125 19.3627 1.25623 0Z" fill="#E24A28"/>
+            <path d="M13.433 9.87151L11.7263 2.43896C10.6455 6.33511 10.5427 10.4374 11.4271 14.3827L13.1066 21.8084C12.2266 17.8636 12.3388 13.7624 13.433 9.87151Z" fill="#E24A28"/>
+            <path d="M66.5739 31.2998C61.8674 36.6145 55.8134 40.5625 49.0496 42.7279C42.2858 44.8932 35.0626 45.1957 28.1412 43.6035C13.9227 40.2949 3.73657 29.5877 0.839844 16.7676L2.5194 24.1933C5.41613 37.0134 15.6023 47.7274 29.8207 51.0293C36.7421 52.623 43.9657 52.3212 50.7298 50.1557C57.4939 47.9903 63.5479 44.0414 68.2534 38.7255C71.8877 34.5996 74.5361 29.7024 75.9984 24.4039L74.3257 16.9714C72.8596 22.2718 70.2092 27.1709 66.5739 31.2998Z" fill="#F36A3E"/>
+          </svg></span>
     </section>
     <!-- section 2 -->
-    <section class="min-h-[589px] flex items-center">
+    <section class="min-h-[589px] flex items-center relative overflow-hidden">
         <div class="container grid grid-cols-2 items-center gap-10">
             <img src="./assets/images/sec2img1.png" alt="sec2img1">
             <div class="flex flex-col">
@@ -100,9 +204,10 @@
                 </div>
             </div>
         </div>
+        <span class="absolute left-[-7%]  ellipseCircle top-[64%] opacity-50"></span>
     </section>
     <!-- section 3  -->
-    <section class="bg-secondaryWhite min-h-[589px] flex items-center">
+    <section class="bg-secondaryWhite min-h-[589px] flex items-center relative overflow-hidden">
         <div class="container grid grid-cols-2 items-center">
             <div class="flex flex-col -mr-24">
                 <h2 class="text-4xl bs-primaryBlack ff-rubi font-medium pr-3 max-w-lg">20+ <span class="bs-orange">Professionally designed</span> resume sections</h2>
@@ -136,9 +241,10 @@
                 <img class="absolute top-6 -right-3 z-40 rounded-xl shadow-lg hover:z-50" src="./assets/images/sec3img4.png" alt="sec3img">
             </div>
         </div>
+        <span class="absolute right-1/3  ellipseCircle top-1/2 opacity-50"></span>
     </section>
     <!-- section 4  -->
-    <section class="min-h-[704px] flex items-center">
+    <section class="min-h-[704px] flex items-center relative overflow-hidden">
         <div class="container grid grid-cols-2 items-center gap-10">
             <img src="./assets/images/sec4img1.png" alt="sec2img1">
             <div class="flex flex-col -mr-24">
@@ -167,6 +273,8 @@
                 </div>
             </div>
         </div>
+        <span class="absolute right-0  ellipseCircle top-1/2 opacity-50"></span>
+        <span class="absolute left-0  ellipseCircle bottom-0 opacity-50"></span>
     </section>
     <!-- section 5  -->
     <section class="bg-secondaryWhite min-h-[704px] items-center flex justify-center flex-col overflow-hidden">
@@ -198,6 +306,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./assets/js/app.js"></script>
     <script>
         $('.headerSlider').slick({
             dots: true,
