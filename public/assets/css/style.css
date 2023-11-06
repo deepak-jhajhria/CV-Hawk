@@ -38,7 +38,6 @@
   transition: 0.4s;
   width: 24px !important;
   border-radius: 15px;
-
 }
 .span6 {
   display: none !important;
@@ -48,6 +47,9 @@
   border: 1px solid rgba(243, 106, 62, 0.4);
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.04);
+}
+.headerSlider .slick-track{
+  margin: 0;
 }
 .headerSlider .slick-slide {
   margin-right: 8px;
@@ -78,13 +80,34 @@
   height: 11px;
   background: linear-gradient(219deg, #ffa78a 0%, #ff7a34 100%);
 }
+.circleSvg {
+  width: 20.001px;
+  height: 19.999px;
+  transform: rotate(-58.281deg);
+  flex-shrink: 0;
+}
+.logo {
+  width: 130px;
+  height: 82.837px;
+}
 .ellipse1 {
-  width: 626px;
-  height: 115px;
-  border-radius: 626px;
+  width: 278px;
+  height: 66px;
+  border-radius: 326px;
   background: var(--orange, #f36a3e);
   filter: blur(120.5px);
 }
+.cubeImg {
+  width: 28.511px;
+  height: 43px;
+  transform: rotate(-42.949deg);
+}
+.circleHalf {
+  width: 40px;
+  height: 27.388px;
+  transform: rotate(-44.437deg);
+}
+
 .ellipseCircle {
   width: 170px;
   height: 143px;
@@ -99,21 +122,78 @@
 }
 @keyframes rotate {
   50% {
-    opacity: .8;
+    opacity: 0.8;
     transform: rotate(120deg);
   }
 }
 .animate-rotate {
   animation: rotate 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
-@media (min-width:640px) {
+@media (min-width: 640px) {
   .mobileView {
-    background-image:unset;
+    background-image: unset;
+  }
+  .circleSvg {
+    width: 42px;
+    height: 42px;
+  }
+  .cleanImg {
+    width: 122.689px;
+    height: 134.537px;
+  }
+  .ellipse1 {
+    width: 626px;
+    height: 115px;
+  }
+  .cubeImg {
+    width: 28.511px;
+    height: 43px;
+    transform: rotate(0);
+  }
+  .circleHalf {
+    width: 60.924px;
+    height: 41.714px;
+    transform: rotate(-19.684deg);
+  }
+  .doubleCircle {
+    width: 84.808px;
+    height: 105px;
+  }
+}
+@media (min-width: 768px) {
+  .mobileView {
+    background-image: unset;
   }
 }
 @media (min-width: 1024px) {
   .menu {
     display: none;
+  }
+  .circleSvg {
+    width: 64px;
+    height: 63.944px;
+  }
+  .logo {
+    width: 156.969px;
+    height: 100.022px;
+  }
+  .cleanImg {
+    width: 183.572px;
+    height: 201.299px;
+  }
+  .cubeImg {
+    width: 61px;
+    height: 92px;
+    transform: rotate(0);
+  }
+  .circleHalf {
+    width: 76px;
+    height: 52.036px;
+    transform: rotate(0);
+  }
+  .doubleCircle {
+    width: 68px;
+    height: 84px; 
   }
 }
 @media (max-width: 1024px) {

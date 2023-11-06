@@ -20,7 +20,7 @@
     <header class="bgWhite relative overflow-hidden">
         <nav>
             <div class="container flex flex-row justify-between items-center sm:px-10 px-8">
-                <a href="#logo"><img src="./assets/images/logo.png" alt="logo"></a>
+                <a class="logo" href="#logo"><img src="./assets/images/logo.png" alt="logo"></a>
                 <div class="flex items-center gap-8">
                     <ul class="flex items-center gap-10 mobileView">
                         <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">Home</a></li>
@@ -39,22 +39,46 @@
                 <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full hover:animate-pulse lg:block hidden" type="button">Get in Touch</button>
             </div>
         </nav>
-        <div class="container relative overflow-hidden">
-            <div class="max-w-[766px] mx-auto pt-40 min-h-[704px]">
-                <h1 class="text-black text-center ff-rubi font-semibold text-[52px] leading-normal">Unlock Your Potential with a Professional<span>CV Builder</span></h1>
+        <div class="container px-10 relative overflow-hidden">
+            <div class="max-w-[766px] mx-auto pt-8 sm:pt-20 lg:pt-40 sm:min-h-[589px] lg:min-h-[704px]">
+                <h1 class="text-black text-center ff-rubi font-semibold text-[32px] sm:text-[40px] lg:text-[52px] leading-normal">Unlock Your Potential with a Professional <span> CV Builder</span></h1>
                 <p class="text-center ff-rubi font-normal text-base text-black opacity-70 max-w-[565px] mx-auto pt-[14px]"> Our user-friendly platform guides you through the process, allowing you to customize every section to align with your unique career goals.</p>
-                <div class="flex items-center gap-4 justify-center pt-10">
+                <div class="flex items-center gap-4 justify-center pt-10 flex-col sm:flex-row">
                     <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full hover:animate-pulse" type="button">Get Started</button>
                     <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full hover:animate-pulse" type="button">Watch Demo</button>
                 </div>
             </div>
+            <span class="absolute lg:top-[14%] lg:left-[35%] top-[2%] left-[24%] animate-rotate circleSvg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+                <mask id="mask0_24708_1916" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="56" height="56">
+                  <path d="M59.6332 36.3351C62.0449 21.087 51.6282 6.77255 36.3668 4.36294C21.1054 1.95333 6.77849 12.361 4.36678 27.6091C1.95508 42.8572 12.3718 57.1716 27.6332 59.5812C42.8946 61.9909 57.2215 51.5832 59.6332 36.3351Z" fill="white"/>
+                </mask>
+                <g mask="url(#mask0_24708_1916)">
+                  <path d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="#F36A3E"/>
+                  <path style="mix-blend-mode:overlay" d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="url(#paint0_radial_24708_1916)"/>
+                </g>
+                <defs>
+                  <radialGradient id="paint0_radial_24708_1916" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.0809 22.857) rotate(-11.82) scale(46.1566 46.1198)">
+                    <stop stop-color="#FFFFFB"/>
+                    <stop offset="0.02" stop-color="#FFFEF4" stop-opacity="0.94"/>
+                    <stop offset="0.09" stop-color="#FFFBDB" stop-opacity="0.75"/>
+                    <stop offset="0.17" stop-color="#FFF9C4" stop-opacity="0.57"/>
+                    <stop offset="0.25" stop-color="#FFF6B0" stop-opacity="0.42"/>
+                    <stop offset="0.34" stop-color="#FFF4A0" stop-opacity="0.29"/>
+                    <stop offset="0.43" stop-color="#FFF392" stop-opacity="0.18"/>
+                    <stop offset="0.53" stop-color="#FFF288" stop-opacity="0.1"/>
+                    <stop offset="0.65" stop-color="#FFF181" stop-opacity="0.04"/>
+                    <stop offset="0.78" stop-color="#FFF07C" stop-opacity="0.01"/>
+                    <stop offset="1" stop-color="#FFF07B" stop-opacity="0"/>
+                  </radialGradient>
+                </defs>
+              </svg></span>
         </div>
-        <div class="container min-h-[589px] flex items-end">
-            <div class="grid grid-cols-2 gap-3 mb-40">
+        <div class="container px-10 min-h-[589px] flex items-end mt-36    ">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 mb-40">
                 <div class="flex">
-                    <img class="max-w-full rounded-xl" src="./assets/images/gifImg1.png" alt="Gif">
+                    <img class="max-w-full rounded-xl shadow-md" src="./assets/images/gifImg.gif" alt="Gif">
                 </div>
-                <div class="flex flex-col">
+                <div class="flex flex-col pt-14 lg:pt-0">
                     <div class="headerSlider">
                         <div class="flex">
                             <div class="flex flex-col transition duration-300 items-center w-[156px] min-h-[141px] justify-center border rounded-xl slider-card group cursor-pointer">
@@ -81,55 +105,34 @@
                                 <p class="text-black text-center font-medium ff-rubi text-[22px] pt-5 group-hover:text-orange-500 transition duration-300">Themes</p>
                             </div>
                         </div>
+                        <div class="flex">
+                            <div class="flex flex-col transition duration-300 items-center w-[156px] min-h-[141px] justify-center border rounded-xl slider-card group cursor-pointer">
+                                <img src="./assets/images/headerSliderImg1.png" alt="headerSliderImg1" width="43px" height="32px">
+                                <p class="text-black text-center font-medium ff-rubi text-[22px] pt-5 group-hover:text-orange-500 transition duration-300">Themes</p>
+                            </div>
+                        </div>
                     </div>
-                    <p class="text-black opacity-90 text-base ff-rubi font-normal max-w-lg mt-10">Theme's robust features allow you to showcase your skills, accomplishments, and experiences in a captivating way. From customizing the layout to selecting the perfect color scheme, every detail can be tailored to match your style and industry. </p>
+                    <p class="text-black opacity-90 text-base ff-rubi font-normal lg:max-w-lg mt-10">Theme's robust features allow you to showcase your skills, accomplishments, and experiences in a captivating way. From customizing the layout to selecting the perfect color scheme, every detail can be tailored to match your style and industry. </p>
                 </div>
             </div>
-            <!-- position images  -->
-            <!-- circle  -->
-            <span class="absolute top-[14%] left-[35%] animate-rotate"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
-                <mask id="mask0_24708_1916" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="56" height="56">
-                  <path d="M59.6332 36.3351C62.0449 21.087 51.6282 6.77255 36.3668 4.36294C21.1054 1.95333 6.77849 12.361 4.36678 27.6091C1.95508 42.8572 12.3718 57.1716 27.6332 59.5812C42.8946 61.9909 57.2215 51.5832 59.6332 36.3351Z" fill="white"/>
-                </mask>
-                <g mask="url(#mask0_24708_1916)">
-                  <path d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="#F36A3E"/>
-                  <path style="mix-blend-mode:overlay" d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="url(#paint0_radial_24708_1916)"/>
-                </g>
-                <defs>
-                  <radialGradient id="paint0_radial_24708_1916" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.0809 22.857) rotate(-11.82) scale(46.1566 46.1198)">
-                    <stop stop-color="#FFFFFB"/>
-                    <stop offset="0.02" stop-color="#FFFEF4" stop-opacity="0.94"/>
-                    <stop offset="0.09" stop-color="#FFFBDB" stop-opacity="0.75"/>
-                    <stop offset="0.17" stop-color="#FFF9C4" stop-opacity="0.57"/>
-                    <stop offset="0.25" stop-color="#FFF6B0" stop-opacity="0.42"/>
-                    <stop offset="0.34" stop-color="#FFF4A0" stop-opacity="0.29"/>
-                    <stop offset="0.43" stop-color="#FFF392" stop-opacity="0.18"/>
-                    <stop offset="0.53" stop-color="#FFF288" stop-opacity="0.1"/>
-                    <stop offset="0.65" stop-color="#FFF181" stop-opacity="0.04"/>
-                    <stop offset="0.78" stop-color="#FFF07C" stop-opacity="0.01"/>
-                    <stop offset="1" stop-color="#FFF07B" stop-opacity="0"/>
-                  </radialGradient>
-                </defs>
-              </svg></span>
-            <!-- background ellipse  -->
-            <span class="absolute left-[30%]  ellipse1 top-[18%] opacity-50"></span>
+            <span class="absolute left-1/4 lg:left-[30%]  ellipse1 top-[12%] lg:top-[18%] opacity-50"></span>
         </div>
         <!-- position images  -->
-        <img class="absolute top-36 -rotate-[20deg] shadow-lg rounded-xl left-20" src="./assets/images/CleanImg.png" alt="CleanImg1">
-        <img class="absolute top-[36%] -rotate-[20deg] shadow-lg rounded-xl left-[12%]" src="./assets/images/CleanImg.png" alt="CleanImg1">
-        <img class="absolute top-36 rotate-[20deg] shadow-lg rounded-xl right-20" src="./assets/images/CleanImg.png" alt="CleanImg1">
-        <img class="absolute top-[36%] rotate-[20deg] shadow-lg rounded-xl right-[12%]" src="./assets/images/CleanImg.png" alt="CleanImg1">
-        <span class="absolute left-0 top-[30%]"><svg xmlns="http://www.w3.org/2000/svg" width="61" height="92" viewBox="0 0 61 92" fill="none">
+        <img class="absolute md:block hidden top-[10%] lg:top-36 -rotate-[20deg] shadow-lg rounded-xl left-0 lg:left-20 cleanImg -z-10" src="./assets/images/CleanImg.png" alt="CleanImg1">
+        <img class="absolute md:block hidden top-1/4 lg:top-[36%] -rotate-[20deg] shadow-lg rounded-xl left-4 lg:left-[12%] -z-10 " src="./assets/images/CleanImg.png" alt="CleanImg1">
+        <img class="absolute md:block hidden top-[10%] lg:top-36 rotate-[20deg] shadow-lg rounded-xl right-0 lg:right-20 cleanImg -z-10" src="./assets/images/CleanImg.png" alt="CleanImg1">
+        <img class="absolute md:block hidden top-1/4 lg:top-[36%] rotate-[20deg] shadow-lg rounded-xl right-4 lg:right-[12%] -z-10 " src="./assets/images/CleanImg.png" alt="CleanImg1">
+        <span class="absolute cubeImg left-[3%] sm:top-[22%] sm:left-[5%] top-[40%] lg:left-0 lg:top-[30%] -z-10"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 92" fill="none">
             <path d="M24 63.5588L39.3732 0L61 21.4412L45.6268 85L24 63.5588Z" fill="#FFC3B0"/>
             <path d="M23.3492 63.2803L0 70L15.6508 6.71967L39 0L23.3492 63.2803Z" fill="#FFC3B0"/>
             <path d="M46 85.0524L22.3246 92L0 69.9416L23.6754 63L46 85.0524Z" fill="#F36A3E"/>
           </svg></span>
-        <span class="absolute right-20 top-[30%]"><svg xmlns="http://www.w3.org/2000/svg" width="76" height="53" viewBox="0 0 76 53" fill="none">
+        <span class="absolute right-5 lg:right-20 top-[32%] sm:top-[22%] lg:top-[30%] circleHalf -z-10"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 53" fill="none">
             <path d="M1.25623 0L11.728 2.43902C7.93366 16.2375 16.5286 30.1786 30.8899 33.5144C35.8239 34.649 40.9727 34.4331 45.7942 32.8895C50.6157 31.3459 54.9313 28.5318 58.2864 24.7434C60.8743 21.8072 62.7621 18.3229 63.8079 14.5526L74.3 16.9848C72.834 22.2852 70.1835 27.1843 66.5482 31.3132C61.8418 36.6279 55.7878 40.5759 49.024 42.7413C42.2602 44.9066 35.037 45.2091 28.1156 43.6169C7.99486 38.9223 -4.06125 19.3627 1.25623 0Z" fill="#E24A28"/>
             <path d="M13.433 9.87151L11.7263 2.43896C10.6455 6.33511 10.5427 10.4374 11.4271 14.3827L13.1066 21.8084C12.2266 17.8636 12.3388 13.7624 13.433 9.87151Z" fill="#E24A28"/>
             <path d="M66.5739 31.2998C61.8674 36.6145 55.8134 40.5625 49.0496 42.7279C42.2858 44.8932 35.0626 45.1957 28.1412 43.6035C13.9227 40.2949 3.73657 29.5877 0.839844 16.7676L2.5194 24.1933C5.41613 37.0134 15.6023 47.7274 29.8207 51.0293C36.7421 52.623 43.9657 52.3212 50.7298 50.1557C57.4939 47.9903 63.5479 44.0414 68.2534 38.7255C71.8877 34.5996 74.5361 29.7024 75.9984 24.4039L74.3257 16.9714C72.8596 22.2718 70.2092 27.1709 66.5739 31.2998Z" fill="#F36A3E"/>
           </svg></span>
-        <span class="absolute top-1/2 left-1/2 animate-pulse"><svg xmlns="http://www.w3.org/2000/svg" width="68" height="84" viewBox="0 0 68 84" fill="none">
+        <span class="absolute top-[30%] lg:top-1/2 left-1/2 animate-pulse -z-10 doubleCircle hidden sm:block"><svg xmlns="http://www.w3.org/2000/svg" width="68" height="84" viewBox="0 0 68 84" fill="none">
             <path d="M10.5123 24L1.23248 33.2757C-3.12016 37.6331 4.42227 52.2452 18.0869 65.9105C31.7515 79.5758 46.3584 87.1232 50.7202 82.7657L60 73.4901L10.5123 24Z" fill="#F36A3E"/>
             <path d="M60.0988 73.9331C64.4625 69.5732 56.9037 54.9521 43.2156 41.276C29.5276 27.5998 14.8938 20.0476 10.5301 24.4075C6.16638 28.7674 13.7252 43.3884 27.4133 57.0646C41.1013 70.7407 55.7351 78.293 60.0988 73.9331Z" fill="#F36A3E"/>
             <path style="mix-blend-mode:multiply" d="M60.0988 73.9331C64.4625 69.5732 56.9037 54.9521 43.2156 41.276C29.5276 27.5998 14.8938 20.0476 10.5301 24.4075C6.16638 28.7674 13.7252 43.3884 27.4133 57.0646C41.1013 70.7407 55.7351 78.293 60.0988 73.9331Z" fill="url(#paint0_radial_24708_1922)"/>
@@ -143,21 +146,21 @@
               </radialGradient>
             </defs>
           </svg></span>
-        <span class="absolute left-[-4%]  ellipseCircle top-[64%] opacity-50"></span>
-        <span class="absolute right-[-4%]  ellipseCircle top-3/4 opacity-50"></span>
+        <span class="absolute left-[-15%] lg:left-[-4%]  ellipseCircle top-[35%] lg:top-[64%] opacity-50 -z-10"></span>
+        <span class="absolute right-[-4%]  ellipseCircle top-[60%] lg:top-3/4 opacity-50 -z-10 hidden sm:block"></span>
     </header>
     <!-- section 1  -->
     <section class="bg-secondaryWhite min-h-[589px] flex items-center relative">
-        <div class="container grid grid-cols-2 items-center">
-            <div class="flex flex-col max-w-lg ">
-                <h2 class="text-4xl bs-primaryBlack ff-rubi font-medium pr-3">Powerful Tools to Create <span class="bs-orange"> Your Standout CV</span></h2>
+        <div class="container px-5 sm:px-10 grid grid-cols-1 md:grid-cols-2 items-center py-10 md:py-0">
+            <div class="flex flex-col md:max-w-lg ">
+                <h2 class="text-[28px] sm:text-3xl lg:text-4xl bs-primaryBlack ff-rubi font-medium pr-3">Powerful Tools to Create <span class="bs-orange"> Your Standout CV</span></h2>
                 <p class="text-black ff-rubi font-normal text-base pt-6 opacity-80">Customize your CV to reflect your<span class="font-semibold">unique personality</span> and professional brand. Choose from a wide range of <span class="font-semibold">professionally</span> designed templates and layouts, allowing you to find the <span class="font-semibold">perfect style</span> that aligns with your industry and career goals.</p>
             </div>
-            <div class="mr-14">
+            <div class="md:mr-14 mt-10 md:mt-0">
                 <img class="max-w-full" src="./assets/images/sec1img1.png" alt="sec1img1">
             </div>
         </div>
-        <span class="absolute top-[14%] left-[5%] animate-rotate"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+        <span class="absolute circleSvg top-[14%] left-[5%] animate-rotate hidden md:block"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
             <mask id="mask0_24708_1916" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="56" height="56">
               <path d="M59.6332 36.3351C62.0449 21.087 51.6282 6.77255 36.3668 4.36294C21.1054 1.95333 6.77849 12.361 4.36678 27.6091C1.95508 42.8572 12.3718 57.1716 27.6332 59.5812C42.8946 61.9909 57.2215 51.5832 59.6332 36.3351Z" fill="white"/>
             </mask>
@@ -181,7 +184,7 @@
               </radialGradient>
             </defs>
           </svg></span>
-        <span class="absolute right-[5%] top-[12%]"><svg xmlns="http://www.w3.org/2000/svg" width="61" height="92" viewBox="0 0 61 92" fill="none">
+        <span class="absolute cubeImg right-[5%] top-[12%] hidden md:block"><svg xmlns="http://www.w3.org/2000/svg" width="61" height="92" viewBox="0 0 61 92" fill="none">
             <path d="M24 63.5588L39.3732 0L61 21.4412L45.6268 85L24 63.5588Z" fill="#FFC3B0"/>
             <path d="M23.3492 63.2803L0 70L15.6508 6.71967L39 0L23.3492 63.2803Z" fill="#FFC3B0"/>
             <path d="M46 85.0524L22.3246 92L0 69.9416L23.6754 63L46 85.0524Z" fill="#F36A3E"/>
@@ -194,23 +197,30 @@
     </section>
     <!-- section 2 -->
     <section class="min-h-[589px] flex items-center relative overflow-hidden">
-        <div class="container grid grid-cols-2 items-center gap-10">
-            <img src="./assets/images/sec2img1.png" alt="sec2img1">
-            <div class="flex flex-col">
+        <div class="container grid grid-cols-1 md:grid-cols-2 items-center gap-10 px-5 sm:px-10 py-10">
+            <div class="flex flex-col md:hidden">
                 <h2 class="text-4xl bs-primaryBlack ff-rubi font-medium pr-3">We’ll help you</h2>
                 <p class="text-black ff-rubi font-normal text-base pt-4 opacity-80">Once you've booked a session, a confirmation email will be sent to the provided email address, containing all the necessary details, including the date, time, and instructions for the session.</p>
-                <div class="pt-10">
+            </div>
+            <img src="./assets/images/sec2img1.png" alt="sec2img1">
+            <div class="flex-col hidden md:block">
+                <h2 class="text-4xl bs-primaryBlack ff-rubi font-medium pr-3">We’ll help you</h2>
+                <p class="text-black ff-rubi font-normal text-base pt-4 opacity-80">Once you've booked a session, a confirmation email will be sent to the provided email address, containing all the necessary details, including the date, time, and instructions for the session.</p>
+                <div class="pt-6 sm:pt-10">
                     <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full hover:animate-pulse" type="button">Get Started</button>
                 </div>
             </div>
+            <div class="pt-10 md:hidden">
+                <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full hover:animate-pulse" type="button">Get Started</button>
+            </div>
         </div>
-        <span class="absolute left-[-7%]  ellipseCircle top-[64%] opacity-50"></span>
+        <span class="absolute left-[-7%]  ellipseCircle top-[64%] opacity-50 hidden md:block"></span>
     </section>
     <!-- section 3  -->
     <section class="bg-secondaryWhite min-h-[589px] flex items-center relative overflow-hidden">
-        <div class="container grid grid-cols-2 items-center">
+        <div class="container grid grid-cols-1 md:grid-cols-2 items-center px-5 sm:px-10">
             <div class="flex flex-col -mr-24">
-                <h2 class="text-4xl bs-primaryBlack ff-rubi font-medium pr-3 max-w-lg">20+ <span class="bs-orange">Professionally designed</span> resume sections</h2>
+                <h2 class="text-[28px] sm:text-3xl lg:text-4xl bs-primaryBlack ff-rubi font-medium pr-3 max-w-lg">20+ <span class="bs-orange">Professionally designed</span> resume sections</h2>
                 <p class="text-black ff-rubi font-normal text-base pt-4 opacity-80 max-w-lg">Express your professional history without limitations or worry about how your resume looks</p>
                 <div class="flex items-center pt-6 gap-3">
                     <span class="w-6 h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
@@ -234,7 +244,7 @@
                     <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full hover:animate-pulse" type="button">Get Started</button>
                 </div>
             </div>
-            <div class="relative">
+            <div class=" flex relative box">
                 <img class="absolute -top-52 left-20 z-10 rounded-xl shadow-lg hover:z-50" src="./assets/images/sec3img1.png" alt="sec3img">
                 <img class="absolute -top-36 right-20 z-20 rounded-xl shadow-lg hover:z-50" src="./assets/images/sec3img2.png" alt="sec3img">
                 <img class="absolute -top-14 right-8 z-30 rounded-xl shadow-lg hover:z-50" src="./assets/images/sec3img3.png" alt="sec3img">
@@ -245,10 +255,10 @@
     </section>
     <!-- section 4  -->
     <section class="min-h-[704px] flex items-center relative overflow-hidden">
-        <div class="container grid grid-cols-2 items-center gap-10">
+        <div class="container grid grid-cols-1 md:grid-cols-2 items-center gap-10 px-5 sm:px-10 py-24 md:py-0">
             <img src="./assets/images/sec4img1.png" alt="sec2img1">
-            <div class="flex flex-col -mr-24">
-                <h2 class="text-4xl bs-primaryBlack ff-rubi font-medium pr-3 max-w-lg">Resume trailoring based on the <span class="bs-orange underLine">job you’re applying</span> for</h2>
+            <div class="flex flex-col order-first md:order-last">
+                <h2 class="text-[28px] sm:text-3xl lg:text-4xl bs-primaryBlack ff-rubi font-medium md:pr-3 max-w-lg">Resume trailoring based on the <span class="bs-orange underLine">job you’re applying</span> for</h2>
                 <p class="text-black ff-rubi font-normal text-base pt-4 opacity-80 max-w-lg">Quickly ensure that your resume covers key skills and experience by pasting the job ad you’re applying for</p>
                 <div class="flex items-center pt-6 gap-3">
                     <span class="w-6 h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
@@ -319,7 +329,7 @@
                 {
                     breakpoint: 1024,
                     settings: {
-                        slidesToShow: 3,
+                        slidesToShow: 4.5,
                         slidesToScroll: 3,
                         infinite: true,
                         dots: true
@@ -335,8 +345,10 @@
                 {
                     breakpoint: 480,
                     settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
+                        variableWidth:true,
+                        slidesToShow: 2,
+                        slidesToScroll: 4,
+                        arrows:false,
                     }
                 }
             ]
