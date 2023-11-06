@@ -5,6 +5,7 @@
   --secondaryWhite: #f9f9f9;
   --black: #000;
   --primaryBlack: #010101;
+  --secondaryBlack: #070707;
   --orange: #f36a3e;
   --ff-rubi: "Rubik", sans-serif;
 }
@@ -23,9 +24,15 @@
 .bs-primaryBlack {
   color: var(--primaryBlack);
 }
+.bg-secondaryBlack {
+  background: var(--secondaryBlack);
+}
 .bg-secondaryWhite {
   background: var(--secondaryWhite);
 }
 .bg-primaryWhite {
   background: var(--primaryWhite);
+}
+.bs-primaryWhite {
+  color: var(--primaryWhite);
 }
