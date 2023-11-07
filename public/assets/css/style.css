@@ -28,15 +28,15 @@ html {
   width: 24px !important;
   background: var(--orange) !important;
   position: relative;
-  top: 11px;
-  right: -12px;
+  top: 3px;
+  right: 5px;
 }
 .span5 {
   height: 2.4px !important;
   transform: rotate(-45deg) !important;
   position: relative;
-  top: 1.5px;
-  right: -12px;
+  top: -6.5px;
+  right: 5px;
   background: var(--orange) !important;
   transition: 0.4s;
   width: 24px !important;
