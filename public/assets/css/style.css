@@ -55,6 +55,10 @@ html {
   border: 1px solid var(--orange);
   background: transparent;
 }
+.slider-card{
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.04);
+}
 .slider-card:hover {
   border: 1px solid rgba(243, 106, 62, 0.4);
   background: #fff;
@@ -119,7 +123,10 @@ html {
   height: 27.388px;
   transform: rotate(-44.437deg);
 }
-
+.mobileViewSlider .slick-slide{
+  margin-left: 10px;
+  margin-right: 15px;
+}
 .ellipseCircle {
   width: 170px;
   height: 143px;
@@ -138,57 +145,22 @@ html {
   background-position: 50% 20%;
   background-repeat: no-repeat;
 }
-.animate-shakeRight{
-  animation: shakeRight 5s infinite;
-}
-@keyframes shakeRight {
-  0% {
-    transform: rotate(-30deg);
+@keyframes bounceOnse {
+  0%, 100% {
+    transform: translateY(-5%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
   }
+
   50% {
-    transform: rotate(-20deg);
-  }
-  100% {
-    transform: rotate(-30deg);
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
   }
 }
-.animate-shakeLeft{
-  animation: shakeLeft 5s infinite;
+
+.animate-bounceOnse {
+  animation: bounceOnse 1s ;
 }
-@keyframes shakeLeft {
-  0% {
-    transform: rotate(30deg);
-  }
-  50% {
-    transform: rotate(20deg);
-  }
-  100% {
-    transform: rotate(30deg);
-  }
-}
-.animate-shakeup{
-  animation: shakeUp 3s infinite;
-}
-@keyframes shakeUp {
-  0% {
-    transform: translateY(20px);
-  }
-  50% {
-    transform: translateY(50px);
-  }
-  100% {
-    transform: translateY(20px);
-  }
-}
-.animate-rotate {
-  animation: rotate 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-@keyframes rotate {
-  50% {
-    opacity: 0.8;
-    transform: rotate(120deg);
-  }
-}
+
 @media (min-width: 640px) {
   .mobileView {
     background-image: unset;
@@ -218,6 +190,57 @@ html {
   .doubleCircle {
     width: 84.808px;
     height: 105px;
+  }
+  .animate-shakeRight{
+    animation: shakeRight 5s infinite;
+  }
+  @keyframes shakeRight {
+    0% {
+      transform: rotate(-30deg);
+    }
+    50% {
+      transform: rotate(-20deg);
+    }
+    100% {
+      transform: rotate(-30deg);
+    }
+  }
+  .animate-shakeLeft{
+    animation: shakeLeft 5s infinite;
+  }
+  @keyframes shakeLeft {
+    0% {
+      transform: rotate(30deg);
+    }
+    50% {
+      transform: rotate(20deg);
+    }
+    100% {
+      transform: rotate(30deg);
+    }
+  }
+  .animate-shakeup{
+    animation: shakeUp 3s infinite;
+  }
+  @keyframes shakeUp {
+    0% {
+      transform: translateY(20px);
+    }
+    50% {
+      transform: translateY(50px);
+    }
+    100% {
+      transform: translateY(20px);
+    }
+  }
+  .animate-rotate {
+    animation: rotate 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  @keyframes rotate {
+    50% {
+      opacity: 0.8;
+      transform: rotate(120deg);
+    }
   }
 }
 @media (min-width: 768px) {
@@ -275,6 +298,6 @@ html {
     right: 0;
   }
   .menu {
-    z-index: 10 !important;
+    z-index: 60 !important;
   }
 }
