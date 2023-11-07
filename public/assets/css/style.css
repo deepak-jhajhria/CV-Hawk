@@ -115,9 +115,11 @@
   background: var(--orange, #f36a3e);
   filter: blur(120.5px);
 }
-
-.svgFill a:hover svg path {
-  fill: url(#grad1);
+.sliderBtn:hover svg path {
+  fill: var(--white);
+}
+.sliderBtn:hover {
+  background: var(--orange);
 }
 .mobileView {
   background-image: url(/public/assets/images/logo2nd.png);
