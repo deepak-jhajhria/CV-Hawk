@@ -92,7 +92,6 @@ html {
 .headerSlider .slick-slide {
   margin-right: 8px;
 }
-
 .headerSlider .slick-dots {
   bottom: -40px;
 }
@@ -204,11 +203,9 @@ html {
     animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
-
 .animate-bounceOnse {
   animation: bounceOnse 1s;
 }
-
 @media (min-width: 640px) {
   .mobileView {
     background-image: unset;

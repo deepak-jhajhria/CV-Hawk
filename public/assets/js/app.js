@@ -29,7 +29,6 @@ setTimeout(() => {
 function backtop() {
   window.scrollTo(0, 0);
 }
-
 window.addEventListener("scroll", function () {
   const mybackto = document.getElementById("backtops");
   if (window.scrollY > 500) {
