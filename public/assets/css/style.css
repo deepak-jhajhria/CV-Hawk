@@ -26,6 +26,13 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
+.mobileViewLine {
+  width: 80%;
+  height: 2px;
+  position: relative;
+  opacity: 0.2;
+  background: #000;
+}
 .menu span {
   width: 26px;
   height: 2px;

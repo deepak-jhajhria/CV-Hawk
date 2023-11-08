@@ -26,20 +26,23 @@
 </head>
 <body class="relative overflow-hidden">
     <!-- back-to-top -->
-    <div class="fixed bottom-0 right-0 z-50 transition duration-300  cursor-grab hover:-translate-y-2"><img src="./assets/images/up-arrow.png" alt="backtotop" id="backtops" class="backto-top  m-4 " onclick="backtop()"> </div>
+    <div class="fixed bottom-0 right-0 z-50 transition duration-300  cursor-grab hover:-translate-y-2"><img src="./assets/images/up-arrow.png" alt="backtotop" id="backtops" class="m-4 w-10 h-10 sm:w-16 sm:h-16" onclick="backtop()"> </div>
     <!-- preloder -->
     <div id="preloder" class="min-h-screen bg-white flex justify-center items-center fixed top-0 left-0 w-full z-[70]">
-        <span class="animate-pulse text-5xl text-black font-semibold ff-rubi">Please Wait..</span>
+        <span class="animate-pulse text-2xl sm:text-3xl lg:text-5xl text-black font-semibold ff-rubi">Please Wait..</span>
     </div>
     <header class="bgWhite relative overflow-hidden">
         <nav>
             <div class="container flex flex-row justify-between items-center sm:px-10 px-8">
                 <a class="logo" href="#logo"><img src="./assets/images/logo.png" alt="logo"></a>
                 <div class="flex items-center gap-8">
-                    <ul class="flex items-center gap-10 mobileView">
+                    <ul class="flex items-center gap-6 lg:gap-10 mobileView">
                         <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">Home</a></li>
+                        <span class="mobileViewLine lg:hidden"></span>
                         <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">About</a></li>
+                        <span class="mobileViewLine lg:hidden"></span>
                         <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">We’ll help you</a></li>
+                        <span class="mobileViewLine lg:hidden"></span>
                         <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">Testimonials</a></li>
                         <li><button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full Btn sm:hidden block" type="button">Get in Touch</button></li>
                     </ul>
@@ -156,7 +159,7 @@
         <span class="absolute left-[-7%]  ellipseCircle top-[64%] opacity-50 hidden md:block"></span>
     </section>
     <!-- section 3  -->
-    <section class="bg-secondaryWhite min-h-[589px] flex items-center overflow-hidden">
+    <section class="bg-secondaryWhite min-h-[589px] flex items-center relative z-10 overflow-hidden">
         <div class="container grid grid-cols-1 lg:grid-cols-2 items-center py-10 pb-12 lg:py-0 lg:pb-0 px-5 min-[1200px]:px-0">
             <div class="flex flex-col">
                 <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium leading-8">20+ <span class="bs-orange">Professionally designed</span> resume sections</h2>
@@ -181,7 +184,7 @@
                 <img class="rounded-xl" src="./assets/images/sec3img1.png" alt="sec3img">
             </div>
         </div>
-        <span class="absolute right-1/3  ellipseCircle top-1/2 opacity-50"></span>
+        <span class="absolute right-1/3  ellipseCircle top-1/2 opacity-50 -z-10"></span>
     </section>
     <!-- section 4  -->
     <section class="min-h-[704px] flex items-center relative overflow-hidden">
@@ -409,8 +412,8 @@
                         </div>
                     </div>
             </div>
-            <button class="prev absolute left-[32%] md:left-14 bottom-[5%] md:top-[6%] slick-arrow"><span class="w-10 sliderBtn h-10 flex rounded-full transition duration-300 border border-orange-500 items-center justify-center "><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M17.5484 4.77911L8.34203 14.2235C8.18034 14.3894 8.08984 14.6119 8.08984 14.8436C8.08984 15.0752 8.18034 15.2977 8.34203 15.4636L17.5484 24.9116C17.6237 24.9889 17.7138 25.0504 17.8132 25.0924C17.9127 25.1344 18.0196 25.156 18.1276 25.156C18.2355 25.156 18.3424 25.1344 18.4419 25.0924C18.5414 25.0504 18.6314 24.9889 18.7067 24.9116C18.8617 24.7529 18.9484 24.5399 18.9484 24.3182C18.9484 24.0964 18.8617 23.8834 18.7067 23.7248L10.0493 14.8436L18.7067 5.9641C18.8612 5.80554 18.9476 5.59295 18.9476 5.37161C18.9476 5.15027 18.8612 4.93768 18.7067 4.77911C18.6314 4.70175 18.5414 4.64027 18.4419 4.59828C18.3424 4.5563 18.2355 4.53467 18.1276 4.53467C18.0196 4.53467 17.9127 4.5563 17.8132 4.59828C17.7138 4.64027 17.6237 4.70175 17.5484 4.77911Z" fill="#F36A3E"/></svg></span></button>
-            <button class="next absolute right-[32%] md:right-14 bottom-[5%] md:top-[6%] slick-arrow"><span class="w-10 sliderBtn h-10 flex rounded-full transition duration-300 border border-orange-500 items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none"><rect width="28.4256" height="28.4256" transform="matrix(-1 0 0 1 28.75 0.632568)" fill="#F36AE"/><path d="M11.8344 4.77911L21.0408 14.2235C21.2025 14.3894 21.293 14.6119 21.293 14.8436C21.293 15.0752 21.2025 15.2977 21.0408 15.4636L11.8344 24.9116C11.7591 24.9889 11.669 25.0504 11.5696 25.0924C11.4701 25.1344 11.3632 25.156 11.2553 25.156C11.1473 25.156 11.0404 25.1344 10.9409 25.0924C10.8415 25.0504 10.7514 24.9889 10.6761 24.9116C10.5211 24.7529 10.4344 24.5399 10.4344 24.3182C10.4344 24.0964 10.5211 23.8834 10.6761 23.7248L19.3335 14.8436L10.6761 5.9641C10.5217 5.80554 10.4352 5.59295 10.4352 5.37161C10.4352 5.15027 10.5217 4.93768 10.6761 4.77911C10.7514 4.70175 10.8415 4.64027 10.9409 4.59828C11.0404 4.5563 11.1473 4.53467 11.2553 4.53467C11.3632 4.53467 11.4701 4.5563 11.5696 4.59828C11.669 4.64027 11.7591 4.70175 11.8344 4.77911Z" fill="#F36A3E"/></svg></span></button>
+            <button class="prev absolute left-[32%] md:left-14 bottom-[12%] md:top-[6%] slick-arrow"><span class="w-10 sliderBtn h-10 flex rounded-full transition duration-300 border border-orange-500 items-center justify-center "><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M17.5484 4.77911L8.34203 14.2235C8.18034 14.3894 8.08984 14.6119 8.08984 14.8436C8.08984 15.0752 8.18034 15.2977 8.34203 15.4636L17.5484 24.9116C17.6237 24.9889 17.7138 25.0504 17.8132 25.0924C17.9127 25.1344 18.0196 25.156 18.1276 25.156C18.2355 25.156 18.3424 25.1344 18.4419 25.0924C18.5414 25.0504 18.6314 24.9889 18.7067 24.9116C18.8617 24.7529 18.9484 24.5399 18.9484 24.3182C18.9484 24.0964 18.8617 23.8834 18.7067 23.7248L10.0493 14.8436L18.7067 5.9641C18.8612 5.80554 18.9476 5.59295 18.9476 5.37161C18.9476 5.15027 18.8612 4.93768 18.7067 4.77911C18.6314 4.70175 18.5414 4.64027 18.4419 4.59828C18.3424 4.5563 18.2355 4.53467 18.1276 4.53467C18.0196 4.53467 17.9127 4.5563 17.8132 4.59828C17.7138 4.64027 17.6237 4.70175 17.5484 4.77911Z" fill="#F36A3E"/></svg></span></button>
+            <button class="next absolute right-[32%] md:right-14 bottom-[12%] md:top-[6%] slick-arrow"><span class="w-10 sliderBtn h-10 flex rounded-full transition duration-300 border border-orange-500 items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none"><rect width="28.4256" height="28.4256" transform="matrix(-1 0 0 1 28.75 0.632568)" fill="#F36AE"/><path d="M11.8344 4.77911L21.0408 14.2235C21.2025 14.3894 21.293 14.6119 21.293 14.8436C21.293 15.0752 21.2025 15.2977 21.0408 15.4636L11.8344 24.9116C11.7591 24.9889 11.669 25.0504 11.5696 25.0924C11.4701 25.1344 11.3632 25.156 11.2553 25.156C11.1473 25.156 11.0404 25.1344 10.9409 25.0924C10.8415 25.0504 10.7514 24.9889 10.6761 24.9116C10.5211 24.7529 10.4344 24.5399 10.4344 24.3182C10.4344 24.0964 10.5211 23.8834 10.6761 23.7248L19.3335 14.8436L10.6761 5.9641C10.5217 5.80554 10.4352 5.59295 10.4352 5.37161C10.4352 5.15027 10.5217 4.93768 10.6761 4.77911C10.7514 4.70175 10.8415 4.64027 10.9409 4.59828C11.0404 4.5563 11.1473 4.53467 11.2553 4.53467C11.3632 4.53467 11.4701 4.5563 11.5696 4.59828C11.669 4.64027 11.7591 4.70175 11.8344 4.77911Z" fill="#F36A3E"/></svg></span></button>
         </div>
         <span class="absolute top-[2%] right-1/4 md:left-[32%] hidden sm:block"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" fill="none"><g clip-path="url(#clip0_24708_9121)"><path opacity="0.1" d="M18.459 36.75C22.0932 36.75 25.6459 37.8277 28.6676 39.8467C31.6894 41.8658 34.0445 44.7356 35.4353 48.0932C36.826 51.4508 37.1899 55.1454 36.4809 58.7098C35.7719 62.2742 34.0219 65.5483 31.4521 68.1181C28.8823 70.6879 25.6082 72.4379 22.0438 73.1469C18.4794 73.8559 14.7848 73.4921 11.4272 72.1013C8.0696 70.7105 5.19982 68.3554 3.18075 65.3336C1.16167 62.3119 0.084 58.7592 0.084 55.125L0 52.5C0 42.7533 3.87186 33.4058 10.7638 26.5138C17.6558 19.6219 27.0033 15.75 36.75 15.75V26.25C33.3013 26.2407 29.8849 26.9152 26.6985 28.2345C23.5121 29.5538 20.6188 31.4916 18.186 33.936C17.2404 34.8798 16.3682 35.8942 15.5767 36.9705C16.5165 36.8235 17.4773 36.7448 18.4538 36.7448L18.459 36.75ZM65.709 36.75C69.3432 36.75 72.8959 37.8277 75.9176 39.8467C78.9394 41.8658 81.2945 44.7356 82.6853 48.0932C84.076 51.4508 84.4399 55.1454 83.7309 58.7098C83.0219 62.2742 81.2719 65.5483 78.7021 68.1181C76.1323 70.6879 72.8582 72.4379 69.2938 73.1469C65.7294 73.8559 62.0348 73.4921 58.6772 72.1013C55.3196 70.7105 52.4498 68.3554 50.4307 65.3336C48.4117 62.3119 47.334 58.7592 47.334 55.125L47.25 52.5C47.25 42.7533 51.1219 33.4058 58.0138 26.5138C64.9058 19.6219 74.2533 15.75 84 15.75V26.25C80.5513 26.2407 77.1349 26.9152 73.9485 28.2345C70.7621 29.5538 67.8688 31.4916 65.436 33.936C64.4904 34.8798 63.6182 35.8942 62.8268 36.9705C63.7665 36.8235 64.7272 36.75 65.709 36.75Z" fill="#F36A3E"/></g><defs><clipPath id="clip0_24708_9121"><rect width="84" height="84" fill="white"/></clipPath></defs></svg></span>
     </section>
@@ -418,7 +421,7 @@
     <section>
         <div class="container pt-40 px-5 sm:px-10 ">
             <div class="max-w-4xl mx-auto">
-                <h2 data-aos="zoom-in" data-aos-duration="1000" class="ff-rubi text-[28px] sm:text-3xl text-[40px] font-medium bs-primaryBlack text-center">Frequently Asked Questions</h2>         
+                <h2 data-aos="zoom-in" data-aos-duration="1000" class="ff-rubi text-[28px] sm:text-3xl lg:text-[40px] font-medium bs-primaryBlack text-center">Frequently Asked Questions</h2>         
                <div class="pt-12" id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="bs-primaryBlack dark:text-gray-400 border-b border-black border-opacity-10">
                    <h2 data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-heading-1">
                     <button type="button" class="flex items-center justify-between w-full py-5 font-normal text-left bs-primaryBlack ff-rubi text-base sm:text-xl lg:text-2xl" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
