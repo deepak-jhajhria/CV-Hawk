@@ -1,322 +1,224 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Hawk</title>
-    <meta name="title" content="CV Hawk">
-    <meta name="description" content="Unlock Your Potential with a Professional CV Builder">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ibb.co/1QSSdGB">
-    <meta property="og:title" content="CV Hawk">
-    <meta property="og:description" content="Unlock Your Potential with a Professional CV Builder">
-    <meta property="og:image" content="https://metatags.io/images/meta-tags.png">
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://ibb.co/1QSSdGB">
-    <meta property="twitter:title" content="CV Hawk">
-    <meta property="twitter:description" content="Unlock Your Potential with a Professional CV Builder">
-    <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png">
-    <link rel="shortcut icon" href="./assets/images/favicon_io/favicon-32x32.png" type="image/x-icon">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css"  rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./output.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer">
-</head>
-<body class="relative overflow-hidden">
-    <!-- back-to-top -->
-    <div class="fixed bottom-0 right-0 z-50 transition duration-300  cursor-grab hover:-translate-y-2"><img src="./assets/images/up-arrow.png" alt="backtotop" id="backtops" class="m-4 w-10 h-10 sm:w-16 sm:h-16" onclick="backtop()"> </div>
-    <!-- preloder -->
-    <div id="preloder" class="min-h-screen bg-white flex justify-center items-center fixed top-0 left-0 w-full z-[70]">
-        <span class="animate-pulse text-2xl sm:text-3xl lg:text-5xl text-black font-semibold ff-rubi">Please Wait..</span>
-    </div>
-    <header class="bgWhite relative overflow-hidden">
-        <nav>
-            <div class="container flex flex-row justify-between items-center sm:px-10 px-8">
-                <a class="logo" href="#logo"><img src="./assets/images/logo.png" alt="logo"></a>
-                <div class="flex items-center gap-8">
-                    <ul class="flex items-center gap-6 lg:gap-10 mobileView">
-                        <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">Home</a></li>
-                        <span class="mobileViewLine lg:hidden"></span>
-                        <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">About</a></li>
-                        <span class="mobileViewLine lg:hidden"></span>
-                        <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">We’ll help you</a></li>
-                        <span class="mobileViewLine lg:hidden"></span>
-                        <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">Testimonials</a></li>
-                        <li><button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full Btn sm:hidden block" type="button">Get in Touch</button></li>
-                    </ul>
-                    <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full Btn sm:block hidden lg:hidden" type="button">Get in Touch</button>
-                    <label class="menu"><span class="span1"></span><span class="span2"></span><span class="span3"></span></label>
-                </div>
-                <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full Btn lg:block hidden" type="button">Get in Touch</button>
-            </div>
-        </nav>
-        <div class="container px-5 sm:px-10 relative overflow-hidden">
-            <div class="max-w-[766px] mx-auto pt-8 sm:pt-20 lg:pt-40 sm:min-h-[589px] lg:min-h-[704px]">
-                <h1 data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="2000" class="text-black text-center ff-rubi font-semibold text-[32px] sm:text-[40px] lg:text-[52px] leading-normal">Unlock Your Potential with a Professional <span class="relative after:absolute after:left-0 after:-bottom-1 after:rounded-2xl after:w-full after:h-2 after:bg-gradient-to-t"> CV Builder</span></h1>
-                <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="2000" class="text-center ff-rubi font-normal text-base text-black opacity-70 max-w-[565px] mx-auto pt-[14px]"> Our user-friendly platform guides you through the process, allowing you to customize every section to align with your unique career goals.</p>
-                <div data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="2000" class="flex items-center gap-4 justify-center pt-10 flex-col min-[380px]:flex-row">
-                    <button class="text-base leading-normal ff-rubi bg-orange-500 text-white Btn py-4 px-9 rounded-full hover:animate-pulse" type="button">Get Started</button>
-                    <button class="text-base leading-normal ff-rubi bg-orange-500 text-white Btn py-4 px-9 rounded-full hover:animate-pulse" type="button">Watch Demo</button>
-                </div>
-            </div>
-            <span class="absolute lg:top-[14%] lg:left-[35%] top-[2%] left-[24%] animate-rotate circleSvg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"><mask id="mask0_24708_4142" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="56" height="56"><path d="M59.6332 36.3351C62.0449 21.087 51.6282 6.77255 36.3668 4.36294C21.1054 1.95333 6.77849 12.361 4.36678 27.6091C1.95508 42.8572 12.3718 57.1716 27.6332 59.5812C42.8946 61.9909 57.2215 51.5832 59.6332 36.3351Z" fill="white"/></mask><g mask="url(#mask0_24708_4142)"><path  d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="#F36A3E"/><path style="mix-blend-mode:overlay" d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="url(#paint0_radial_24708_4142)"/></g><defs><radialGradient id="paint0_radial_24708_4142" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.0809 22.857) rotate(-11.82) scale(46.1566 46.1198)"><stop offset="0.02" stop-color="#FFFFFB"/><stop offset="0.02" stop-color="#FFFEF4" stop-opacity="0.94"/><stop offset="0.09" stop-color="#FFFBDB" stop-opacity="0.75"/><stop offset="0.17" stop-color="#FFF9C4" stop-opacity="0.57"/><stop offset="0.25" stop-color="#FFF6B0" stop-opacity="0.42"/><stop offset="0.34" stop-color="#FFF4A0" stop-opacity="0.29"/><stop offset="0.43" stop-color="#FFF392" stop-opacity="0.18"/><stop offset="0.53" stop-color="#FFF288" stop-opacity="0.1"/><stop offset="0.65" stop-color="#FFF181" stop-opacity="0.04"/><stop offset="0.78" stop-color="#FFF07C" stop-opacity="0.01"/><stop offset="1" stop-color="#FFF07B" stop-opacity="0"/></radialGradient></defs></svg></span>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV Hawk</title>
+        <meta name="title" content="CV Hawk">
+        <meta name="description" content="Unlock Your Potential with a Professional CV Builder">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://ibb.co/1QSSdGB">
+        <meta property="og:title" content="CV Hawk">
+        <meta property="og:description" content="Unlock Your Potential with a Professional CV Builder">
+        <meta property="og:image" content="https://metatags.io/images/meta-tags.png">
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://ibb.co/1QSSdGB">
+        <meta property="twitter:title" content="CV Hawk">
+        <meta property="twitter:description" content="Unlock Your Potential with a Professional CV Builder">
+        <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png">
+        <link rel="shortcut icon" href="./assets/images/favicon_io/favicon-32x32.png" type="image/x-icon">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css"  rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./output.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </head>
+    <body class="relative overflow-hidden">
+        <!-- back-to-top -->
+        <div class="fixed bottom-0 right-0 z-50 transition duration-300  cursor-grab hover:-translate-y-2"><img src="./assets/images/up-arrow.png" alt="backtotop" id="backtops" class="m-4 w-10 h-10 sm:w-16 sm:h-16" onclick="backtop()"> </div>
+        <!-- preloder -->
+        <div id="preloder" class="min-h-screen bg-white flex justify-center items-center fixed top-0 left-0 w-full z-[70]">
+            <span class="animate-pulse text-2xl sm:text-3xl lg:text-5xl text-black font-semibold ff-rubi">Please Wait..</span>
         </div>
-        <div class="sm:hidden ">
-            <div class="mobileViewSlider pt-10">
-                <img class="rounded-xl" src="./assets/images/CleanSlider.png" alt="CleanSlider">
-                <img class="rounded-xl" src="./assets/images/CleanSlider.png" alt="CleanSlider">
-                <img class="rounded-xl" src="./assets/images/CleanSlider.png" alt="CleanSlider">
-                <img class="rounded-xl" src="./assets/images/CleanSlider.png" alt="CleanSlider">
-            </div>
-        </div>
-        <div class="container px-10 min-h-[589px] flex items-end mt-36">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-9 mb-40">
-                <div data-aos="fade-right" data-aos-duration="2000" class="flex">
-                    <img class="max-w-full rounded-xl shadow-md" src="./assets/images/gifImg.gif" alt="Gif">
-                </div>
-                <div class="flex flex-col sm:pt-14 lg:pt-0">
-                    <div  class="headerSlider">
-                        <div data-aos="flip-down" data-aos-duration="1000" class="flex">
-                            <div class="flex flex-col transition duration-300 items-center w-[156px] min-h-[141px] justify-center  border rounded-xl slider-card group cursor-pointer">
-                                <img class="w-11 h-8" src="./assets/images/headerSliderImg1.png" alt="headerSliderImg1">
-                                <p class="text-black text-center font-medium ff-rubi text-[22px] pt-5 group-hover:text-orange-500 transition duration-300"> Themes</p>
-                            </div>
-                        </div>
-                        <div data-aos="flip-down" data-aos-duration="1000" class="flex">
-                            <div class="flex flex-col transition duration-300 items-center w-[156px] min-h-[141px] justify-center border rounded-xl slider-card group cursor-pointer">
-                                <span class="w-11 h-8"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M21.902 0.532597C21.7899 0.609688 21.4465 0.91805 21.1521 1.23342C20.6265 1.76605 20.6055 1.8081 20.6055 2.11646C20.6055 2.36875 20.6475 2.48089 20.7737 2.61404C20.9769 2.81728 21.2362 2.89437 21.4955 2.82429C21.7758 2.75421 22.9042 1.62588 22.9883 1.33154C23.0583 1.06522 22.9602 0.728828 22.757 0.56063C22.5608 0.392432 22.1333 0.385424 21.902 0.532597Z" fill="url(#paint0_linear_24708_2197)"/><path d="M27.8794 0.518713C27.6341 0.644861 27.543 0.820067 27.543 1.14245C27.543 1.47183 27.7112 1.71011 28.0055 1.80823C28.4961 1.96942 28.9446 1.65405 28.9446 1.14245C28.9446 0.813059 28.8465 0.644861 28.5942 0.511705C28.3419 0.378548 28.1247 0.378548 27.8794 0.518713Z" fill="url(#paint1_linear_24708_2197)"/><path d="M32.8686 1.47883C32.6303 1.59797 32.4341 1.99744 32.4901 2.26376C32.5812 2.71929 33.0718 2.96458 33.5063 2.78937C34.0389 2.56511 34.06 1.74515 33.5344 1.49285C33.254 1.3667 33.0998 1.35969 32.8686 1.47883Z" fill="url(#paint2_linear_24708_2197)"/><path d="M18.0462 2.4669C17.9341 2.52297 15.7195 4.68851 13.1334 7.28156C8.62012 11.8229 8.42389 12.0261 8.21365 12.4957C7.72307 13.603 7.77213 14.8084 8.35381 15.8246C8.48697 16.0559 9.04763 16.6936 9.78349 17.4365C10.4773 18.1443 11.0099 18.747 11.038 18.8521C11.066 18.9643 11.045 19.1115 10.9819 19.2306C10.7997 19.574 9.65033 20.6463 5.39634 24.4377C3.13969 26.4491 1.14234 28.2782 0.960128 28.4955C0.301354 29.2734 0 30.1494 0 31.2427C0 32.0206 0.112132 32.4902 0.448527 33.17C0.770905 33.8147 1.21242 34.3053 1.86419 34.7398C2.62108 35.2514 3.19575 35.4126 4.20494 35.4126C4.87072 35.4126 5.10199 35.3846 5.52949 35.2444C6.6438 34.88 6.66483 34.8519 11.1711 29.7079C13.4208 27.1359 15.4391 24.8722 15.6494 24.676C16.0629 24.3046 16.2731 24.2205 16.5394 24.3186C16.6305 24.3536 17.2683 24.9353 17.9551 25.6081C19.0554 26.6873 19.2726 26.8696 19.7282 27.0868C20.7374 27.5634 21.8236 27.5704 22.8538 27.1008C23.3584 26.8766 23.4846 26.7574 28.0539 22.2091C30.633 19.6441 32.7845 17.4575 32.8406 17.3524C32.8966 17.2473 32.9387 17.058 32.9387 16.9319C32.9387 16.7216 32.378 16.14 25.8113 9.57325C20.2678 4.03675 18.6279 2.43887 18.4667 2.41084C18.3546 2.38981 18.1653 2.41785 18.0462 2.4669ZM18.0392 7.28857C17.1071 8.22767 16.2941 9.06866 16.2311 9.16677C15.8106 9.80452 16.6025 10.5965 17.2402 10.176C17.3384 10.1129 18.1794 9.29993 19.1114 8.36783L20.8144 6.67885L21.7606 7.62496L22.7067 8.56406L20.9266 10.3582C19.1255 12.1733 19.0344 12.2854 19.1185 12.7059C19.1535 12.9232 19.4408 13.2175 19.6441 13.2456C20.0295 13.3086 20.2187 13.1615 21.9848 11.3954L23.7579 9.62231L24.718 10.5824L25.6852 11.5496L23.877 13.3577L22.0759 15.1728V15.4882C22.0759 15.9998 22.4894 16.3292 22.973 16.21C23.0921 16.182 23.8 15.5302 24.9493 14.3809L26.7364 12.6008L27.7035 13.5679L28.6637 14.5281L26.9116 16.2801C25.0474 18.1443 24.9423 18.2845 25.0895 18.726C25.1876 19.0344 25.4259 19.1885 25.8043 19.1885C26.0987 19.1885 26.1127 19.1745 27.9068 17.3874L29.7149 15.5793L30.4367 16.3012L31.1516 17.016L27.7176 20.45L24.2835 23.8841L17.871 17.4715L11.4585 11.059L14.8925 7.62496L18.3265 4.19093L19.0273 4.89175L19.7282 5.59257L18.0392 7.28857ZM22.8118 25.3278C22.104 25.9725 21.3681 26.1407 20.5622 25.8394C20.2117 25.7062 19.9945 25.524 18.8591 24.4097C18.1443 23.7089 17.4575 23.0851 17.3454 23.022C17.002 22.8468 16.3712 22.7557 15.9788 22.8328C15.5162 22.9239 15.1728 23.1061 14.7243 23.5056L14.3529 23.835L12.9092 22.3913L11.4655 20.9476L11.8509 20.5411C12.3275 20.0435 12.5097 19.609 12.5097 18.9783C12.5097 18.1583 12.3976 17.9761 10.9749 16.5254C9.51017 15.0257 9.363 14.8014 9.363 14.0375C9.35599 13.4208 9.53119 13.0213 10.0288 12.4887L10.4002 12.1032L16.8127 18.5228L23.2323 24.9423L22.8118 25.3278ZM11.8719 23.4566C12.9232 24.5078 13.3156 24.9493 13.2736 25.0124C13.1474 25.2226 6.34946 32.9737 6.07614 33.226C4.6815 34.5015 2.52997 34.074 1.72402 32.364C1.52779 31.9505 1.50677 31.8454 1.50677 31.2077C1.50677 30.5699 1.52779 30.4648 1.72402 30.0513C1.85718 29.771 2.08845 29.4556 2.31972 29.2313C2.8103 28.7548 10.3231 22.0059 10.3722 21.9988C10.3932 21.9918 11.066 22.6506 11.8719 23.4566Z" fill="url(#paint3_linear_24708_2197)"/><path d="M9.22355 25.2228C8.98527 25.2929 8.67691 25.5872 6.54641 27.7878C4.98357 29.4067 4.97656 29.4207 4.97656 29.7221C4.97656 30.2757 5.53021 30.6262 5.99976 30.3809C6.30813 30.2197 10.0155 26.3862 10.0996 26.1339C10.2888 25.5942 9.78421 25.0686 9.22355 25.2228Z" fill="url(#paint4_linear_24708_2197)"/><path d="M3.36246 31.0885C2.71069 31.4109 2.977 32.4341 3.71287 32.4341C4.5048 32.4341 4.69402 31.3128 3.94414 31.0254C3.71287 30.9413 3.64278 30.9413 3.36246 31.0885Z" fill="url(#paint5_linear_24708_2197)"/><path d="M25.9667 2.46682C25.6584 2.60698 23.64 4.67441 23.5839 4.90568C23.5138 5.17199 23.5909 5.4313 23.7942 5.63454C23.9273 5.76769 24.0394 5.80273 24.2917 5.80273H24.6281L25.8055 4.62535C26.9549 3.476 26.9829 3.44096 26.9829 3.15362C26.9829 2.61399 26.4433 2.24956 25.9667 2.46682Z" fill="url(#paint6_linear_24708_2197)"/><path d="M30.9405 3.44805C30.6601 3.58121 26.6584 7.60393 26.5673 7.84922C26.3851 8.3398 26.8547 8.87943 27.3873 8.78131C27.6116 8.73926 27.9339 8.44492 29.7351 6.65782C32.0267 4.37314 32.0898 4.28203 31.8656 3.79846C31.7885 3.63727 31.6553 3.51813 31.5011 3.44805C31.2138 3.32891 31.2068 3.32891 30.9405 3.44805Z" fill="url(#paint7_linear_24708_2197)"/><path d="M34.6828 5.58567C34.4095 5.866 34.3955 6.32854 34.6548 6.59485C35.1313 7.06441 35.8812 6.76305 35.8812 6.10428C35.8812 5.66977 35.6009 5.38243 35.1804 5.38243C34.9491 5.38243 34.844 5.42448 34.6828 5.58567Z" fill="url(#paint8_linear_24708_2197)"/><path d="M31.2069 9.04758C29.5319 10.7155 29.5039 10.7506 29.5039 11.0379C29.5039 11.2552 29.553 11.3743 29.7071 11.5425C29.8824 11.7247 29.9594 11.7598 30.2468 11.7598H30.5762L32.146 10.1969C33.015 9.34193 33.7649 8.557 33.821 8.45188C34.1013 7.91225 33.7579 7.34458 33.1342 7.34458C32.9309 7.34458 32.7347 7.51278 31.2069 9.04758Z" fill="url(#paint9_linear_24708_2197)"/><path d="M33.183 12.9653C32.4612 13.6872 32.3701 13.8904 32.5453 14.3109C32.6714 14.6193 33.0219 14.7945 33.3653 14.7244C33.6106 14.6753 34.3674 14.0095 34.7038 13.554C35.1243 12.9723 34.844 12.3206 34.1572 12.3206C33.8348 12.3206 33.8138 12.3346 33.183 12.9653Z" fill="url(#paint10_linear_24708_2197)"/><defs><linearGradient id="paint0_linear_24708_2197" x1="21.8081" y1="2.84961" x2="21.8081" y2="0.427984" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint1_linear_24708_2197" x1="28.2438" y1="1.85059" x2="28.2438" y2="0.412697" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint2_linear_24708_2197" x1="33.1989" y1="2.84619" x2="33.1989" y2="1.39369" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint3_linear_24708_2197" x1="16.4693" y1="35.4126" x2="16.4693" y2="2.40377" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint4_linear_24708_2197" x1="7.55832" y1="30.4604" x2="7.55832" y2="25.1955" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint5_linear_24708_2197" x1="3.70476" y1="32.4341" x2="3.70476" y2="30.9686" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint6_linear_24708_2197" x1="25.2708" y1="5.80273" x2="25.2708" y2="2.40301" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint7_linear_24708_2197" x1="29.2393" y1="8.79297" x2="29.2393" y2="3.3587" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint8_linear_24708_2197" x1="35.175" y1="6.82275" x2="35.175" y2="5.38243" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint9_linear_24708_2197" x1="31.7118" y1="11.7598" x2="31.7118" y2="7.34458" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint10_linear_24708_2197" x1="33.6853" y1="14.7397" x2="33.6853" y2="12.3206" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient></defs></svg></span>
-                                <p class="text-black text-center font-medium ff-rubi text-[22px] pt-5 group-hover:text-orange-500 transition duration-300">Customize</p>
-                            </div>
-                        </div>
-                        <div data-aos="flip-down" data-aos-duration="1000" class="flex">
-                            <div class="flex flex-col transition duration-300 items-center w-[156px] min-h-[141px] justify-center border rounded-xl slider-card group cursor-pointer">
-                                <img class="w-11 h-8" src="./assets/images/headerSliderImg3.png" alt="headerSliderImg1">
-                                <p class="text-black text-center font-medium ff-rubi text-[22px] pt-5 group-hover:text-orange-500 transition duration-300">Make copies</p>
-                            </div>
-                        </div>
-                        <div data-aos="flip-down" data-aos-duration="1000" class="flex">
-                            <div class="flex flex-col transition duration-300 items-center w-[156px] min-h-[141px] justify-center border rounded-xl slider-card group cursor-pointer">
-                                <img class="w-11 h-8" src="./assets/images/headerSliderImg1.png" alt="headerSliderImg1">
-                                <p class="text-black text-center font-medium ff-rubi text-[22px] pt-5 group-hover:text-orange-500 transition duration-300">Themes</p>
-                            </div>
-                        </div>
-                        <div data-aos="flip-down" data-aos-duration="1000" class="flex">
-                            <div class="flex flex-col transition duration-300 items-center w-[156px] min-h-[141px] justify-center border rounded-xl slider-card group cursor-pointer">
-                                <img class="w-11 h-8" src="./assets/images/headerSliderImg1.png" alt="headerSliderImg1">
-                                <p class="text-black text-center font-medium ff-rubi text-[22px] pt-5 group-hover:text-orange-500 transition duration-300">Themes</p>
-                            </div>
-                        </div>
+        <header class="bgWhite relative overflow-hidden">
+            <nav>
+                <div class="container flex flex-row justify-between items-center sm:px-10 px-8">
+                    <a class="logo" href="#logo"><img src="./assets/images/logo.png" alt="logo"></a>
+                    <div class="flex items-center gap-8">
+                        <ul class="flex items-center gap-6 lg:gap-10 mobileView">
+                            <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">Home</a></li>
+                            <li><span class="mobileViewLine lg:hidden"></span></li>
+                            <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">About</a></li>
+                            <li><span class="mobileViewLine lg:hidden"></span></li>
+                            <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">We’ll help you</a></li>
+                            <li><span class="mobileViewLine lg:hidden"></span></li>
+                            <li><a class="navLinks ff-rubi text-base font-normal leading-normal text-black transition duration-300" href="#Home">Testimonials</a></li>
+                            <li><button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full Btn sm:hidden block" type="button">Get in Touch</button></li>
+                        </ul>
+                        <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full Btn sm:block hidden lg:hidden" type="button">Get in Touch</button>
+                        <label class="menu"><span class="span1"></span><span class="span2"></span><span class="span3"></span></label>
                     </div>
-                    <p data-aos="zoom-out" data-aos-duration="1000" class="text-black opacity-90 text-base ff-rubi font-normal lg:max-w-lg mt-10">Theme's robust features allow you to showcase your skills, accomplishments, and experiences in a captivating way. From customizing the layout to selecting the perfect color scheme, every detail can be tailored to match your style and industry. </p>
+                    <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full Btn lg:block hidden" type="button">Get in Touch</button>
+                </div>
+            </nav>
+            <div class="container px-5 sm:px-10 relative overflow-hidden">
+                <div class="max-w-[766px] mx-auto pt-8 sm:pt-20 lg:pt-40 sm:min-h-[589px] lg:min-h-[704px]">
+                    <h1 data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="2000" class="text-black text-center ff-rubi font-semibold text-[32px] sm:text-[40px] lg:text-[52px] leading-normal">Unlock Your Potential with a Professional <span class="relative after:absolute after:left-0 after:-bottom-1 after:rounded-2xl after:w-full after:h-2 after:bg-gradient-to-t"> CV Builder</span></h1>
+                    <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="2000" class="text-center ff-rubi font-normal text-base text-black opacity-70 max-w-[565px] mx-auto pt-[14px]"> Our user-friendly platform guides you through the process, allowing you to customize every section to align with your unique career goals.</p>
+                    <div data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="2000" class="flex items-center gap-4 justify-center pt-10 flex-col min-[380px]:flex-row">
+                        <button class="text-base leading-normal ff-rubi bg-orange-500 text-white Btn py-4 px-9 rounded-full hover:animate-pulse" type="button">Get Started</button>
+                        <button class="text-base leading-normal ff-rubi bg-orange-500 text-white Btn py-4 px-9 rounded-full hover:animate-pulse" type="button">Watch Demo</button>
+                    </div>
+                </div>
+                <span class="absolute lg:top-[14%] lg:left-[35%] top-[2%] left-[24%] animate-rotate circleSvg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"><mask id="mask0_24708_4142" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="56" height="56"><path d="M59.6332 36.3351C62.0449 21.087 51.6282 6.77255 36.3668 4.36294C21.1054 1.95333 6.77849 12.361 4.36678 27.6091C1.95508 42.8572 12.3718 57.1716 27.6332 59.5812C42.8946 61.9909 57.2215 51.5832 59.6332 36.3351Z" fill="white"/></mask><g mask="url(#mask0_24708_4142)"><path  d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="#F36A3E"/><path style="mix-blend-mode:overlay" d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="url(#paint0_radial_24708_4142)"/></g><defs><radialGradient id="paint0_radial_24708_4142" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.0809 22.857) rotate(-11.82) scale(46.1566 46.1198)"><stop offset="0.02" stop-color="#FFFFFB"/><stop offset="0.02" stop-color="#FFFEF4" stop-opacity="0.94"/><stop offset="0.09" stop-color="#FFFBDB" stop-opacity="0.75"/><stop offset="0.17" stop-color="#FFF9C4" stop-opacity="0.57"/><stop offset="0.25" stop-color="#FFF6B0" stop-opacity="0.42"/><stop offset="0.34" stop-color="#FFF4A0" stop-opacity="0.29"/><stop offset="0.43" stop-color="#FFF392" stop-opacity="0.18"/><stop offset="0.53" stop-color="#FFF288" stop-opacity="0.1"/><stop offset="0.65" stop-color="#FFF181" stop-opacity="0.04"/><stop offset="0.78" stop-color="#FFF07C" stop-opacity="0.01"/><stop offset="1" stop-color="#FFF07B" stop-opacity="0"/></radialGradient></defs></svg></span>
+            </div>
+            <div class="sm:hidden ">
+                <div class="mobileViewSlider pt-10">
+                    <img class="rounded-xl" src="./assets/images/CleanSlider.png" alt="CleanSlider">
+                    <img class="rounded-xl" src="./assets/images/CleanSlider.png" alt="CleanSlider">
+                    <img class="rounded-xl" src="./assets/images/CleanSlider.png" alt="CleanSlider">
+                    <img class="rounded-xl" src="./assets/images/CleanSlider.png" alt="CleanSlider">
                 </div>
             </div>
-            <span class="absolute left-1/4 lg:left-[30%]  ellipse1 top-[12%] lg:top-[18%] opacity-50 -z-10"></span>
-        </div>
-        <!-- position images  -->
-        <img class="absolute md:block hidden top-[10%] lg:top-36 -rotate-[20deg] shadow-lg rounded-xl left-0 lg:left-20 cleanImg -z-10 animate-shakeRight" src="./assets/images/CleanImg.png" alt="CleanImg1">
-        <img class="absolute md:block hidden top-1/4 lg:top-[36%] -rotate-[20deg] shadow-lg rounded-xl left-4 lg:left-[12%] -z-10 animate-shakeRight" src="./assets/images/CleanImg.png" alt="CleanImg1">
-        <img class="absolute md:block hidden top-[10%] lg:top-36 rotate-[20deg] shadow-lg rounded-xl right-0 lg:right-20 cleanImg -z-10 animate-shakeLeft" src="./assets/images/CleanImg.png" alt="CleanImg1">
-        <img class="absolute md:block hidden top-1/4 lg:top-[36%] rotate-[20deg] shadow-lg rounded-xl right-4 lg:right-[12%] -z-10 animate-shakeLeft" src="./assets/images/CleanImg.png" alt="CleanImg1">
-        <span class="absolute cubeImg animate-shakeup left-[2%] sm:top-[22%] sm:left-[5%] top-[22%] lg:left-0 lg:top-[30%] -z-10"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 92" fill="none"><path d="M24 63.5588L39.3732 0L61 21.4412L45.6268 85L24 63.5588Z" fill="#FFC3B0"/><path d="M23.3492 63.2803L0 70L15.6508 6.71967L39 0L23.3492 63.2803Z" fill="#FFC3B0"/><path d="M46 85.0524L22.3246 92L0 69.9416L23.6754 63L46 85.0524Z" fill="#F36A3E"/></svg></span>
-        <span class="absolute right-5 lg:right-20 top-[18%] sm:top-[22%] lg:top-[30%] circleHalf animate-shakeup -z-10"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 53" fill="none"><path d="M1.25623 0L11.728 2.43902C7.93366 16.2375 16.5286 30.1786 30.8899 33.5144C35.8239 34.649 40.9727 34.4331 45.7942 32.8895C50.6157 31.3459 54.9313 28.5318 58.2864 24.7434C60.8743 21.8072 62.7621 18.3229 63.8079 14.5526L74.3 16.9848C72.834 22.2852 70.1835 27.1843 66.5482 31.3132C61.8418 36.6279 55.7878 40.5759 49.024 42.7413C42.2602 44.9066 35.037 45.2091 28.1156 43.6169C7.99486 38.9223 -4.06125 19.3627 1.25623 0Z" fill="#E24A28"/><path d="M13.433 9.87151L11.7263 2.43896C10.6455 6.33511 10.5427 10.4374 11.4271 14.3827L13.1066 21.8084C12.2266 17.8636 12.3388 13.7624 13.433 9.87151Z" fill="#E24A28"/><path d="M66.5739 31.2998C61.8674 36.6145 55.8134 40.5625 49.0496 42.7279C42.2858 44.8932 35.0626 45.1957 28.1412 43.6035C13.9227 40.2949 3.73657 29.5877 0.839844 16.7676L2.5194 24.1933C5.41613 37.0134 15.6023 47.7274 29.8207 51.0293C36.7421 52.623 43.9657 52.3212 50.7298 50.1557C57.4939 47.9903 63.5479 44.0414 68.2534 38.7255C71.8877 34.5996 74.5361 29.7024 75.9984 24.4039L74.3257 16.9714C72.8596 22.2718 70.2092 27.1709 66.5739 31.2998Z" fill="#F36A3E"/></svg></span>
-        <span class="absolute top-[30%] lg:top-1/2 left-1/2 animate-pulse -z-10 doubleCircle hidden sm:block"><svg xmlns="http://www.w3.org/2000/svg" width="68" height="84" viewBox="0 0 68 84" fill="none"><path d="M10.5123 24L1.23248 33.2757C-3.12016 37.6331 4.42227 52.2452 18.0869 65.9105C31.7515 79.5758 46.3584 87.1232 50.7202 82.7657L60 73.4901L10.5123 24Z" fill="#F36A3E"/><path d="M60.0988 73.9331C64.4625 69.5732 56.9037 54.9521 43.2156 41.276C29.5276 27.5998 14.8938 20.0476 10.5301 24.4075C6.16638 28.7674 13.7252 43.3884 27.4133 57.0646C41.1013 70.7407 55.7351 78.293 60.0988 73.9331Z" fill="#F36A3E"/><path style="mix-blend-mode:multiply" d="M60.0988 73.9331C64.4625 69.5732 56.9037 54.9521 43.2156 41.276C29.5276 27.5998 14.8938 20.0476 10.5301 24.4075C6.16638 28.7674 13.7252 43.3884 27.4133 57.0646C41.1013 70.7407 55.7351 78.293 60.0988 73.9331Z" fill="url(#paint0_radial_24708_1922)"/><path d="M10.1839 5.58008L3.8425 11.7664C0.866491 14.6696 6.02582 24.4284 15.3618 33.5179C24.6977 42.6074 34.6919 47.6767 37.6586 44.7509L44 38.5691L10.1839 5.58008Z" fill="#FFDBDB"/><path d="M43.5885 38.9022C46.5444 35.9489 41.4226 26.0433 32.1486 16.7774C22.8746 7.51146 12.9603 2.39409 10.0044 5.3474C7.04855 8.3007 12.1704 18.2063 21.4444 27.4722C30.7184 36.7382 40.6326 41.8555 43.5885 38.9022Z" fill="#FFDBDB"/><defs><radialGradient id="paint0_radial_24708_1922" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20.5272 35.9129) rotate(44.975) scale(36.8115 16.1971)"><stop offset="0.2" stop-color="#413655"/><stop offset="0.2" stop-color="#685F78" stop-opacity="0.79"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient></defs></svg></span>
-        <span class="absolute left-[-15%] lg:left-[-4%]  ellipseCircle top-[35%] lg:top-[64%] opacity-50 -z-10"></span>
-        <span class="absolute right-[-4%]  ellipseCircle top-[60%] lg:top-3/4 opacity-50 -z-10 hidden sm:block"></span>
-    </header>
-    <!-- section 1  -->
-    <section class="bg-secondaryWhite min-h-[589px] flex items-center relative overflow-hidden">
-        <div class="container px-5 sm:px-10 grid grid-cols-1 md:grid-cols-2 items-center py-10 md:py-0">
-            <div class="flex flex-col md:max-w-lg ">
-                <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-4xl bs-primaryBlack ff-rubi font-medium pr-3">Powerful Tools to Create <span class="bs-orange relative after:absolute after:left-0 after:-bottom-1 after:rounded-2xl after:w-full after:h-2 after:bg-gradient2"> Your <span class="relative after:absolute after:left-0 after:-bottom-[3px] after:rounded-2xl after:w-full after:h-[7px] after:bg-gradient2">Standout CV</span></span></h2>
-                <p data-aos="zoom-out" data-aos-duration="1000" class="text-black ff-rubi font-normal text-base pt-6 opacity-80">Customize your CV to reflect your<span class="font-semibold">unique personality</span> and professional brand. Choose from a wide range of <span class="font-semibold">professionally</span> designed templates and layouts, allowing you to find the <span class="font-semibold">perfect style</span> that aligns with your industry and career goals.</p>
-            </div>
-            <div data-aos="fade-left" data-aos-duration="1000" class="md:mr-14 mt-10 md:mt-0">
-                <img class="max-w-full" src="./assets/images/sec1img1.png" alt="sec1img1">
-            </div>
-        </div>
-        <span class="absolute circleSvg top-[14%] left-[5%] animate-rotate hidden md:block"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"><mask id="mask0_24708_4143" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="56" height="56"><path d="M59.6332 36.3351C62.0449 21.087 51.6282 6.77255 36.3668 4.36294C21.1054 1.95333 6.77849 12.361 4.36678 27.6091C1.95508 42.8572 12.3718 57.1716 27.6332 59.5812C42.8946 61.9909 57.2215 51.5832 59.6332 36.3351Z" fill="white"/></mask><g mask="url(#mask0_24708_4143)"><path  d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="#F36A3E"/><path style="mix-blend-mode:overlay" d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="url(#paint0_radial_24708_4143)"/></g><defs><radialGradient id="paint0_radial_24708_4143" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.0809 22.857) rotate(-11.82) scale(46.1566 46.1198)"><stop offset="0.02" stop-color="#FFFFFB"/><stop offset="0.02" stop-color="#FFFEF4" stop-opacity="0.94"/><stop offset="0.09" stop-color="#FFFBDB" stop-opacity="0.75"/><stop offset="0.17" stop-color="#FFF9C4" stop-opacity="0.57"/><stop offset="0.25" stop-color="#FFF6B0" stop-opacity="0.42"/><stop offset="0.34" stop-color="#FFF4A0" stop-opacity="0.29"/><stop offset="0.43" stop-color="#FFF392" stop-opacity="0.18"/><stop offset="0.53" stop-color="#FFF288" stop-opacity="0.1"/><stop offset="0.65" stop-color="#FFF181" stop-opacity="0.04"/><stop offset="0.78" stop-color="#FFF07C" stop-opacity="0.01"/><stop offset="1" stop-color="#FFF07B" stop-opacity="0"/></radialGradient></defs></svg></span>
-        <span class="absolute animate-shakeup cubeImg right-[5%] top-[12%] hidden md:block"><svg xmlns="http://www.w3.org/2000/svg" width="61" height="92" viewBox="0 0 61 92" fill="none"><path d="M24 63.5588L39.3732 0L61 21.4412L45.6268 85L24 63.5588Z" fill="#FFC3B0"/><path d="M23.3492 63.2803L0 70L15.6508 6.71967L39 0L23.3492 63.2803Z" fill="#FFC3B0"/><path d="M46 85.0524L22.3246 92L0 69.9416L23.6754 63L46 85.0524Z" fill="#F36A3E"/></svg></span>
-        <span class="absolute animate-shakeup right-[52%] bottom-[15%]"><svg xmlns="http://www.w3.org/2000/svg" width="76" height="53" viewBox="0 0 76 53" fill="none"><path d="M1.25623 0L11.728 2.43902C7.93366 16.2375 16.5286 30.1786 30.8899 33.5144C35.8239 34.649 40.9727 34.4331 45.7942 32.8895C50.6157 31.3459 54.9313 28.5318 58.2864 24.7434C60.8743 21.8072 62.7621 18.3229 63.8079 14.5526L74.3 16.9848C72.834 22.2852 70.1835 27.1843 66.5482 31.3132C61.8418 36.6279 55.7878 40.5759 49.024 42.7413C42.2602 44.9066 35.037 45.2091 28.1156 43.6169C7.99486 38.9223 -4.06125 19.3627 1.25623 0Z" fill="#E24A28"/><path d="M13.433 9.87151L11.7263 2.43896C10.6455 6.33511 10.5427 10.4374 11.4271 14.3827L13.1066 21.8084C12.2266 17.8636 12.3388 13.7624 13.433 9.87151Z" fill="#E24A28"/><path d="M66.5739 31.2998C61.8674 36.6145 55.8134 40.5625 49.0496 42.7279C42.2858 44.8932 35.0626 45.1957 28.1412 43.6035C13.9227 40.2949 3.73657 29.5877 0.839844 16.7676L2.5194 24.1933C5.41613 37.0134 15.6023 47.7274 29.8207 51.0293C36.7421 52.623 43.9657 52.3212 50.7298 50.1557C57.4939 47.9903 63.5479 44.0414 68.2534 38.7255C71.8877 34.5996 74.5361 29.7024 75.9984 24.4039L74.3257 16.9714C72.8596 22.2718 70.2092 27.1709 66.5739 31.2998Z" fill="#F36A3E"/>
-          </svg></span>
-    </section>
-    <!-- section 2 -->
-    <section class="min-h-[589px] flex items-center relative overflow-hidden">
-        <div class="container grid grid-cols-1 md:grid-cols-2 items-center gap-10 px-5 sm:px-10 py-10">
-            <div class="flex flex-col md:hidden">
-                <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium pr-3">We’ll help you</h2>
-                <p data-aos="zoom-out" data-aos-duration="1000" class="text-black ff-rubi font-normal text-base pt-4 opacity-80">Once you've booked a session, a confirmation email will be sent to the provided email address, containing all the necessary details, including the date, time, and instructions for the session.</p>
-            </div>
-            <img data-aos="fade-right" data-aos-duration="1000" src="./assets/images/sec2img1.png" alt="sec2img1">
-            <div class="flex-col hidden md:block">
-                <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium pr-3">We’ll help you</h2>
-                <p data-aos="zoom-out" data-aos-duration="1000" class="text-black ff-rubi font-normal text-base pt-4 opacity-80">Once you've booked a session, a confirmation email will be sent to the provided email address, containing all the necessary details, including the date, time, and instructions for the session.</p>
-                <div data-aos="zoom-out" data-aos-duration="1000" class="pt-6 sm:pt-10"><button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full Btn" type="button">Get Started</button></div>
-            </div>
-            <div class="pt-10 md:hidden"><button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full Btn" type="button">Get Started</button></div>
-        </div>
-        <span class="absolute left-[-7%]  ellipseCircle top-[64%] opacity-50 hidden md:block"></span>
-    </section>
-    <!-- section 3  -->
-    <section class="bg-secondaryWhite min-h-[589px] flex items-center relative z-10 overflow-hidden">
-        <div class="container grid grid-cols-1 lg:grid-cols-2 items-center py-10 pb-12 lg:py-0 lg:pb-0 px-5 min-[1200px]:px-0">
-            <div class="flex flex-col">
-                <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium leading-8">20+ <span class="bs-orange">Professionally designed</span> resume sections</h2>
-                <p data-aos="zoom-out" data-aos-duration="1000" class="text-black ff-rubi font-normal text-base pt-4 opacity-80 max-w-lg">Express your professional history without limitations or worry about how your resume looks</p>
-                <div data-aos="zoom-out" data-aos-duration="1000" class="flex items-center pt-6 gap-3">
-                    <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /> </svg></span>
-                    <p class="text-black ff-rubi font-normal text-base opacity-90">Professional sections like <span class="font-semibold">Experience, Skills, Summary</span> and <span class="font-semibold">Education</span></p>
+            <div class="container px-10 min-h-[589px] flex items-end mt-36">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-9 mb-40">
+                    <div data-aos="fade-right" data-aos-duration="2000" class="flex">
+                        <img class="max-w-full rounded-xl shadow-md" src="./assets/images/gifImg.gif" alt="Gif">
+                    </div>
+                    <div class="flex flex-col sm:pt-14 lg:pt-0">
+                        <div  class="headerSlider">
+                            <div data-aos="flip-down" data-aos-duration="1000" class="flex">
+                                <div class="flex flex-col transition duration-300 items-center w-[156px] min-h-[141px] justify-center  border rounded-xl slider-card group cursor-pointer">
+                                    <img class="w-11 h-8" src="./assets/images/headerSliderImg1.png" alt="headerSliderImg1">
+                                    <p class="text-black text-center font-medium ff-rubi text-[22px] pt-5 group-hover:text-orange-500 transition duration-300"> Themes</p>
+                                </div>
+                            </div>
+                            <div data-aos="flip-down" data-aos-duration="1000" class="flex">
+                                <div class="flex flex-col transition duration-300 items-center w-[156px] min-h-[141px] justify-center border rounded-xl slider-card group cursor-pointer">
+                                    <span class="w-11 h-8"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none"><path d="M21.902 0.532597C21.7899 0.609688 21.4465 0.91805 21.1521 1.23342C20.6265 1.76605 20.6055 1.8081 20.6055 2.11646C20.6055 2.36875 20.6475 2.48089 20.7737 2.61404C20.9769 2.81728 21.2362 2.89437 21.4955 2.82429C21.7758 2.75421 22.9042 1.62588 22.9883 1.33154C23.0583 1.06522 22.9602 0.728828 22.757 0.56063C22.5608 0.392432 22.1333 0.385424 21.902 0.532597Z" fill="url(#paint0_linear_24708_2197)"/><path d="M27.8794 0.518713C27.6341 0.644861 27.543 0.820067 27.543 1.14245C27.543 1.47183 27.7112 1.71011 28.0055 1.80823C28.4961 1.96942 28.9446 1.65405 28.9446 1.14245C28.9446 0.813059 28.8465 0.644861 28.5942 0.511705C28.3419 0.378548 28.1247 0.378548 27.8794 0.518713Z" fill="url(#paint1_linear_24708_2197)"/><path d="M32.8686 1.47883C32.6303 1.59797 32.4341 1.99744 32.4901 2.26376C32.5812 2.71929 33.0718 2.96458 33.5063 2.78937C34.0389 2.56511 34.06 1.74515 33.5344 1.49285C33.254 1.3667 33.0998 1.35969 32.8686 1.47883Z" fill="url(#paint2_linear_24708_2197)"/><path d="M18.0462 2.4669C17.9341 2.52297 15.7195 4.68851 13.1334 7.28156C8.62012 11.8229 8.42389 12.0261 8.21365 12.4957C7.72307 13.603 7.77213 14.8084 8.35381 15.8246C8.48697 16.0559 9.04763 16.6936 9.78349 17.4365C10.4773 18.1443 11.0099 18.747 11.038 18.8521C11.066 18.9643 11.045 19.1115 10.9819 19.2306C10.7997 19.574 9.65033 20.6463 5.39634 24.4377C3.13969 26.4491 1.14234 28.2782 0.960128 28.4955C0.301354 29.2734 0 30.1494 0 31.2427C0 32.0206 0.112132 32.4902 0.448527 33.17C0.770905 33.8147 1.21242 34.3053 1.86419 34.7398C2.62108 35.2514 3.19575 35.4126 4.20494 35.4126C4.87072 35.4126 5.10199 35.3846 5.52949 35.2444C6.6438 34.88 6.66483 34.8519 11.1711 29.7079C13.4208 27.1359 15.4391 24.8722 15.6494 24.676C16.0629 24.3046 16.2731 24.2205 16.5394 24.3186C16.6305 24.3536 17.2683 24.9353 17.9551 25.6081C19.0554 26.6873 19.2726 26.8696 19.7282 27.0868C20.7374 27.5634 21.8236 27.5704 22.8538 27.1008C23.3584 26.8766 23.4846 26.7574 28.0539 22.2091C30.633 19.6441 32.7845 17.4575 32.8406 17.3524C32.8966 17.2473 32.9387 17.058 32.9387 16.9319C32.9387 16.7216 32.378 16.14 25.8113 9.57325C20.2678 4.03675 18.6279 2.43887 18.4667 2.41084C18.3546 2.38981 18.1653 2.41785 18.0462 2.4669ZM18.0392 7.28857C17.1071 8.22767 16.2941 9.06866 16.2311 9.16677C15.8106 9.80452 16.6025 10.5965 17.2402 10.176C17.3384 10.1129 18.1794 9.29993 19.1114 8.36783L20.8144 6.67885L21.7606 7.62496L22.7067 8.56406L20.9266 10.3582C19.1255 12.1733 19.0344 12.2854 19.1185 12.7059C19.1535 12.9232 19.4408 13.2175 19.6441 13.2456C20.0295 13.3086 20.2187 13.1615 21.9848 11.3954L23.7579 9.62231L24.718 10.5824L25.6852 11.5496L23.877 13.3577L22.0759 15.1728V15.4882C22.0759 15.9998 22.4894 16.3292 22.973 16.21C23.0921 16.182 23.8 15.5302 24.9493 14.3809L26.7364 12.6008L27.7035 13.5679L28.6637 14.5281L26.9116 16.2801C25.0474 18.1443 24.9423 18.2845 25.0895 18.726C25.1876 19.0344 25.4259 19.1885 25.8043 19.1885C26.0987 19.1885 26.1127 19.1745 27.9068 17.3874L29.7149 15.5793L30.4367 16.3012L31.1516 17.016L27.7176 20.45L24.2835 23.8841L17.871 17.4715L11.4585 11.059L14.8925 7.62496L18.3265 4.19093L19.0273 4.89175L19.7282 5.59257L18.0392 7.28857ZM22.8118 25.3278C22.104 25.9725 21.3681 26.1407 20.5622 25.8394C20.2117 25.7062 19.9945 25.524 18.8591 24.4097C18.1443 23.7089 17.4575 23.0851 17.3454 23.022C17.002 22.8468 16.3712 22.7557 15.9788 22.8328C15.5162 22.9239 15.1728 23.1061 14.7243 23.5056L14.3529 23.835L12.9092 22.3913L11.4655 20.9476L11.8509 20.5411C12.3275 20.0435 12.5097 19.609 12.5097 18.9783C12.5097 18.1583 12.3976 17.9761 10.9749 16.5254C9.51017 15.0257 9.363 14.8014 9.363 14.0375C9.35599 13.4208 9.53119 13.0213 10.0288 12.4887L10.4002 12.1032L16.8127 18.5228L23.2323 24.9423L22.8118 25.3278ZM11.8719 23.4566C12.9232 24.5078 13.3156 24.9493 13.2736 25.0124C13.1474 25.2226 6.34946 32.9737 6.07614 33.226C4.6815 34.5015 2.52997 34.074 1.72402 32.364C1.52779 31.9505 1.50677 31.8454 1.50677 31.2077C1.50677 30.5699 1.52779 30.4648 1.72402 30.0513C1.85718 29.771 2.08845 29.4556 2.31972 29.2313C2.8103 28.7548 10.3231 22.0059 10.3722 21.9988C10.3932 21.9918 11.066 22.6506 11.8719 23.4566Z" fill="url(#paint3_linear_24708_2197)"/><path d="M9.22355 25.2228C8.98527 25.2929 8.67691 25.5872 6.54641 27.7878C4.98357 29.4067 4.97656 29.4207 4.97656 29.7221C4.97656 30.2757 5.53021 30.6262 5.99976 30.3809C6.30813 30.2197 10.0155 26.3862 10.0996 26.1339C10.2888 25.5942 9.78421 25.0686 9.22355 25.2228Z" fill="url(#paint4_linear_24708_2197)"/><path d="M3.36246 31.0885C2.71069 31.4109 2.977 32.4341 3.71287 32.4341C4.5048 32.4341 4.69402 31.3128 3.94414 31.0254C3.71287 30.9413 3.64278 30.9413 3.36246 31.0885Z" fill="url(#paint5_linear_24708_2197)"/><path d="M25.9667 2.46682C25.6584 2.60698 23.64 4.67441 23.5839 4.90568C23.5138 5.17199 23.5909 5.4313 23.7942 5.63454C23.9273 5.76769 24.0394 5.80273 24.2917 5.80273H24.6281L25.8055 4.62535C26.9549 3.476 26.9829 3.44096 26.9829 3.15362C26.9829 2.61399 26.4433 2.24956 25.9667 2.46682Z" fill="url(#paint6_linear_24708_2197)"/><path d="M30.9405 3.44805C30.6601 3.58121 26.6584 7.60393 26.5673 7.84922C26.3851 8.3398 26.8547 8.87943 27.3873 8.78131C27.6116 8.73926 27.9339 8.44492 29.7351 6.65782C32.0267 4.37314 32.0898 4.28203 31.8656 3.79846C31.7885 3.63727 31.6553 3.51813 31.5011 3.44805C31.2138 3.32891 31.2068 3.32891 30.9405 3.44805Z" fill="url(#paint7_linear_24708_2197)"/><path d="M34.6828 5.58567C34.4095 5.866 34.3955 6.32854 34.6548 6.59485C35.1313 7.06441 35.8812 6.76305 35.8812 6.10428C35.8812 5.66977 35.6009 5.38243 35.1804 5.38243C34.9491 5.38243 34.844 5.42448 34.6828 5.58567Z" fill="url(#paint8_linear_24708_2197)"/><path d="M31.2069 9.04758C29.5319 10.7155 29.5039 10.7506 29.5039 11.0379C29.5039 11.2552 29.553 11.3743 29.7071 11.5425C29.8824 11.7247 29.9594 11.7598 30.2468 11.7598H30.5762L32.146 10.1969C33.015 9.34193 33.7649 8.557 33.821 8.45188C34.1013 7.91225 33.7579 7.34458 33.1342 7.34458C32.9309 7.34458 32.7347 7.51278 31.2069 9.04758Z" fill="url(#paint9_linear_24708_2197)"/><path d="M33.183 12.9653C32.4612 13.6872 32.3701 13.8904 32.5453 14.3109C32.6714 14.6193 33.0219 14.7945 33.3653 14.7244C33.6106 14.6753 34.3674 14.0095 34.7038 13.554C35.1243 12.9723 34.844 12.3206 34.1572 12.3206C33.8348 12.3206 33.8138 12.3346 33.183 12.9653Z" fill="url(#paint10_linear_24708_2197)"/><defs><linearGradient id="paint0_linear_24708_2197" x1="21.8081" y1="2.84961" x2="21.8081" y2="0.427984" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint1_linear_24708_2197" x1="28.2438" y1="1.85059" x2="28.2438" y2="0.412697" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint2_linear_24708_2197" x1="33.1989" y1="2.84619" x2="33.1989" y2="1.39369" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint3_linear_24708_2197" x1="16.4693" y1="35.4126" x2="16.4693" y2="2.40377" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint4_linear_24708_2197" x1="7.55832" y1="30.4604" x2="7.55832" y2="25.1955" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint5_linear_24708_2197" x1="3.70476" y1="32.4341" x2="3.70476" y2="30.9686" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint6_linear_24708_2197" x1="25.2708" y1="5.80273" x2="25.2708" y2="2.40301" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint7_linear_24708_2197" x1="29.2393" y1="8.79297" x2="29.2393" y2="3.3587" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint8_linear_24708_2197" x1="35.175" y1="6.82275" x2="35.175" y2="5.38243" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint9_linear_24708_2197" x1="31.7118" y1="11.7598" x2="31.7118" y2="7.34458" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient><linearGradient id="paint10_linear_24708_2197" x1="33.6853" y1="14.7397" x2="33.6853" y2="12.3206" gradientUnits="userSpaceOnUse"><stop offset="0.452535" stop-color="#FFA588"/><stop offset="1" stop-color="#F36A3E"/></linearGradient></defs></svg></span>
+                                    <p class="text-black text-center font-medium ff-rubi text-[22px] pt-5 group-hover:text-orange-500 transition duration-300">Customize</p>
+                                </div>
+                            </div>
+                            <div data-aos="flip-down" data-aos-duration="1000" class="flex">
+                                <div class="flex flex-col transition duration-300 items-center w-[156px] min-h-[141px] justify-center border rounded-xl slider-card group cursor-pointer">
+                                    <img class="w-11 h-8" src="./assets/images/headerSliderImg3.png" alt="headerSliderImg1">
+                                    <p class="text-black text-center font-medium ff-rubi text-[22px] pt-5 group-hover:text-orange-500 transition duration-300">Make copies</p>
+                                </div>
+                            </div>
+                            <div data-aos="flip-down" data-aos-duration="1000" class="flex">
+                                <div class="flex flex-col transition duration-300 items-center w-[156px] min-h-[141px] justify-center border rounded-xl slider-card group cursor-pointer">
+                                    <img class="w-11 h-8" src="./assets/images/headerSliderImg1.png" alt="headerSliderImg1">
+                                    <p class="text-black text-center font-medium ff-rubi text-[22px] pt-5 group-hover:text-orange-500 transition duration-300">Themes</p>
+                                </div>
+                            </div>
+                            <div data-aos="flip-down" data-aos-duration="1000" class="flex">
+                                <div class="flex flex-col transition duration-300 items-center w-[156px] min-h-[141px] justify-center border rounded-xl slider-card group cursor-pointer">
+                                    <img class="w-11 h-8" src="./assets/images/headerSliderImg1.png" alt="headerSliderImg1">
+                                    <p class="text-black text-center font-medium ff-rubi text-[22px] pt-5 group-hover:text-orange-500 transition duration-300">Themes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p data-aos="zoom-out" data-aos-duration="1000" class="text-black opacity-90 text-base ff-rubi font-normal lg:max-w-lg mt-10">Theme's robust features allow you to showcase your skills, accomplishments, and experiences in a captivating way. From customizing the layout to selecting the perfect color scheme, every detail can be tailored to match your style and industry. </p>
+                    </div>
                 </div>
-                <div data-aos="zoom-out" data-aos-duration="1000" class="flex items-center pt-4 gap-3">
-                    <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg></span>
-                    <p class="text-black ff-rubi font-normal text-base opacity-90">Professional sections like <span class="font-semibold">Strengths, Quotes, Books, Interests</span> and <span class="font-semibold">My Time.</span></p>
+                <span class="absolute left-1/4 lg:left-[30%]  ellipse1 top-[12%] lg:top-[18%] opacity-50 -z-10"></span>
+            </div>
+            <!-- position images  -->
+            <img class="absolute md:block hidden top-[10%] lg:top-36 -rotate-[20deg] shadow-lg rounded-xl left-0 lg:left-20 cleanImg -z-10 animate-shakeRight" src="./assets/images/CleanImg.png" alt="CleanImg1">
+            <img class="absolute md:block hidden top-1/4 lg:top-[36%] -rotate-[20deg] shadow-lg rounded-xl left-4 lg:left-[12%] -z-10 animate-shakeRight" src="./assets/images/CleanImg.png" alt="CleanImg1">
+            <img class="absolute md:block hidden top-[10%] lg:top-36 rotate-[20deg] shadow-lg rounded-xl right-0 lg:right-20 cleanImg -z-10 animate-shakeLeft" src="./assets/images/CleanImg.png" alt="CleanImg1">
+            <img class="absolute md:block hidden top-1/4 lg:top-[36%] rotate-[20deg] shadow-lg rounded-xl right-4 lg:right-[12%] -z-10 animate-shakeLeft" src="./assets/images/CleanImg.png" alt="CleanImg1">
+            <span class="absolute cubeImg animate-shakeup left-[2%] top-[19%]  min-[446px]:top-[22%] sm:top-[22%] sm:left-[5%]  lg:left-0 lg:top-[30%] -z-10"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 92" fill="none"><path d="M24 63.5588L39.3732 0L61 21.4412L45.6268 85L24 63.5588Z" fill="#FFC3B0"/><path d="M23.3492 63.2803L0 70L15.6508 6.71967L39 0L23.3492 63.2803Z" fill="#FFC3B0"/><path d="M46 85.0524L22.3246 92L0 69.9416L23.6754 63L46 85.0524Z" fill="#F36A3E"/></svg></span>
+            <span class="absolute right-5 top-[19%] min-[446px]:top-[18%] lg:right-20  sm:top-[22%] lg:top-[30%] circleHalf animate-shakeup -z-10"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 53" fill="none"><path d="M1.25623 0L11.728 2.43902C7.93366 16.2375 16.5286 30.1786 30.8899 33.5144C35.8239 34.649 40.9727 34.4331 45.7942 32.8895C50.6157 31.3459 54.9313 28.5318 58.2864 24.7434C60.8743 21.8072 62.7621 18.3229 63.8079 14.5526L74.3 16.9848C72.834 22.2852 70.1835 27.1843 66.5482 31.3132C61.8418 36.6279 55.7878 40.5759 49.024 42.7413C42.2602 44.9066 35.037 45.2091 28.1156 43.6169C7.99486 38.9223 -4.06125 19.3627 1.25623 0Z" fill="#E24A28"/><path d="M13.433 9.87151L11.7263 2.43896C10.6455 6.33511 10.5427 10.4374 11.4271 14.3827L13.1066 21.8084C12.2266 17.8636 12.3388 13.7624 13.433 9.87151Z" fill="#E24A28"/><path d="M66.5739 31.2998C61.8674 36.6145 55.8134 40.5625 49.0496 42.7279C42.2858 44.8932 35.0626 45.1957 28.1412 43.6035C13.9227 40.2949 3.73657 29.5877 0.839844 16.7676L2.5194 24.1933C5.41613 37.0134 15.6023 47.7274 29.8207 51.0293C36.7421 52.623 43.9657 52.3212 50.7298 50.1557C57.4939 47.9903 63.5479 44.0414 68.2534 38.7255C71.8877 34.5996 74.5361 29.7024 75.9984 24.4039L74.3257 16.9714C72.8596 22.2718 70.2092 27.1709 66.5739 31.2998Z" fill="#F36A3E"/></svg></span>
+            <span class="absolute top-[30%] lg:top-1/2 left-1/2 animate-pulse -z-10 doubleCircle hidden sm:block"><svg xmlns="http://www.w3.org/2000/svg" width="68" height="84" viewBox="0 0 68 84" fill="none"><path d="M10.5123 24L1.23248 33.2757C-3.12016 37.6331 4.42227 52.2452 18.0869 65.9105C31.7515 79.5758 46.3584 87.1232 50.7202 82.7657L60 73.4901L10.5123 24Z" fill="#F36A3E"/><path d="M60.0988 73.9331C64.4625 69.5732 56.9037 54.9521 43.2156 41.276C29.5276 27.5998 14.8938 20.0476 10.5301 24.4075C6.16638 28.7674 13.7252 43.3884 27.4133 57.0646C41.1013 70.7407 55.7351 78.293 60.0988 73.9331Z" fill="#F36A3E"/><path style="mix-blend-mode:multiply" d="M60.0988 73.9331C64.4625 69.5732 56.9037 54.9521 43.2156 41.276C29.5276 27.5998 14.8938 20.0476 10.5301 24.4075C6.16638 28.7674 13.7252 43.3884 27.4133 57.0646C41.1013 70.7407 55.7351 78.293 60.0988 73.9331Z" fill="url(#paint0_radial_24708_1922)"/><path d="M10.1839 5.58008L3.8425 11.7664C0.866491 14.6696 6.02582 24.4284 15.3618 33.5179C24.6977 42.6074 34.6919 47.6767 37.6586 44.7509L44 38.5691L10.1839 5.58008Z" fill="#FFDBDB"/><path d="M43.5885 38.9022C46.5444 35.9489 41.4226 26.0433 32.1486 16.7774C22.8746 7.51146 12.9603 2.39409 10.0044 5.3474C7.04855 8.3007 12.1704 18.2063 21.4444 27.4722C30.7184 36.7382 40.6326 41.8555 43.5885 38.9022Z" fill="#FFDBDB"/><defs><radialGradient id="paint0_radial_24708_1922" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(20.5272 35.9129) rotate(44.975) scale(36.8115 16.1971)"><stop offset="0.2" stop-color="#413655"/><stop offset="0.2" stop-color="#685F78" stop-opacity="0.79"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient></defs></svg></span>
+            <span class="absolute left-[-15%] lg:left-[-4%]  ellipseCircle top-[35%] lg:top-[64%] opacity-50 -z-10"></span>
+            <span class="absolute right-[-4%]  ellipseCircle top-[60%] lg:top-3/4 opacity-50 -z-10 hidden sm:block"></span>
+        </header>
+        <!-- section 1  -->
+        <section class="bg-secondaryWhite min-h-[589px] flex items-center relative overflow-hidden">
+            <div class="container px-5 sm:px-10 grid grid-cols-1 md:grid-cols-2 items-center py-10 md:py-0">
+                <div class="flex flex-col md:max-w-lg ">
+                    <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-4xl bs-primaryBlack ff-rubi font-medium pr-3">Powerful Tools to Create <span class="bs-orange relative after:absolute after:left-0 after:-bottom-1 after:rounded-2xl after:w-full after:h-2 after:bg-gradient2"> Your <span class="relative after:absolute after:left-0 after:-bottom-[3px] after:rounded-2xl after:w-full after:h-[7px] after:bg-gradient2">Standout CV</span></span></h2>
+                    <p data-aos="zoom-out" data-aos-duration="1000" class="text-black ff-rubi font-normal text-base pt-6 opacity-80">Customize your CV to reflect your<span class="font-semibold">unique personality</span> and professional brand. Choose from a wide range of <span class="font-semibold">professionally</span> designed templates and layouts, allowing you to find the <span class="font-semibold">perfect style</span> that aligns with your industry and career goals.</p>
                 </div>
-                <div data-aos="zoom-out" data-aos-duration="1000" class="flex  pt-4 gap-3">
-                    <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg></span>
-                    <p class="text-black ff-rubi font-normal text-base opacity-90">Other sections like <span class="font-semibold">Certifications, Awards, Achievements, Language</span> and <span class="font-semibold">Reference</span></p>
-                </div>
-                <div data-aos="zoom-out" data-aos-duration="1000" class="pt-11">
-                    <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full Btn" type="button">Get Started</button>
+                <div data-aos="fade-left" data-aos-duration="1000" class="md:mr-14 mt-10 md:mt-0">
+                    <img class="max-w-full" src="./assets/images/sec1img1.png" alt="sec1img1">
                 </div>
             </div>
-            <div data-aos="fade-left" data-aos-duration="1000" class="flex justify-center">
-                <img class="rounded-xl" src="./assets/images/sec3img1.png" alt="sec3img">
+            <span class="absolute circleSvg top-[14%] left-[5%] animate-rotate hidden md:block"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"><mask id="mask0_24708_4143" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="4" width="56" height="56"><path d="M59.6332 36.3351C62.0449 21.087 51.6282 6.77255 36.3668 4.36294C21.1054 1.95333 6.77849 12.361 4.36678 27.6091C1.95508 42.8572 12.3718 57.1716 27.6332 59.5812C42.8946 61.9909 57.2215 51.5832 59.6332 36.3351Z" fill="white"/></mask><g mask="url(#mask0_24708_4143)"><path  d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="#F36A3E"/><path style="mix-blend-mode:overlay" d="M59.6293 36.3351C62.041 21.087 51.6243 6.77255 36.3629 4.36294C21.1015 1.95333 6.77459 12.361 4.36288 27.6091C1.95117 42.8572 12.3679 57.1716 27.6293 59.5812C42.8907 61.9909 57.2176 51.5832 59.6293 36.3351Z" fill="url(#paint0_radial_24708_4143)"/></g><defs><radialGradient id="paint0_radial_24708_4143" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.0809 22.857) rotate(-11.82) scale(46.1566 46.1198)"><stop offset="0.02" stop-color="#FFFFFB"/><stop offset="0.02" stop-color="#FFFEF4" stop-opacity="0.94"/><stop offset="0.09" stop-color="#FFFBDB" stop-opacity="0.75"/><stop offset="0.17" stop-color="#FFF9C4" stop-opacity="0.57"/><stop offset="0.25" stop-color="#FFF6B0" stop-opacity="0.42"/><stop offset="0.34" stop-color="#FFF4A0" stop-opacity="0.29"/><stop offset="0.43" stop-color="#FFF392" stop-opacity="0.18"/><stop offset="0.53" stop-color="#FFF288" stop-opacity="0.1"/><stop offset="0.65" stop-color="#FFF181" stop-opacity="0.04"/><stop offset="0.78" stop-color="#FFF07C" stop-opacity="0.01"/><stop offset="1" stop-color="#FFF07B" stop-opacity="0"/></radialGradient></defs></svg></span>
+            <span class="absolute animate-shakeup cubeImg right-[5%] top-[12%] hidden md:block"><svg xmlns="http://www.w3.org/2000/svg" width="61" height="92" viewBox="0 0 61 92" fill="none"><path d="M24 63.5588L39.3732 0L61 21.4412L45.6268 85L24 63.5588Z" fill="#FFC3B0"/><path d="M23.3492 63.2803L0 70L15.6508 6.71967L39 0L23.3492 63.2803Z" fill="#FFC3B0"/><path d="M46 85.0524L22.3246 92L0 69.9416L23.6754 63L46 85.0524Z" fill="#F36A3E"/></svg></span>
+            <span class="absolute animate-shakeup right-[52%] bottom-[15%] hidden md:block"><svg xmlns="http://www.w3.org/2000/svg" width="76" height="53" viewBox="0 0 76 53" fill="none"><path d="M1.25623 0L11.728 2.43902C7.93366 16.2375 16.5286 30.1786 30.8899 33.5144C35.8239 34.649 40.9727 34.4331 45.7942 32.8895C50.6157 31.3459 54.9313 28.5318 58.2864 24.7434C60.8743 21.8072 62.7621 18.3229 63.8079 14.5526L74.3 16.9848C72.834 22.2852 70.1835 27.1843 66.5482 31.3132C61.8418 36.6279 55.7878 40.5759 49.024 42.7413C42.2602 44.9066 35.037 45.2091 28.1156 43.6169C7.99486 38.9223 -4.06125 19.3627 1.25623 0Z" fill="#E24A28"/><path d="M13.433 9.87151L11.7263 2.43896C10.6455 6.33511 10.5427 10.4374 11.4271 14.3827L13.1066 21.8084C12.2266 17.8636 12.3388 13.7624 13.433 9.87151Z" fill="#E24A28"/><path d="M66.5739 31.2998C61.8674 36.6145 55.8134 40.5625 49.0496 42.7279C42.2858 44.8932 35.0626 45.1957 28.1412 43.6035C13.9227 40.2949 3.73657 29.5877 0.839844 16.7676L2.5194 24.1933C5.41613 37.0134 15.6023 47.7274 29.8207 51.0293C36.7421 52.623 43.9657 52.3212 50.7298 50.1557C57.4939 47.9903 63.5479 44.0414 68.2534 38.7255C71.8877 34.5996 74.5361 29.7024 75.9984 24.4039L74.3257 16.9714C72.8596 22.2718 70.2092 27.1709 66.5739 31.2998Z" fill="#F36A3E"/>
+            </svg></span>
+        </section>
+        <!-- section 2 -->
+        <section class="min-h-[589px] flex items-center relative overflow-hidden">
+            <div class="container grid grid-cols-1 md:grid-cols-2 items-center gap-10 px-5 sm:px-10 py-10">
+                <div class="flex flex-col md:hidden">
+                    <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium pr-3">We’ll help you</h2>
+                    <p data-aos="zoom-out" data-aos-duration="1000" class="text-black ff-rubi font-normal text-base pt-4 opacity-80">Once you've booked a session, a confirmation email will be sent to the provided email address, containing all the necessary details, including the date, time, and instructions for the session.</p>
+                </div>
+                <img data-aos="fade-right" data-aos-duration="1000" src="./assets/images/sec2img1.png" alt="sec2img1">
+                <div class="flex-col hidden md:block">
+                    <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium pr-3">We’ll help you</h2>
+                    <p data-aos="zoom-out" data-aos-duration="1000" class="text-black ff-rubi font-normal text-base pt-4 opacity-80">Once you've booked a session, a confirmation email will be sent to the provided email address, containing all the necessary details, including the date, time, and instructions for the session.</p>
+                    <div data-aos="zoom-out" data-aos-duration="1000" class="pt-6 sm:pt-10"><button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full Btn" type="button">Get Started</button></div>
+                </div>
+                <div class="pt-10 md:hidden"><button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full Btn" type="button">Get Started</button></div>
             </div>
-        </div>
-        <span class="absolute right-1/3  ellipseCircle top-1/2 opacity-50 -z-10"></span>
-    </section>
-    <!-- section 4  -->
-    <section class="min-h-[704px] flex items-center relative overflow-hidden">
-        <div class="container grid grid-cols-1 md:grid-cols-2 items-center gap-10 px-5 sm:px-10 py-24 md:py-0">
-            <img data-aos="zoom-out" data-aos-duration="2000" src="./assets/images/sec4img1.png" alt="sec2img1">
-            <div class="flex flex-col order-first md:order-last">
-                <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium md:pr-3 max-w-lg">Resume trailoring based on the <span class="bs-orange relative after:absolute after:left-0 after:-bottom-2 after:rounded-2xl after:w-full after:h-2 after:bg-gradient2">job you’re applying</span> for</h2>
-                <p data-aos="zoom-out" data-aos-duration="1000" class="text-black ff-rubi font-normal text-base pt-4 opacity-80 max-w-lg">Quickly ensure that your resume covers key skills and experience by pasting the job ad you’re applying for</p>
-                <div data-aos="zoom-out" data-aos-duration="1000" class="flex items-center pt-6 gap-3">
-                    <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg></span>
-                    <p class="text-black ff-rubi font-normal text-base opacity-90">Skills and experience analysis</p>
-                </div>
-                <div data-aos="zoom-out" data-aos-duration="1000" class="flex items-center pt-4 gap-3">
-                    <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg></span>
-                    <p class="text-black ff-rubi font-normal text-base opacity-90">Actionable Checklist of what else to add to your resume</p>
-                </div>
-                <div data-aos="zoom-out" data-aos-duration="1000" class="flex  pt-4 gap-3">
-                    <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg></span>
-                    <p class="text-black ff-rubi font-normal text-base opacity-90">Instant comparison between your resume and the job posting</p>
-                </div>
-            </div>
-        </div>
-        <span class="absolute right-0  ellipseCircle top-1/2 opacity-50 hidden sm:block "></span>
-        <span class="absolute left-0  ellipseCircle bottom-0 opacity-50 hidden sm:block "></span>
-    </section>
-    <!-- section 5  -->
-    <section class="bg-secondaryWhite min-h-[364px] md:min-h-[704px] items-center flex justify-center flex-col relative pt-10 pb-20 overflow-hidden">
-        <h2 class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium max-w-lg text-center">What our Clients Say</h2>
-        <div class="container">
-            <div class="sec5Slider pt-7 md:pt-11 ">
-                <div class="px-14">
+            <span class="absolute left-[-7%]  ellipseCircle top-[64%] opacity-50 hidden md:block"></span>
+        </section>
+        <!-- section 3  -->
+        <section class="bg-secondaryWhite min-h-[589px] flex items-center relative z-10 overflow-hidden">
+            <div class="container grid grid-cols-1 lg:grid-cols-2 items-center py-10 pb-12 lg:py-0 lg:pb-0 px-5 min-[1200px]:px-0">
                 <div class="flex flex-col">
-                    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
-                        <div data-aos="zoom-in" data-aos-duration="1000" class="flex justify-center flex-col xl:pt-10">
-                            <div class="bg-white  rounded-xl relative max-w-[357px]">
-                                <div class="py-4 px-[18px]">
-                                    <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
-                                </div>
-                                <span class="absolute left-9 -bottom-5"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="29" viewBox="0 0 36 29" fill="none"> <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" /></svg></span>
-                            </div>
-                            <div class="flex gap-[14px] pt-10 ps-5 pb-8 sm:pb-0">
-                                <img class="rounded-full" src="./assets/images/sec5Client1.png" alt="sec5Client">
-                                <div>
-                                    <p class="bs-primaryBlack ff-rubi font-normal text-xl">Darrell Steward</p>
-                                    <img src="./assets/images/sec5ClientRate.png" alt="sec5ClientRate">
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="zoom-in" data-aos-duration="1000" class="hidden justify-center md:pt-16 xl:pt-0 flex-col md:block">
-                            <div class="bg-white  rounded-xl relative max-w-[357px]">
-                                <div class="py-4 px-[18px]">
-                                    <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
-                                </div>
-                                <span class="absolute left-9 -bottom-5"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="29" viewBox="0 0 36 29" fill="none"> <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" /></svg></span>
-                            </div>
-                            <div class="flex gap-[14px] pt-10 ps-5">
-                                <img class="rounded-full" src="./assets/images/sec5Client2.png" alt="sec5Client">
-                                <div>
-                                    <p class="bs-primaryBlack ff-rubi font-normal text-xl">Savannah Nguyen</p>
-                                    <img src="./assets/images/sec5ClientRate.png" alt="sec5ClientRate">
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="zoom-in" data-aos-duration="1000" class="hidden justify-center flex-col xl:pt-14 md:block">
-                            <div class="bg-white  rounded-xl relative max-w-[357px]">
-                                <div class="py-4 px-[18px]">
-                                    <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
-                                </div>
-                                <span class="absolute left-9 -bottom-5"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="29" viewBox="0 0 36 29" fill="none"> <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" /></svg></span>
-                            </div>
-                            <div class="flex gap-[14px] pt-10 ps-5">
-                                <img class="rounded-full" src="./assets/images/sec5Client3.png" alt="sec5Client">
-                                <div>
-                                    <p class="bs-primaryBlack ff-rubi font-normal text-xl">Esther Howard</p>
-                                    <img src="./assets/images/sec5ClientRate.png" alt="sec5ClientRate">
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="zoom-in" data-aos-duration="1000" class="hidden md:block justify-center flex-col md:pt-14 xl:pt-0  xl:hidden">
-                            <div class="bg-white  rounded-xl relative max-w-[357px]">
-                                <div class="py-4 px-[18px]">
-                                    <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
-                                </div>
-                                <span class="absolute left-9 -bottom-5"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="29" viewBox="0 0 36 29" fill="none"> <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" /></svg></span>
-                            </div>
-                            <div class="flex gap-[14px] pt-10 ps-5">
-                                <img class="rounded-full" src="./assets/images/sec5Client5.png" alt="sec5Client">
-                                <div>
-                                    <p class="bs-primaryBlack ff-rubi font-normal text-xl">Wade Warren</p>
-                                    <img src="./assets/images/sec5ClientRate.png" alt="sec5ClientRate">
-                                </div>
-                            </div>
-                        </div>
+                    <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium leading-8">20+ <span class="bs-orange">Professionally designed</span> resume sections</h2>
+                    <p data-aos="zoom-out" data-aos-duration="1000" class="text-black ff-rubi font-normal text-base pt-4 opacity-80 max-w-lg">Express your professional history without limitations or worry about how your resume looks</p>
+                    <div data-aos="zoom-out" data-aos-duration="1000" class="flex items-center pt-6 gap-3">
+                        <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /> </svg></span>
+                        <p class="text-black ff-rubi font-normal text-base opacity-90">Professional sections like <span class="font-semibold">Experience, Skills, Summary</span> and <span class="font-semibold">Education</span></p>
                     </div>
-                        <div class="flex flex-row pt-10 justify-center xl:gap-14">
-                            <div data-aos="zoom-in" data-aos-duration="1000" class="hidden justify-center flex-col md:pt-14 xl:pt-0  xl:block">
-                                <div class="bg-white  rounded-xl relative max-w-[357px]">
-                                    <div class="py-4 px-[18px]">
-                                        <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
-                                    </div>
-                                    <span class="absolute left-9 -bottom-5"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="29" viewBox="0 0 36 29" fill="none"> <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" /></svg></span>
-                                </div>
-                                <div class="flex gap-[14px] pt-10 ps-5">
-                                    <img class="rounded-full" src="./assets/images/sec5Client4.png" alt="sec5Client">
-                                    <div>
-                                        <p class="bs-primaryBlack ff-rubi font-normal text-xl">Esther Howard</p>
-                                        <img src="./assets/images/sec5ClientRate.png" alt="sec5ClientRate">
-                                    </div>
-                                </div>
-                            </div>
-                            <div data-aos="zoom-in" data-aos-duration="1000" class="hidden justify-center flex-col pt-10 xl:block">
-                                <div class="bg-white  rounded-xl relative max-w-[357px]">
-                                    <div class="py-4 px-[18px]">
-                                        <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
-                                    </div>
-                                    <span class="absolute left-9 -bottom-5"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="29" viewBox="0 0 36 29" fill="none"> <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" /></svg></span>
-                                </div>
-                                <div class="flex gap-[14px] pt-10 ps-5">
-                                    <img class="rounded-full" src="./assets/images/sec5Client5.png" alt="sec5Client">
-                                    <div>
-                                        <p class="bs-primaryBlack ff-rubi font-normal text-xl">Darrell Steward</p>
-                                        <img src="./assets/images/sec5ClientRate.png" alt="sec5ClientRate">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div data-aos="zoom-out" data-aos-duration="1000" class="flex items-center pt-4 gap-3">
+                        <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg></span>
+                        <p class="text-black ff-rubi font-normal text-base opacity-90">Professional sections like <span class="font-semibold">Strengths, Quotes, Books, Interests</span> and <span class="font-semibold">My Time.</span></p>
+                    </div>
+                    <div data-aos="zoom-out" data-aos-duration="1000" class="flex  pt-4 gap-3">
+                        <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg></span>
+                        <p class="text-black ff-rubi font-normal text-base opacity-90">Other sections like <span class="font-semibold">Certifications, Awards, Achievements, Language</span> and <span class="font-semibold">Reference</span></p>
+                    </div>
+                    <div data-aos="zoom-out" data-aos-duration="1000" class="pt-11">
+                        <button class="text-base leading-normal ff-rubi bg-orange-500 text-white py-4 px-9 rounded-full Btn" type="button">Get Started</button>
                     </div>
                 </div>
-                <div class="px-14">
+                <div data-aos="fade-left" data-aos-duration="1000" class="flex justify-center">
+                    <img class="rounded-xl" src="./assets/images/sec3img1.png" alt="sec3img">
+                </div>
+            </div>
+            <span class="absolute right-1/3  ellipseCircle top-1/2 opacity-50 -z-10"></span>
+        </section>
+        <!-- section 4  -->
+        <section class="min-h-[704px] flex items-center relative overflow-hidden">
+            <div class="container grid grid-cols-1 md:grid-cols-2 items-center gap-10 px-5 sm:px-10 py-24 md:py-0">
+                <img data-aos="zoom-out" data-aos-duration="2000" src="./assets/images/sec4img1.png" alt="sec2img1">
+                <div class="flex flex-col order-first md:order-last">
+                    <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium md:pr-3 max-w-lg">Resume trailoring based on the <span class="bs-orange relative after:absolute after:left-0 after:-bottom-2 after:rounded-2xl after:w-full after:h-2 after:bg-gradient2">job you’re applying</span> for</h2>
+                    <p data-aos="zoom-out" data-aos-duration="1000" class="text-black ff-rubi font-normal text-base pt-4 opacity-80 max-w-lg">Quickly ensure that your resume covers key skills and experience by pasting the job ad you’re applying for</p>
+                    <div data-aos="zoom-out" data-aos-duration="1000" class="flex items-center pt-6 gap-3">
+                        <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg></span>
+                        <p class="text-black ff-rubi font-normal text-base opacity-90">Skills and experience analysis</p>
+                    </div>
+                    <div data-aos="zoom-out" data-aos-duration="1000" class="flex items-center pt-4 gap-3">
+                        <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg></span>
+                        <p class="text-black ff-rubi font-normal text-base opacity-90">Actionable Checklist of what else to add to your resume</p>
+                    </div>
+                    <div data-aos="zoom-out" data-aos-duration="1000" class="flex  pt-4 gap-3">
+                        <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg></span>
+                        <p class="text-black ff-rubi font-normal text-base opacity-90">Instant comparison between your resume and the job posting</p>
+                    </div>
+                </div>
+            </div>
+            <span class="absolute right-0  ellipseCircle top-1/2 opacity-50 hidden sm:block "></span>
+            <span class="absolute left-0  ellipseCircle bottom-0 opacity-50 hidden sm:block "></span>
+        </section>
+        <!-- section 5  -->
+        <section class="bg-secondaryWhite min-h-[364px] md:min-h-[704px] items-center flex justify-center flex-col relative pt-10 pb-20 overflow-hidden">
+            <h2 class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium max-w-lg text-center">What our Clients Say</h2>
+            <div class="container">
+                <div class="sec5Slider pt-7 md:pt-11 ">
+                    <div class="px-14">
                     <div class="flex flex-col">
                         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
-                            <div class="flex justify-center flex-col xl:pt-10">
+                            <div data-aos="zoom-in" data-aos-duration="1000" class="flex justify-center flex-col xl:pt-10">
                                 <div class="bg-white  rounded-xl relative max-w-[357px]">
                                     <div class="py-4 px-[18px]">
                                         <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
@@ -331,7 +233,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="hidden justify-center md:pt-16 xl:pt-0 flex-col md:block">
+                            <div data-aos="zoom-in" data-aos-duration="1000" class="hidden justify-center md:pt-16 xl:pt-0 flex-col md:block">
                                 <div class="bg-white  rounded-xl relative max-w-[357px]">
                                     <div class="py-4 px-[18px]">
                                         <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
@@ -346,7 +248,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="hidden justify-center flex-col xl:pt-14 md:block">
+                            <div data-aos="zoom-in" data-aos-duration="1000" class="hidden justify-center flex-col xl:pt-14 md:block">
                                 <div class="bg-white  rounded-xl relative max-w-[357px]">
                                     <div class="py-4 px-[18px]">
                                         <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
@@ -361,7 +263,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="hidden md:block justify-center flex-col md:pt-14 xl:pt-0  xl:hidden">
+                            <div data-aos="zoom-in" data-aos-duration="1000" class="hidden md:block justify-center flex-col md:pt-14 xl:pt-0  xl:hidden">
                                 <div class="bg-white  rounded-xl relative max-w-[357px]">
                                     <div class="py-4 px-[18px]">
                                         <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
@@ -378,7 +280,7 @@
                             </div>
                         </div>
                             <div class="flex flex-row pt-10 justify-center xl:gap-14">
-                                <div class="hidden justify-center flex-col md:pt-14 xl:pt-0  xl:block">
+                                <div data-aos="zoom-in" data-aos-duration="1000" class="hidden justify-center flex-col md:pt-14 xl:pt-0  xl:block">
                                     <div class="bg-white  rounded-xl relative max-w-[357px]">
                                         <div class="py-4 px-[18px]">
                                             <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
@@ -393,7 +295,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="hidden justify-center flex-col pt-10 xl:block">
+                                <div data-aos="zoom-in" data-aos-duration="1000" class="hidden justify-center flex-col pt-10 xl:block">
                                     <div class="bg-white  rounded-xl relative max-w-[357px]">
                                         <div class="py-4 px-[18px]">
                                             <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
@@ -411,193 +313,291 @@
                             </div>
                         </div>
                     </div>
+                    <div class="px-14">
+                        <div class="flex flex-col">
+                            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
+                                <div class="flex justify-center flex-col xl:pt-10">
+                                    <div class="bg-white  rounded-xl relative max-w-[357px]">
+                                        <div class="py-4 px-[18px]">
+                                            <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
+                                        </div>
+                                        <span class="absolute left-9 -bottom-5"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="29" viewBox="0 0 36 29" fill="none"> <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" /></svg></span>
+                                    </div>
+                                    <div class="flex gap-[14px] pt-10 ps-5 pb-8 sm:pb-0">
+                                        <img class="rounded-full" src="./assets/images/sec5Client1.png" alt="sec5Client">
+                                        <div>
+                                            <p class="bs-primaryBlack ff-rubi font-normal text-xl">Darrell Steward</p>
+                                            <img src="./assets/images/sec5ClientRate.png" alt="sec5ClientRate">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hidden justify-center md:pt-16 xl:pt-0 flex-col md:block">
+                                    <div class="bg-white  rounded-xl relative max-w-[357px]">
+                                        <div class="py-4 px-[18px]">
+                                            <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Magna ipsum erat magna nulla auctor. Phasellus consectetur aliquam vel at non faucibus viverra.</p>
+                                        </div>
+                                        <span class="absolute left-9 -bottom-5"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="29" viewBox="0 0 36 29" fill="none"> <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" /></svg></span>
+                                    </div>
+                                    <div class="flex gap-[14px] pt-10 ps-5">
+                                        <img class="rounded-full" src="./assets/images/sec5Client2.png" alt="sec5Client">
+                                        <div>
+                                            <p class="bs-primaryBlack ff-rubi font-normal text-xl">Savannah Nguyen</p>
+                                            <img src="./assets/images/sec5ClientRate.png" alt="sec5ClientRate">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hidden justify-center flex-col xl:pt-14 md:block">
+                                    <div class="bg-white  rounded-xl relative max-w-[357px]">
+                                        <div class="py-4 px-[18px]">
+                                            <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
+                                        </div>
+                                        <span class="absolute left-9 -bottom-5"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="29" viewBox="0 0 36 29" fill="none"> <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" /></svg></span>
+                                    </div>
+                                    <div class="flex gap-[14px] pt-10 ps-5">
+                                        <img class="rounded-full" src="./assets/images/sec5Client3.png" alt="sec5Client">
+                                        <div>
+                                            <p class="bs-primaryBlack ff-rubi font-normal text-xl">Esther Howard</p>
+                                            <img src="./assets/images/sec5ClientRate.png" alt="sec5ClientRate">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hidden md:block justify-center flex-col md:pt-14 xl:pt-0  xl:hidden">
+                                    <div class="bg-white  rounded-xl relative max-w-[357px]">
+                                        <div class="py-4 px-[18px]">
+                                            <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Nibh in commodo faucibus tincidunt. Adipiscing lobortis est elit neque sem scelerisque tellus magna urna.</p>
+                                        </div>
+                                        <span class="absolute left-9 -bottom-5"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="29" viewBox="0 0 36 29" fill="none"> <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" /></svg></span>
+                                    </div>
+                                    <div class="flex gap-[14px] pt-10 ps-5">
+                                        <img class="rounded-full" src="./assets/images/sec5Client5.png" alt="sec5Client">
+                                        <div>
+                                            <p class="bs-primaryBlack ff-rubi font-normal text-xl">Wade Warren</p>
+                                            <img src="./assets/images/sec5ClientRate.png" alt="sec5ClientRate">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="flex flex-row pt-10 justify-center xl:gap-14">
+                                    <div class="hidden justify-center flex-col md:pt-14 xl:pt-0  xl:block">
+                                        <div class="bg-white  rounded-xl relative max-w-[357px]">
+                                            <div class="py-4 px-[18px]">
+                                                <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Morbi leo ullamcorper in et viverra. Neque elit scelerisque purus praesent nulla ut a id.</p>
+                                            </div>
+                                            <span class="absolute left-9 -bottom-5"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="29" viewBox="0 0 36 29" fill="none"> <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" /></svg></span>
+                                        </div>
+                                        <div class="flex gap-[14px] pt-10 ps-5">
+                                            <img class="rounded-full" src="./assets/images/sec5Client4.png" alt="sec5Client">
+                                            <div>
+                                                <p class="bs-primaryBlack ff-rubi font-normal text-xl">Esther Howard</p>
+                                                <img src="./assets/images/sec5ClientRate.png" alt="sec5ClientRate">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hidden justify-center flex-col pt-10 xl:block">
+                                        <div class="bg-white  rounded-xl relative max-w-[357px]">
+                                            <div class="py-4 px-[18px]">
+                                                <p class="text-black ff-rubi font-normal text-base opacity-80 max-w-xs">Sit urna ornare sed quam molestie sit placerat convallis. Ac condimentum mollis malesuada placerat in placerat</p>
+                                            </div>
+                                            <span class="absolute left-9 -bottom-5"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="29" viewBox="0 0 36 29" fill="none"> <path d="M12.6818 29L0 0H36L12.6818 29Z" fill="white" /></svg></span>
+                                        </div>
+                                        <div class="flex gap-[14px] pt-10 ps-5">
+                                            <img class="rounded-full" src="./assets/images/sec5Client5.png" alt="sec5Client">
+                                            <div>
+                                                <p class="bs-primaryBlack ff-rubi font-normal text-xl">Darrell Steward</p>
+                                                <img src="./assets/images/sec5ClientRate.png" alt="sec5ClientRate">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <button class="prev absolute left-[32%] md:left-14 bottom-[12%] md:top-[6%] slick-arrow"><span class="w-10 sliderBtn h-10 flex rounded-full transition duration-300 border border-orange-500 items-center justify-center "><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M17.5484 4.77911L8.34203 14.2235C8.18034 14.3894 8.08984 14.6119 8.08984 14.8436C8.08984 15.0752 8.18034 15.2977 8.34203 15.4636L17.5484 24.9116C17.6237 24.9889 17.7138 25.0504 17.8132 25.0924C17.9127 25.1344 18.0196 25.156 18.1276 25.156C18.2355 25.156 18.3424 25.1344 18.4419 25.0924C18.5414 25.0504 18.6314 24.9889 18.7067 24.9116C18.8617 24.7529 18.9484 24.5399 18.9484 24.3182C18.9484 24.0964 18.8617 23.8834 18.7067 23.7248L10.0493 14.8436L18.7067 5.9641C18.8612 5.80554 18.9476 5.59295 18.9476 5.37161C18.9476 5.15027 18.8612 4.93768 18.7067 4.77911C18.6314 4.70175 18.5414 4.64027 18.4419 4.59828C18.3424 4.5563 18.2355 4.53467 18.1276 4.53467C18.0196 4.53467 17.9127 4.5563 17.8132 4.59828C17.7138 4.64027 17.6237 4.70175 17.5484 4.77911Z" fill="#F36A3E"/></svg></span></button>
+                <button class="next absolute right-[32%] md:right-14 bottom-[12%] md:top-[6%] slick-arrow"><span class="w-10 sliderBtn h-10 flex rounded-full transition duration-300 border border-orange-500 items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none"><rect width="28.4256" height="28.4256" transform="matrix(-1 0 0 1 28.75 0.632568)" fill="#F36AE"/><path d="M11.8344 4.77911L21.0408 14.2235C21.2025 14.3894 21.293 14.6119 21.293 14.8436C21.293 15.0752 21.2025 15.2977 21.0408 15.4636L11.8344 24.9116C11.7591 24.9889 11.669 25.0504 11.5696 25.0924C11.4701 25.1344 11.3632 25.156 11.2553 25.156C11.1473 25.156 11.0404 25.1344 10.9409 25.0924C10.8415 25.0504 10.7514 24.9889 10.6761 24.9116C10.5211 24.7529 10.4344 24.5399 10.4344 24.3182C10.4344 24.0964 10.5211 23.8834 10.6761 23.7248L19.3335 14.8436L10.6761 5.9641C10.5217 5.80554 10.4352 5.59295 10.4352 5.37161C10.4352 5.15027 10.5217 4.93768 10.6761 4.77911C10.7514 4.70175 10.8415 4.64027 10.9409 4.59828C11.0404 4.5563 11.1473 4.53467 11.2553 4.53467C11.3632 4.53467 11.4701 4.5563 11.5696 4.59828C11.669 4.64027 11.7591 4.70175 11.8344 4.77911Z" fill="#F36A3E"/></svg></span></button>
             </div>
-            <button class="prev absolute left-[32%] md:left-14 bottom-[12%] md:top-[6%] slick-arrow"><span class="w-10 sliderBtn h-10 flex rounded-full transition duration-300 border border-orange-500 items-center justify-center "><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M17.5484 4.77911L8.34203 14.2235C8.18034 14.3894 8.08984 14.6119 8.08984 14.8436C8.08984 15.0752 8.18034 15.2977 8.34203 15.4636L17.5484 24.9116C17.6237 24.9889 17.7138 25.0504 17.8132 25.0924C17.9127 25.1344 18.0196 25.156 18.1276 25.156C18.2355 25.156 18.3424 25.1344 18.4419 25.0924C18.5414 25.0504 18.6314 24.9889 18.7067 24.9116C18.8617 24.7529 18.9484 24.5399 18.9484 24.3182C18.9484 24.0964 18.8617 23.8834 18.7067 23.7248L10.0493 14.8436L18.7067 5.9641C18.8612 5.80554 18.9476 5.59295 18.9476 5.37161C18.9476 5.15027 18.8612 4.93768 18.7067 4.77911C18.6314 4.70175 18.5414 4.64027 18.4419 4.59828C18.3424 4.5563 18.2355 4.53467 18.1276 4.53467C18.0196 4.53467 17.9127 4.5563 17.8132 4.59828C17.7138 4.64027 17.6237 4.70175 17.5484 4.77911Z" fill="#F36A3E"/></svg></span></button>
-            <button class="next absolute right-[32%] md:right-14 bottom-[12%] md:top-[6%] slick-arrow"><span class="w-10 sliderBtn h-10 flex rounded-full transition duration-300 border border-orange-500 items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none"><rect width="28.4256" height="28.4256" transform="matrix(-1 0 0 1 28.75 0.632568)" fill="#F36AE"/><path d="M11.8344 4.77911L21.0408 14.2235C21.2025 14.3894 21.293 14.6119 21.293 14.8436C21.293 15.0752 21.2025 15.2977 21.0408 15.4636L11.8344 24.9116C11.7591 24.9889 11.669 25.0504 11.5696 25.0924C11.4701 25.1344 11.3632 25.156 11.2553 25.156C11.1473 25.156 11.0404 25.1344 10.9409 25.0924C10.8415 25.0504 10.7514 24.9889 10.6761 24.9116C10.5211 24.7529 10.4344 24.5399 10.4344 24.3182C10.4344 24.0964 10.5211 23.8834 10.6761 23.7248L19.3335 14.8436L10.6761 5.9641C10.5217 5.80554 10.4352 5.59295 10.4352 5.37161C10.4352 5.15027 10.5217 4.93768 10.6761 4.77911C10.7514 4.70175 10.8415 4.64027 10.9409 4.59828C11.0404 4.5563 11.1473 4.53467 11.2553 4.53467C11.3632 4.53467 11.4701 4.5563 11.5696 4.59828C11.669 4.64027 11.7591 4.70175 11.8344 4.77911Z" fill="#F36A3E"/></svg></span></button>
-        </div>
-        <span class="absolute top-[2%] right-1/4 md:left-[32%] hidden sm:block"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" fill="none"><g clip-path="url(#clip0_24708_9121)"><path opacity="0.1" d="M18.459 36.75C22.0932 36.75 25.6459 37.8277 28.6676 39.8467C31.6894 41.8658 34.0445 44.7356 35.4353 48.0932C36.826 51.4508 37.1899 55.1454 36.4809 58.7098C35.7719 62.2742 34.0219 65.5483 31.4521 68.1181C28.8823 70.6879 25.6082 72.4379 22.0438 73.1469C18.4794 73.8559 14.7848 73.4921 11.4272 72.1013C8.0696 70.7105 5.19982 68.3554 3.18075 65.3336C1.16167 62.3119 0.084 58.7592 0.084 55.125L0 52.5C0 42.7533 3.87186 33.4058 10.7638 26.5138C17.6558 19.6219 27.0033 15.75 36.75 15.75V26.25C33.3013 26.2407 29.8849 26.9152 26.6985 28.2345C23.5121 29.5538 20.6188 31.4916 18.186 33.936C17.2404 34.8798 16.3682 35.8942 15.5767 36.9705C16.5165 36.8235 17.4773 36.7448 18.4538 36.7448L18.459 36.75ZM65.709 36.75C69.3432 36.75 72.8959 37.8277 75.9176 39.8467C78.9394 41.8658 81.2945 44.7356 82.6853 48.0932C84.076 51.4508 84.4399 55.1454 83.7309 58.7098C83.0219 62.2742 81.2719 65.5483 78.7021 68.1181C76.1323 70.6879 72.8582 72.4379 69.2938 73.1469C65.7294 73.8559 62.0348 73.4921 58.6772 72.1013C55.3196 70.7105 52.4498 68.3554 50.4307 65.3336C48.4117 62.3119 47.334 58.7592 47.334 55.125L47.25 52.5C47.25 42.7533 51.1219 33.4058 58.0138 26.5138C64.9058 19.6219 74.2533 15.75 84 15.75V26.25C80.5513 26.2407 77.1349 26.9152 73.9485 28.2345C70.7621 29.5538 67.8688 31.4916 65.436 33.936C64.4904 34.8798 63.6182 35.8942 62.8268 36.9705C63.7665 36.8235 64.7272 36.75 65.709 36.75Z" fill="#F36A3E"/></g><defs><clipPath id="clip0_24708_9121"><rect width="84" height="84" fill="white"/></clipPath></defs></svg></span>
-    </section>
-    <!-- section 6 -->
-    <section>
-        <div class="container pt-40 px-5 sm:px-10 ">
-            <div class="max-w-4xl mx-auto">
-                <h2 data-aos="zoom-in" data-aos-duration="1000" class="ff-rubi text-[28px] sm:text-3xl lg:text-[40px] font-medium bs-primaryBlack text-center">Frequently Asked Questions</h2>         
-               <div class="pt-12" id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="bs-primaryBlack dark:text-gray-400 border-b border-black border-opacity-10">
-                   <h2 data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-heading-1">
-                    <button type="button" class="flex items-center justify-between w-full py-5 font-normal text-left bs-primaryBlack ff-rubi text-base sm:text-xl lg:text-2xl" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
-                    <span>Q1. How does the CVhawk work??</span>
-                    <svg data-accordion-icon class="rotate-180 shrink-0 min-w-[24px] sm:min-w-[27px] h-6 sm:h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28" fill="none"><path d="M3.93921 11.4316L12.91 20.1762C13.0675 20.3298 13.2789 20.4158 13.4989 20.4158C13.7189 20.4158 13.9303 20.3298 14.0878 20.1762L23.062 11.4316C23.1354 11.3601 23.1938 11.2745 23.2337 11.18C23.2736 11.0856 23.2941 10.984 23.2941 10.8815C23.2941 10.7789 23.2736 10.6774 23.2337 10.5829C23.1938 10.4884 23.1354 10.4029 23.062 10.3314C22.9113 10.1842 22.709 10.1018 22.4983 10.1018C22.2877 10.1018 22.0854 10.1842 21.9347 10.3314L13.4989 18.5545L5.06478 10.3314C4.91416 10.1847 4.71223 10.1026 4.502 10.1026C4.29176 10.1026 4.08983 10.1847 3.93921 10.3314C3.86574 10.4029 3.80733 10.4884 3.76745 10.5829C3.72758 10.6774 3.70703 10.7789 3.70703 10.8815C3.70703 10.984 3.72758 11.0856 3.76745 11.18C3.80733 11.2745 3.86574 11.3601 3.93921 11.4316Z" fill="black"/></svg>
-                  </button>
-                 </h2>
-                <div data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-body-1" aria-labelledby="accordion-flush-heading-1">
-                  <div class="pb-5 border-b border-black border-opacity-10">
-                    <p class="mb-2 text-black opacity-80 ff-rubi text-base font-normal">Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.</p>
-                  </div>
-                </div>
-                   <h2 data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-heading-2">
-                    <button type="button" class="flex items-center justify-between w-full py-5 font-normal text-left bs-primaryBlack ff-rubi text-base sm:text-xl lg:text-2xl" data-accordion-target="#accordion-flush-body-2" aria-expanded="true" aria-controls="accordion-flush-body-2">
-                    <span>Q2. Is the CVhawk completely free to use?</span>
-                    <svg data-accordion-icon class="rotate-180 shrink-0 min-w-[24px] sm:min-w-[27px] h-6 sm:h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28" fill="none"><path d="M3.93921 11.4316L12.91 20.1762C13.0675 20.3298 13.2789 20.4158 13.4989 20.4158C13.7189 20.4158 13.9303 20.3298 14.0878 20.1762L23.062 11.4316C23.1354 11.3601 23.1938 11.2745 23.2337 11.18C23.2736 11.0856 23.2941 10.984 23.2941 10.8815C23.2941 10.7789 23.2736 10.6774 23.2337 10.5829C23.1938 10.4884 23.1354 10.4029 23.062 10.3314C22.9113 10.1842 22.709 10.1018 22.4983 10.1018C22.2877 10.1018 22.0854 10.1842 21.9347 10.3314L13.4989 18.5545L5.06478 10.3314C4.91416 10.1847 4.71223 10.1026 4.502 10.1026C4.29176 10.1026 4.08983 10.1847 3.93921 10.3314C3.86574 10.4029 3.80733 10.4884 3.76745 10.5829C3.72758 10.6774 3.70703 10.7789 3.70703 10.8815C3.70703 10.984 3.72758 11.0856 3.76745 11.18C3.80733 11.2745 3.86574 11.3601 3.93921 11.4316Z" fill="black"/></svg>
-                  </button>
-                 </h2>
-                <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
-                  <div class="pb-5 border-b border-black border-opacity-10">
-                    <p class="mb-2 text-black opacity-80 ff-rubi text-base font-normal">Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.</p>
-                  </div>
-                </div>
-                   <h2 data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-heading-3">
-                    <button type="button" class="flex items-center justify-between w-full py-5 font-normal text-left bs-primaryBlack ff-rubi text-base sm:text-xl lg:text-2xl" data-accordion-target="#accordion-flush-body-3" aria-expanded="true" aria-controls="accordion-flush-body-3">
-                    <span>Q3. Can I edit my CV after I've saved it?</span>
-                    <svg data-accordion-icon class="rotate-180 shrink-0 min-w-[24px] sm:min-w-[27px] h-6 sm:h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28" fill="none"><path d="M3.93921 11.4316L12.91 20.1762C13.0675 20.3298 13.2789 20.4158 13.4989 20.4158C13.7189 20.4158 13.9303 20.3298 14.0878 20.1762L23.062 11.4316C23.1354 11.3601 23.1938 11.2745 23.2337 11.18C23.2736 11.0856 23.2941 10.984 23.2941 10.8815C23.2941 10.7789 23.2736 10.6774 23.2337 10.5829C23.1938 10.4884 23.1354 10.4029 23.062 10.3314C22.9113 10.1842 22.709 10.1018 22.4983 10.1018C22.2877 10.1018 22.0854 10.1842 21.9347 10.3314L13.4989 18.5545L5.06478 10.3314C4.91416 10.1847 4.71223 10.1026 4.502 10.1026C4.29176 10.1026 4.08983 10.1847 3.93921 10.3314C3.86574 10.4029 3.80733 10.4884 3.76745 10.5829C3.72758 10.6774 3.70703 10.7789 3.70703 10.8815C3.70703 10.984 3.72758 11.0856 3.76745 11.18C3.80733 11.2745 3.86574 11.3601 3.93921 11.4316Z" fill="black"/></svg>
-                  </button>
-                 </h2>
-                <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
-                  <div class="pb-5 border-b border-black border-opacity-10">
-                    <p class="mb-2 text-black opacity-80 ff-rubi text-base font-normal">Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.</p>
-                  </div>
-                </div>
-                   <h2 data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-heading-4">
-                    <button type="button" class="flex items-center justify-between w-full py-5 font-normal text-left bs-primaryBlack ff-rubi text-base sm:text-xl lg:text-2xl" data-accordion-target="#accordion-flush-body-4" aria-expanded="true" aria-controls="accordion-flush-body-4">
-                    <span>Q4. Can I import my existing CV into the builder?</span>
-                    <svg data-accordion-icon class="rotate-180 shrink-0 min-w-[24px] sm:min-w-[27px] h-6 sm:h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28" fill="none"><path d="M3.93921 11.4316L12.91 20.1762C13.0675 20.3298 13.2789 20.4158 13.4989 20.4158C13.7189 20.4158 13.9303 20.3298 14.0878 20.1762L23.062 11.4316C23.1354 11.3601 23.1938 11.2745 23.2337 11.18C23.2736 11.0856 23.2941 10.984 23.2941 10.8815C23.2941 10.7789 23.2736 10.6774 23.2337 10.5829C23.1938 10.4884 23.1354 10.4029 23.062 10.3314C22.9113 10.1842 22.709 10.1018 22.4983 10.1018C22.2877 10.1018 22.0854 10.1842 21.9347 10.3314L13.4989 18.5545L5.06478 10.3314C4.91416 10.1847 4.71223 10.1026 4.502 10.1026C4.29176 10.1026 4.08983 10.1847 3.93921 10.3314C3.86574 10.4029 3.80733 10.4884 3.76745 10.5829C3.72758 10.6774 3.70703 10.7789 3.70703 10.8815C3.70703 10.984 3.72758 11.0856 3.76745 11.18C3.80733 11.2745 3.86574 11.3601 3.93921 11.4316Z" fill="black"/></svg>
-                  </button>
-                 </h2>
-                <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
-                  <div class="pb-5 border-b border-black border-opacity-10">
-                    <p class="mb-2 text-black opacity-80 ff-rubi text-base font-normal">Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.</p>
-                  </div>
-                </div>
-                   <h2 data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-heading-5">
-                    <button type="button" class="flex items-center justify-between w-full py-5 font-normal text-left bs-primaryBlack ff-rubi text-base sm:text-xl lg:text-2xl" data-accordion-target="#accordion-flush-body-5" aria-expanded="true" aria-controls="accordion-flush-body-5">
-                    <span>Q5. Is my personal information safe and secure?</span>
-                    <svg data-accordion-icon class="rotate-180 shrink-0 min-w-[24px] sm:min-w-[27px] h-6 sm:h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28" fill="none"><path d="M3.93921 11.4316L12.91 20.1762C13.0675 20.3298 13.2789 20.4158 13.4989 20.4158C13.7189 20.4158 13.9303 20.3298 14.0878 20.1762L23.062 11.4316C23.1354 11.3601 23.1938 11.2745 23.2337 11.18C23.2736 11.0856 23.2941 10.984 23.2941 10.8815C23.2941 10.7789 23.2736 10.6774 23.2337 10.5829C23.1938 10.4884 23.1354 10.4029 23.062 10.3314C22.9113 10.1842 22.709 10.1018 22.4983 10.1018C22.2877 10.1018 22.0854 10.1842 21.9347 10.3314L13.4989 18.5545L5.06478 10.3314C4.91416 10.1847 4.71223 10.1026 4.502 10.1026C4.29176 10.1026 4.08983 10.1847 3.93921 10.3314C3.86574 10.4029 3.80733 10.4884 3.76745 10.5829C3.72758 10.6774 3.70703 10.7789 3.70703 10.8815C3.70703 10.984 3.72758 11.0856 3.76745 11.18C3.80733 11.2745 3.86574 11.3601 3.93921 11.4316Z" fill="black"/></svg>
-                  </button>
-                 </h2>
-                <div id="accordion-flush-body-5" class="hidden" aria-labelledby="accordion-flush-heading-5">
-                  <div class="pb-5 border-b border-black border-opacity-10">
-                    <p class="mb-2 text-black opacity-80 ff-rubi text-base font-normal">Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.</p>
-                  </div>
-                </div>
-                   <h2 data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-heading-6">
-                    <button type="button" class="flex items-center justify-between w-full py-5 font-normal text-left bs-primaryBlack ff-rubi text-base sm:text-xl lg:text-2xl" data-accordion-target="#accordion-flush-body-6" aria-expanded="true" aria-controls="accordion-flush-body-6">
-                    <span>Q6. What kind of templates are available in the CV builder?</span>
-                    <svg data-accordion-icon class="rotate-180 shrink-0 min-w-[24px] sm:min-w-[27px] h-6 sm:h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28" fill="none"><path d="M3.93921 11.4316L12.91 20.1762C13.0675 20.3298 13.2789 20.4158 13.4989 20.4158C13.7189 20.4158 13.9303 20.3298 14.0878 20.1762L23.062 11.4316C23.1354 11.3601 23.1938 11.2745 23.2337 11.18C23.2736 11.0856 23.2941 10.984 23.2941 10.8815C23.2941 10.7789 23.2736 10.6774 23.2337 10.5829C23.1938 10.4884 23.1354 10.4029 23.062 10.3314C22.9113 10.1842 22.709 10.1018 22.4983 10.1018C22.2877 10.1018 22.0854 10.1842 21.9347 10.3314L13.4989 18.5545L5.06478 10.3314C4.91416 10.1847 4.71223 10.1026 4.502 10.1026C4.29176 10.1026 4.08983 10.1847 3.93921 10.3314C3.86574 10.4029 3.80733 10.4884 3.76745 10.5829C3.72758 10.6774 3.70703 10.7789 3.70703 10.8815C3.70703 10.984 3.72758 11.0856 3.76745 11.18C3.80733 11.2745 3.86574 11.3601 3.93921 11.4316Z" fill="black"/></svg>
-                  </button>
-                 </h2>
-                <div id="accordion-flush-body-6" class="hidden" aria-labelledby="accordion-flush-heading-6">
-                  <div class="pb-5 border-b border-black border-opacity-10">
-                    <p class="mb-2 text-black opacity-80 ff-rubi text-base font-normal">Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div  class="bg-orange w-full min-h-[381px] translate-y-1/4 sm:translate-y-2/4 rounded-3xl flex justify-center items-center z-10 ">
-                <div class="max-w-2xl py-10 px-5">
-                    <h2 data-aos="zoom-out" data-aos-duration="1000" class="bs-primaryWhite ff-rubi text-center font-medium text-[28px] sm:text-3xl lg:text-[40px] ">Your Path to Success Starts Here: Build Your CV Today</h2>
-                    <p data-aos="zoom-out" data-aos-duration="1000" class="bs-primaryWhite ff-rubi font-normal text-base pt-4 opacity-90 text-center px-6">Sit urna ornare sed quam molestie sit placerat convallis. Ac condiment mollis malesuada </p>
-                    <div data-aos="zoom-out" data-aos-duration="1000" class="pt-10 flex justify-center">
-                        <button class="text-base leading-normal ff-rubi bg-white text-black py-4 px-9 rounded-full font-semibold transition duration-300 hover:-translate-y-2" type="button">Get Started</button>
+            <span class="absolute top-[2%] right-1/4 md:left-[32%] hidden sm:block"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" fill="none"><g clip-path="url(#clip0_24708_9121)"><path opacity="0.1" d="M18.459 36.75C22.0932 36.75 25.6459 37.8277 28.6676 39.8467C31.6894 41.8658 34.0445 44.7356 35.4353 48.0932C36.826 51.4508 37.1899 55.1454 36.4809 58.7098C35.7719 62.2742 34.0219 65.5483 31.4521 68.1181C28.8823 70.6879 25.6082 72.4379 22.0438 73.1469C18.4794 73.8559 14.7848 73.4921 11.4272 72.1013C8.0696 70.7105 5.19982 68.3554 3.18075 65.3336C1.16167 62.3119 0.084 58.7592 0.084 55.125L0 52.5C0 42.7533 3.87186 33.4058 10.7638 26.5138C17.6558 19.6219 27.0033 15.75 36.75 15.75V26.25C33.3013 26.2407 29.8849 26.9152 26.6985 28.2345C23.5121 29.5538 20.6188 31.4916 18.186 33.936C17.2404 34.8798 16.3682 35.8942 15.5767 36.9705C16.5165 36.8235 17.4773 36.7448 18.4538 36.7448L18.459 36.75ZM65.709 36.75C69.3432 36.75 72.8959 37.8277 75.9176 39.8467C78.9394 41.8658 81.2945 44.7356 82.6853 48.0932C84.076 51.4508 84.4399 55.1454 83.7309 58.7098C83.0219 62.2742 81.2719 65.5483 78.7021 68.1181C76.1323 70.6879 72.8582 72.4379 69.2938 73.1469C65.7294 73.8559 62.0348 73.4921 58.6772 72.1013C55.3196 70.7105 52.4498 68.3554 50.4307 65.3336C48.4117 62.3119 47.334 58.7592 47.334 55.125L47.25 52.5C47.25 42.7533 51.1219 33.4058 58.0138 26.5138C64.9058 19.6219 74.2533 15.75 84 15.75V26.25C80.5513 26.2407 77.1349 26.9152 73.9485 28.2345C70.7621 29.5538 67.8688 31.4916 65.436 33.936C64.4904 34.8798 63.6182 35.8942 62.8268 36.9705C63.7665 36.8235 64.7272 36.75 65.709 36.75Z" fill="#F36A3E"/></g><defs><clipPath id="clip0_24708_9121"><rect width="84" height="84" fill="white"/></clipPath></defs></svg></span>
+        </section>
+        <!-- section 6 -->
+        <section>
+            <div class="container pt-40 px-5 sm:px-10 ">
+                <div class="max-w-4xl mx-auto">
+                    <h2 data-aos="zoom-in" data-aos-duration="1000" class="ff-rubi text-[28px] sm:text-3xl lg:text-[40px] font-medium bs-primaryBlack text-center">Frequently Asked Questions</h2>         
+                <div class="pt-12" id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="bs-primaryBlack dark:text-gray-400 border-b border-black border-opacity-10">
+                    <h2 data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-heading-1">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-normal text-left bs-primaryBlack ff-rubi text-base sm:text-xl lg:text-2xl" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
+                        <span>Q1. How does the CVhawk work??</span>
+                        <svg data-accordion-icon class="rotate-180 shrink-0 min-w-[24px] sm:min-w-[27px] h-6 sm:h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28" fill="none"><path d="M3.93921 11.4316L12.91 20.1762C13.0675 20.3298 13.2789 20.4158 13.4989 20.4158C13.7189 20.4158 13.9303 20.3298 14.0878 20.1762L23.062 11.4316C23.1354 11.3601 23.1938 11.2745 23.2337 11.18C23.2736 11.0856 23.2941 10.984 23.2941 10.8815C23.2941 10.7789 23.2736 10.6774 23.2337 10.5829C23.1938 10.4884 23.1354 10.4029 23.062 10.3314C22.9113 10.1842 22.709 10.1018 22.4983 10.1018C22.2877 10.1018 22.0854 10.1842 21.9347 10.3314L13.4989 18.5545L5.06478 10.3314C4.91416 10.1847 4.71223 10.1026 4.502 10.1026C4.29176 10.1026 4.08983 10.1847 3.93921 10.3314C3.86574 10.4029 3.80733 10.4884 3.76745 10.5829C3.72758 10.6774 3.70703 10.7789 3.70703 10.8815C3.70703 10.984 3.72758 11.0856 3.76745 11.18C3.80733 11.2745 3.86574 11.3601 3.93921 11.4316Z" fill="black"/></svg>
+                    </button>
+                    </h2>
+                    <div data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-body-1" aria-labelledby="accordion-flush-heading-1">
+                    <div class="pb-5 border-b border-black border-opacity-10">
+                        <p class="mb-2 text-black opacity-80 ff-rubi text-base font-normal">Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.</p>
+                    </div>
+                    </div>
+                    <h2 data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-heading-2">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-normal text-left bs-primaryBlack ff-rubi text-base sm:text-xl lg:text-2xl" data-accordion-target="#accordion-flush-body-2" aria-expanded="true" aria-controls="accordion-flush-body-2">
+                        <span>Q2. Is the CVhawk completely free to use?</span>
+                        <svg data-accordion-icon class="rotate-180 shrink-0 min-w-[24px] sm:min-w-[27px] h-6 sm:h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28" fill="none"><path d="M3.93921 11.4316L12.91 20.1762C13.0675 20.3298 13.2789 20.4158 13.4989 20.4158C13.7189 20.4158 13.9303 20.3298 14.0878 20.1762L23.062 11.4316C23.1354 11.3601 23.1938 11.2745 23.2337 11.18C23.2736 11.0856 23.2941 10.984 23.2941 10.8815C23.2941 10.7789 23.2736 10.6774 23.2337 10.5829C23.1938 10.4884 23.1354 10.4029 23.062 10.3314C22.9113 10.1842 22.709 10.1018 22.4983 10.1018C22.2877 10.1018 22.0854 10.1842 21.9347 10.3314L13.4989 18.5545L5.06478 10.3314C4.91416 10.1847 4.71223 10.1026 4.502 10.1026C4.29176 10.1026 4.08983 10.1847 3.93921 10.3314C3.86574 10.4029 3.80733 10.4884 3.76745 10.5829C3.72758 10.6774 3.70703 10.7789 3.70703 10.8815C3.70703 10.984 3.72758 11.0856 3.76745 11.18C3.80733 11.2745 3.86574 11.3601 3.93921 11.4316Z" fill="black"/></svg>
+                    </button>
+                    </h2>
+                    <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+                    <div class="pb-5 border-b border-black border-opacity-10">
+                        <p class="mb-2 text-black opacity-80 ff-rubi text-base font-normal">Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.</p>
+                    </div>
+                    </div>
+                    <h2 data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-heading-3">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-normal text-left bs-primaryBlack ff-rubi text-base sm:text-xl lg:text-2xl" data-accordion-target="#accordion-flush-body-3" aria-expanded="true" aria-controls="accordion-flush-body-3">
+                        <span>Q3. Can I edit my CV after I've saved it?</span>
+                        <svg data-accordion-icon class="rotate-180 shrink-0 min-w-[24px] sm:min-w-[27px] h-6 sm:h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28" fill="none"><path d="M3.93921 11.4316L12.91 20.1762C13.0675 20.3298 13.2789 20.4158 13.4989 20.4158C13.7189 20.4158 13.9303 20.3298 14.0878 20.1762L23.062 11.4316C23.1354 11.3601 23.1938 11.2745 23.2337 11.18C23.2736 11.0856 23.2941 10.984 23.2941 10.8815C23.2941 10.7789 23.2736 10.6774 23.2337 10.5829C23.1938 10.4884 23.1354 10.4029 23.062 10.3314C22.9113 10.1842 22.709 10.1018 22.4983 10.1018C22.2877 10.1018 22.0854 10.1842 21.9347 10.3314L13.4989 18.5545L5.06478 10.3314C4.91416 10.1847 4.71223 10.1026 4.502 10.1026C4.29176 10.1026 4.08983 10.1847 3.93921 10.3314C3.86574 10.4029 3.80733 10.4884 3.76745 10.5829C3.72758 10.6774 3.70703 10.7789 3.70703 10.8815C3.70703 10.984 3.72758 11.0856 3.76745 11.18C3.80733 11.2745 3.86574 11.3601 3.93921 11.4316Z" fill="black"/></svg>
+                    </button>
+                    </h2>
+                    <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+                    <div class="pb-5 border-b border-black border-opacity-10">
+                        <p class="mb-2 text-black opacity-80 ff-rubi text-base font-normal">Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.</p>
+                    </div>
+                    </div>
+                    <h2 data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-heading-4">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-normal text-left bs-primaryBlack ff-rubi text-base sm:text-xl lg:text-2xl" data-accordion-target="#accordion-flush-body-4" aria-expanded="true" aria-controls="accordion-flush-body-4">
+                        <span>Q4. Can I import my existing CV into the builder?</span>
+                        <svg data-accordion-icon class="rotate-180 shrink-0 min-w-[24px] sm:min-w-[27px] h-6 sm:h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28" fill="none"><path d="M3.93921 11.4316L12.91 20.1762C13.0675 20.3298 13.2789 20.4158 13.4989 20.4158C13.7189 20.4158 13.9303 20.3298 14.0878 20.1762L23.062 11.4316C23.1354 11.3601 23.1938 11.2745 23.2337 11.18C23.2736 11.0856 23.2941 10.984 23.2941 10.8815C23.2941 10.7789 23.2736 10.6774 23.2337 10.5829C23.1938 10.4884 23.1354 10.4029 23.062 10.3314C22.9113 10.1842 22.709 10.1018 22.4983 10.1018C22.2877 10.1018 22.0854 10.1842 21.9347 10.3314L13.4989 18.5545L5.06478 10.3314C4.91416 10.1847 4.71223 10.1026 4.502 10.1026C4.29176 10.1026 4.08983 10.1847 3.93921 10.3314C3.86574 10.4029 3.80733 10.4884 3.76745 10.5829C3.72758 10.6774 3.70703 10.7789 3.70703 10.8815C3.70703 10.984 3.72758 11.0856 3.76745 11.18C3.80733 11.2745 3.86574 11.3601 3.93921 11.4316Z" fill="black"/></svg>
+                    </button>
+                    </h2>
+                    <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+                    <div class="pb-5 border-b border-black border-opacity-10">
+                        <p class="mb-2 text-black opacity-80 ff-rubi text-base font-normal">Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.</p>
+                    </div>
+                    </div>
+                    <h2 data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-heading-5">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-normal text-left bs-primaryBlack ff-rubi text-base sm:text-xl lg:text-2xl" data-accordion-target="#accordion-flush-body-5" aria-expanded="true" aria-controls="accordion-flush-body-5">
+                        <span>Q5. Is my personal information safe and secure?</span>
+                        <svg data-accordion-icon class="rotate-180 shrink-0 min-w-[24px] sm:min-w-[27px] h-6 sm:h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28" fill="none"><path d="M3.93921 11.4316L12.91 20.1762C13.0675 20.3298 13.2789 20.4158 13.4989 20.4158C13.7189 20.4158 13.9303 20.3298 14.0878 20.1762L23.062 11.4316C23.1354 11.3601 23.1938 11.2745 23.2337 11.18C23.2736 11.0856 23.2941 10.984 23.2941 10.8815C23.2941 10.7789 23.2736 10.6774 23.2337 10.5829C23.1938 10.4884 23.1354 10.4029 23.062 10.3314C22.9113 10.1842 22.709 10.1018 22.4983 10.1018C22.2877 10.1018 22.0854 10.1842 21.9347 10.3314L13.4989 18.5545L5.06478 10.3314C4.91416 10.1847 4.71223 10.1026 4.502 10.1026C4.29176 10.1026 4.08983 10.1847 3.93921 10.3314C3.86574 10.4029 3.80733 10.4884 3.76745 10.5829C3.72758 10.6774 3.70703 10.7789 3.70703 10.8815C3.70703 10.984 3.72758 11.0856 3.76745 11.18C3.80733 11.2745 3.86574 11.3601 3.93921 11.4316Z" fill="black"/></svg>
+                    </button>
+                    </h2>
+                    <div id="accordion-flush-body-5" class="hidden" aria-labelledby="accordion-flush-heading-5">
+                    <div class="pb-5 border-b border-black border-opacity-10">
+                        <p class="mb-2 text-black opacity-80 ff-rubi text-base font-normal">Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.</p>
+                    </div>
+                    </div>
+                    <h2 data-aos="zoom-in" data-aos-duration="1000" id="accordion-flush-heading-6">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-normal text-left bs-primaryBlack ff-rubi text-base sm:text-xl lg:text-2xl" data-accordion-target="#accordion-flush-body-6" aria-expanded="true" aria-controls="accordion-flush-body-6">
+                        <span>Q6. What kind of templates are available in the CV builder?</span>
+                        <svg data-accordion-icon class="rotate-180 shrink-0 min-w-[24px] sm:min-w-[27px] h-6 sm:h-7" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 28" fill="none"><path d="M3.93921 11.4316L12.91 20.1762C13.0675 20.3298 13.2789 20.4158 13.4989 20.4158C13.7189 20.4158 13.9303 20.3298 14.0878 20.1762L23.062 11.4316C23.1354 11.3601 23.1938 11.2745 23.2337 11.18C23.2736 11.0856 23.2941 10.984 23.2941 10.8815C23.2941 10.7789 23.2736 10.6774 23.2337 10.5829C23.1938 10.4884 23.1354 10.4029 23.062 10.3314C22.9113 10.1842 22.709 10.1018 22.4983 10.1018C22.2877 10.1018 22.0854 10.1842 21.9347 10.3314L13.4989 18.5545L5.06478 10.3314C4.91416 10.1847 4.71223 10.1026 4.502 10.1026C4.29176 10.1026 4.08983 10.1847 3.93921 10.3314C3.86574 10.4029 3.80733 10.4884 3.76745 10.5829C3.72758 10.6774 3.70703 10.7789 3.70703 10.8815C3.70703 10.984 3.72758 11.0856 3.76745 11.18C3.80733 11.2745 3.86574 11.3601 3.93921 11.4316Z" fill="black"/></svg>
+                    </button>
+                    </h2>
+                    <div id="accordion-flush-body-6" class="hidden" aria-labelledby="accordion-flush-heading-6">
+                    <div class="pb-5 border-b border-black border-opacity-10">
+                        <p class="mb-2 text-black opacity-80 ff-rubi text-base font-normal">Absolutely! We understand that your CV is a dynamic document that may require updates and modifications over time. Once you've saved your CV using our CVhawk, you can easily edit and make changes whenever needed.</p>
+                    </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- footer  -->
-    <footer class="bg-secondaryBlack min-h-[450px] flex items-center flex-col justify-between overflow-hidden">
-        <div class="container px-5 pt-52">
-            <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-10">
-                <div class="flex col-span-2 md:col-span-1 flex-col lg:col-span-3">
-                    <img data-aos="zoom-in" data-aos-duration="1000" class="w-48 h-40" src="./assets/images/logofooter.png" alt="logofooter">
-                    <p data-aos="zoom-in" data-aos-duration="1000" class="bs-primaryWhite ff-rubi font-normal text-base pt-4 opacity-90 max-w-sm">Sit urna ornare sed quam molestie sit placerat convallis. Ac condiment mollis malesuada </p>
-                    <div class="hidden sm:block">
-                        <div data-aos="zoom-in" data-aos-duration="1000" class="flex items-center gap-8 pt-8 svgFill">
-                            <a class="transition duration-300 hover:-translate-y-1" target="_blank" href="http://twitter.com"><span><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 28 24" fill="none"><path d="M25.804 1.76871C26.0929 1.77112 26.3756 1.8525 26.6215 2.00405C26.8675 2.1556 27.0673 2.37154 27.1993 2.62849C27.3313 2.88544 27.3905 3.17361 27.3705 3.46181C27.3505 3.75 27.2521 4.02723 27.0858 4.26348L25.49 6.5316C25.392 14.3207 22.787 19.6089 17.7469 22.2507C15.3451 23.4443 12.6915 24.0426 10.0099 23.9951C6.69401 24.0713 3.41735 23.2659 0.514696 21.6611C0.319433 21.5299 0.168521 21.3425 0.0818546 21.1238C-0.004812 20.9051 -0.0231644 20.6653 0.029217 20.4359C0.078256 20.2031 0.196719 19.9907 0.368972 19.8267C0.541225 19.6626 0.759171 19.5546 0.994049 19.517C2.944 19.2447 4.86417 18.7904 6.72944 18.1601C-1.62937 14.2931 0.193085 5.60046 0.989454 2.9311C1.06709 2.66608 1.21307 2.42615 1.41274 2.23538C1.61241 2.04462 1.85874 1.90973 2.12702 1.84425C2.39529 1.77877 2.67607 1.78501 2.94118 1.86234C3.20628 1.93967 3.44638 2.08537 3.63738 2.28481C6.08413 4.80598 9.32824 6.40233 12.8186 6.80268C12.7567 5.8647 12.9016 4.92458 13.2433 4.04886C13.585 3.17313 14.115 2.38321 14.7957 1.73501C15.9751 0.615757 17.5407 -0.0056661 19.1666 3.89365e-05C20.7925 0.00574397 22.3537 0.638138 23.5252 1.76564L25.804 1.76871ZM2.23148 20.8693C5.0831 22.2048 11.7665 23.6551 17.0363 20.8938C21.5618 18.5215 23.8912 13.6469 23.9601 6.40449C23.9632 6.16501 24.039 5.93214 24.1776 5.73677L25.8331 3.38135L25.7703 3.30018C24.977 3.28946 24.1944 3.27874 23.3965 3.30018C23.0854 3.29306 22.7876 3.17272 22.5588 2.96173C21.6772 2.06809 20.4802 1.55594 19.2251 1.53532C17.9699 1.5147 16.7568 1.98726 15.8463 2.85146C15.2615 3.40764 14.8244 4.10067 14.5744 4.86802C14.3244 5.63537 14.2694 6.45289 14.4144 7.2468C14.4411 7.3947 14.4337 7.54673 14.3928 7.69135C14.3519 7.83598 14.2787 7.96939 14.1785 8.08146C14.0826 8.19451 13.9604 8.28227 13.8226 8.33701C13.6848 8.39176 13.5357 8.41181 13.3883 8.39541C9.27355 8.10827 5.40991 6.31116 2.53931 3.34919C1.51322 6.5316 0.211462 14.2135 8.4646 17.232C8.63829 17.2944 8.79054 17.405 8.90342 17.551C9.0163 17.697 9.08509 17.8722 9.1017 18.056C9.12037 18.237 9.08707 18.4195 9.0057 18.5823C8.92433 18.745 8.79825 18.8812 8.64225 18.9749C6.6255 19.9583 4.45886 20.5986 2.23148 20.8693Z" fill="#FAFAFA"/></svg></span></a>
-                            <a class="transition duration-300 hover:-translate-y-1" target="_blank" href="http://facebook.com"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="26" viewBox="0 0 16 26" fill="none"> <path d="M14.575 1H10.975C9.3837 1 7.85758 1.63214 6.73236 2.75736C5.60714 3.88258 4.975 5.4087 4.975 7V10.6H1.375V15.4H4.975V25H9.775V15.4H13.375L14.575 10.6H9.775V7C9.775 6.68174 9.90143 6.37652 10.1265 6.15147C10.3515 5.92643 10.6567 5.8 10.975 5.8H14.575V1Z" stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
-                            <a class="transition duration-300 hover:-translate-y-1" target="_blank" href="http://instagram.com"><span class="transition duration-300 hover:-translate-y-1"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 17 17" fill="none"><radialGradient id="grad1" r="150%" cx="30%" cy="107%"><stop stop-color="#fdf497" offset="0" /><stop stop-color="#fdf497" offset="0.05" /><stop stop-color="#fd5949" offset="0.45" /><stop stop-color="#d6249f" offset="0.6" /><stop stop-color="#285AEB" offset="0.9" /></radialGradient><path fill="#FAFAFA" d="M9.37381 0.0010458C9.99405 -0.00133431 10.6143 0.00489948 11.2344 0.0197452L11.3993 0.025695C11.5896 0.0324948 11.7775 0.0409945 12.0044 0.0511941C12.9088 0.0936927 13.5258 0.236488 14.0673 0.446431C14.6282 0.662323 15.1008 0.954713 15.5734 1.4273C16.0055 1.85195 16.3399 2.36562 16.5534 2.9326C16.7633 3.47403 16.9061 4.09196 16.9486 4.99633C16.9588 5.22242 16.9673 5.41111 16.9741 5.60151L16.9792 5.7664C16.9943 6.38619 17.0008 7.00616 16.9988 7.62614L16.9996 8.26021V9.37368C17.0017 9.99393 16.9952 10.6142 16.9801 11.2343L16.975 11.3992C16.9682 11.5896 16.9597 11.7774 16.9495 12.0043C16.907 12.9087 16.7625 13.5258 16.5534 14.0672C16.3406 14.6348 16.0061 15.1489 15.5734 15.5734C15.1484 16.0054 14.6345 16.3398 14.0673 16.5534C13.5258 16.7633 12.9088 16.9061 12.0044 16.9486C11.7775 16.9588 11.5896 16.9673 11.3993 16.9741L11.2344 16.9792C10.6143 16.9943 9.99405 17.0008 9.37381 16.9988L8.73974 16.9996H7.62715C7.0069 17.0017 6.38666 16.9952 5.76659 16.9801L5.6017 16.975C5.39993 16.9677 5.1982 16.9592 4.99653 16.9495C4.09218 16.907 3.47511 16.7625 2.93284 16.5534C2.36565 16.3403 1.8519 16.0059 1.42757 15.5734C0.994978 15.1486 0.660247 14.6346 0.446718 14.0672C0.236778 13.5258 0.0939856 12.9087 0.0514878 12.0043C0.0420217 11.8027 0.0335221 11.6009 0.0259891 11.3992L0.0217394 11.2343C0.00606927 10.6142 -0.00101446 9.99394 0.000490425 9.37368V7.62614C-0.00188177 7.00617 0.0043519 6.3862 0.0191895 5.7664L0.0251392 5.60151C0.0319389 5.41111 0.0404384 5.22242 0.0506379 4.99633C0.0931357 4.09111 0.235928 3.47488 0.445867 2.9326C0.659523 2.36534 0.994909 1.85181 1.42842 1.42815C1.85246 0.995301 2.36589 0.66026 2.93284 0.446431C3.47511 0.236488 4.09133 0.0936927 4.99653 0.0511941L5.6017 0.025695L5.76659 0.0214453C6.38637 0.00578267 7.00633 -0.00130118 7.6263 0.000195891L9.37381 0.0010458ZM8.50005 4.2509C7.93696 4.24294 7.37791 4.34697 6.85537 4.55695C6.33283 4.76693 5.85724 5.07867 5.45623 5.47406C5.05522 5.86944 4.73679 6.34059 4.51944 6.86011C4.3021 7.37963 4.19017 7.93717 4.19017 8.50033C4.19017 9.06349 4.3021 9.62103 4.51944 10.1406C4.73679 10.6601 5.05522 11.1312 5.45623 11.5266C5.85724 11.922 6.33283 12.2337 6.85537 12.4437C7.37791 12.6537 7.93696 12.7577 8.50005 12.7498C9.62717 12.7498 10.7081 12.302 11.5051 11.505C12.3021 10.708 12.7498 9.62704 12.7498 8.49991C12.7498 7.37278 12.3021 6.29181 11.5051 5.4948C10.7081 4.6978 9.62717 4.2509 8.50005 4.2509ZM8.50005 5.95084C8.83877 5.9446 9.17533 6.00592 9.49008 6.13121C9.80483 6.25651 10.0915 6.44327 10.3332 6.68058C10.575 6.9179 10.767 7.20101 10.8982 7.51338C11.0293 7.82575 11.0968 8.16112 11.0969 8.4999C11.097 8.83868 11.0295 9.17407 10.8985 9.48648C10.7675 9.7989 10.5755 10.0821 10.3338 10.3195C10.0921 10.5569 9.80558 10.7437 9.49087 10.8691C9.17616 10.9945 8.83962 11.0559 8.50091 11.0498C7.82464 11.0498 7.17607 10.7812 6.69787 10.303C6.21968 9.82477 5.95104 9.17619 5.95104 8.49991C5.95104 7.82363 6.21968 7.17505 6.69787 6.69685C7.17607 6.21864 7.82464 5.94999 8.50091 5.94999L8.50005 5.95084ZM12.9623 2.97594C12.6881 2.98692 12.4288 3.10357 12.2387 3.30146C12.0486 3.49935 11.9424 3.76313 11.9424 4.03756C11.9424 4.31198 12.0486 4.57577 12.2387 4.77366C12.4288 4.97155 12.6881 5.0882 12.9623 5.09917C13.2441 5.09917 13.5143 4.98723 13.7136 4.78798C13.9128 4.58873 14.0248 4.31849 14.0248 4.03671C14.0248 3.75493 13.9128 3.48468 13.7136 3.28543C13.5143 3.08618 13.2441 2.97424 12.9623 2.97424V2.97594Z" /></svg></span></a>
+                </div>
+                <div  class="bg-orange w-full min-h-[381px] translate-y-1/4 sm:translate-y-2/4 rounded-3xl flex justify-center items-center z-10 ">
+                    <div class="max-w-2xl py-10 px-5">
+                        <h2 data-aos="zoom-out" data-aos-duration="1000" class="bs-primaryWhite ff-rubi text-center font-medium text-[28px] sm:text-3xl lg:text-[40px] ">Your Path to Success Starts Here: Build Your CV Today</h2>
+                        <p data-aos="zoom-out" data-aos-duration="1000" class="bs-primaryWhite ff-rubi font-normal text-base pt-4 opacity-90 text-center px-6">Sit urna ornare sed quam molestie sit placerat convallis. Ac condiment mollis malesuada </p>
+                        <div data-aos="zoom-out" data-aos-duration="1000" class="pt-10 flex justify-center">
+                            <button class="text-base leading-normal ff-rubi bg-white text-black py-4 px-9 rounded-full font-semibold transition duration-300 hover:-translate-y-2" type="button">Get Started</button>
                         </div>
                     </div>
                 </div>
-                <ul data-aos="zoom-in" data-aos-duration="1000" class="flex  flex-col gap-5 md:pt-20">
-                        <li class="bs-primaryWhite text-base font-medium ff-rubi">Quick Links</li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">About</a></li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">We’ll help you</a></li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Testimonials</a></li>
-                </ul>
-                <ul data-aos="zoom-in" data-aos-duration="1000" class="flex flex-col gap-5 md:pt-20">
-                        <li class="bs-primaryWhite text-base font-medium ff-rubi">Support</li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi flex items-center gap-[6px] transition duration-300 hover:opacity-100 hover:text-white" href="tel:+" target="_blank" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M12.0179 9.53751L10.4304 9.35626C10.2438 9.33433 10.0546 9.355 9.87702 9.4167C9.69949 9.4784 9.53825 9.57954 9.40542 9.71251L8.25542 10.8625C6.48116 9.96014 5.03903 8.51801 4.13667 6.74376L5.29292 5.58751C5.56167 5.31876 5.69292 4.94376 5.64917 4.56251L5.46792 2.98751C5.43249 2.68262 5.28617 2.4014 5.05682 2.19741C4.82747 1.99342 4.53111 1.88089 4.22417 1.88126H3.14292C2.43667 1.88126 1.84917 2.46876 1.89292 3.17501C2.22417 8.51251 6.49292 12.775 11.8242 13.1063C12.5304 13.15 13.1179 12.5625 13.1179 11.8563V10.775C13.1242 10.1438 12.6492 9.61251 12.0179 9.53751Z" fill="#FAFAFA"/></svg></span> +012 345 67890</a></li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi flex items-center gap-[6px] transition duration-300 hover:opacity-100 hover:text-white" href="mailto:"><span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M12.5 2.5H2.5C1.8125 2.5 1.25625 3.0625 1.25625 3.75L1.25 11.25C1.25 11.9375 1.8125 12.5 2.5 12.5H12.5C13.1875 12.5 13.75 11.9375 13.75 11.25V3.75C13.75 3.0625 13.1875 2.5 12.5 2.5ZM12.5 5L7.5 8.125L2.5 5V3.75L7.5 6.875L12.5 3.75V5Z" fill="#FAFAFA"/></svg></span>Cvhawk@gmail.com</a></li>
-                </ul>
-                <ul data-aos="zoom-in" data-aos-duration="1000" class="flex flex-col gap-5 md:pt-20">
-                        <li class="bs-primaryWhite text-base font-medium ff-rubi">Legal</li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Terms & conditions</a></li>
-               </ul>
             </div>
-            <div data-aos="zoom-in" data-aos-duration="1000" class="flex items-center gap-8 pt-8 svgFill sm:hidden">
-                <a class="transition duration-300 hover:-translate-y-1" target="_blank" href="http://twitter.com"><span><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 28 24" fill="none"><path d="M25.804 1.76871C26.0929 1.77112 26.3756 1.8525 26.6215 2.00405C26.8675 2.1556 27.0673 2.37154 27.1993 2.62849C27.3313 2.88544 27.3905 3.17361 27.3705 3.46181C27.3505 3.75 27.2521 4.02723 27.0858 4.26348L25.49 6.5316C25.392 14.3207 22.787 19.6089 17.7469 22.2507C15.3451 23.4443 12.6915 24.0426 10.0099 23.9951C6.69401 24.0713 3.41735 23.2659 0.514696 21.6611C0.319433 21.5299 0.168521 21.3425 0.0818546 21.1238C-0.004812 20.9051 -0.0231644 20.6653 0.029217 20.4359C0.078256 20.2031 0.196719 19.9907 0.368972 19.8267C0.541225 19.6626 0.759171 19.5546 0.994049 19.517C2.944 19.2447 4.86417 18.7904 6.72944 18.1601C-1.62937 14.2931 0.193085 5.60046 0.989454 2.9311C1.06709 2.66608 1.21307 2.42615 1.41274 2.23538C1.61241 2.04462 1.85874 1.90973 2.12702 1.84425C2.39529 1.77877 2.67607 1.78501 2.94118 1.86234C3.20628 1.93967 3.44638 2.08537 3.63738 2.28481C6.08413 4.80598 9.32824 6.40233 12.8186 6.80268C12.7567 5.8647 12.9016 4.92458 13.2433 4.04886C13.585 3.17313 14.115 2.38321 14.7957 1.73501C15.9751 0.615757 17.5407 -0.0056661 19.1666 3.89365e-05C20.7925 0.00574397 22.3537 0.638138 23.5252 1.76564L25.804 1.76871ZM2.23148 20.8693C5.0831 22.2048 11.7665 23.6551 17.0363 20.8938C21.5618 18.5215 23.8912 13.6469 23.9601 6.40449C23.9632 6.16501 24.039 5.93214 24.1776 5.73677L25.8331 3.38135L25.7703 3.30018C24.977 3.28946 24.1944 3.27874 23.3965 3.30018C23.0854 3.29306 22.7876 3.17272 22.5588 2.96173C21.6772 2.06809 20.4802 1.55594 19.2251 1.53532C17.9699 1.5147 16.7568 1.98726 15.8463 2.85146C15.2615 3.40764 14.8244 4.10067 14.5744 4.86802C14.3244 5.63537 14.2694 6.45289 14.4144 7.2468C14.4411 7.3947 14.4337 7.54673 14.3928 7.69135C14.3519 7.83598 14.2787 7.96939 14.1785 8.08146C14.0826 8.19451 13.9604 8.28227 13.8226 8.33701C13.6848 8.39176 13.5357 8.41181 13.3883 8.39541C9.27355 8.10827 5.40991 6.31116 2.53931 3.34919C1.51322 6.5316 0.211462 14.2135 8.4646 17.232C8.63829 17.2944 8.79054 17.405 8.90342 17.551C9.0163 17.697 9.08509 17.8722 9.1017 18.056C9.12037 18.237 9.08707 18.4195 9.0057 18.5823C8.92433 18.745 8.79825 18.8812 8.64225 18.9749C6.6255 19.9583 4.45886 20.5986 2.23148 20.8693Z" fill="#FAFAFA"/></svg></span></a>
-                <a class="transition duration-300 hover:-translate-y-1" target="_blank" href="http://facebook.com"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="26" viewBox="0 0 16 26" fill="none"><path d="M14.575 1H10.975C9.3837 1 7.85758 1.63214 6.73236 2.75736C5.60714 3.88258 4.975 5.4087 4.975 7V10.6H1.375V15.4H4.975V25H9.775V15.4H13.375L14.575 10.6H9.775V7C9.775 6.68174 9.90143 6.37652 10.1265 6.15147C10.3515 5.92643 10.6567 5.8 10.975 5.8H14.575V1Z" stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
-                <a class="transition duration-300 hover:-translate-y-1" target="_blank" href="http://instagram.com"><span><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 17 17" fill="none"><radialGradient id="grad2" r="150%" cx="30%" cy="107%"><stop stop-color="#fdf497" offset="0" /><stop stop-color="#fdf497" offset="0.05" /><stop stop-color="#fd5949" offset="0.45" /><stop stop-color="#d6249f" offset="0.6" /><stop stop-color="#285AEB" offset="0.9" /></radialGradient><path fill="#FAFAFA" d="M9.37381 0.0010458C9.99405 -0.00133431 10.6143 0.00489948 11.2344 0.0197452L11.3993 0.025695C11.5896 0.0324948 11.7775 0.0409945 12.0044 0.0511941C12.9088 0.0936927 13.5258 0.236488 14.0673 0.446431C14.6282 0.662323 15.1008 0.954713 15.5734 1.4273C16.0055 1.85195 16.3399 2.36562 16.5534 2.9326C16.7633 3.47403 16.9061 4.09196 16.9486 4.99633C16.9588 5.22242 16.9673 5.41111 16.9741 5.60151L16.9792 5.7664C16.9943 6.38619 17.0008 7.00616 16.9988 7.62614L16.9996 8.26021V9.37368C17.0017 9.99393 16.9952 10.6142 16.9801 11.2343L16.975 11.3992C16.9682 11.5896 16.9597 11.7774 16.9495 12.0043C16.907 12.9087 16.7625 13.5258 16.5534 14.0672C16.3406 14.6348 16.0061 15.1489 15.5734 15.5734C15.1484 16.0054 14.6345 16.3398 14.0673 16.5534C13.5258 16.7633 12.9088 16.9061 12.0044 16.9486C11.7775 16.9588 11.5896 16.9673 11.3993 16.9741L11.2344 16.9792C10.6143 16.9943 9.99405 17.0008 9.37381 16.9988L8.73974 16.9996H7.62715C7.0069 17.0017 6.38666 16.9952 5.76659 16.9801L5.6017 16.975C5.39993 16.9677 5.1982 16.9592 4.99653 16.9495C4.09218 16.907 3.47511 16.7625 2.93284 16.5534C2.36565 16.3403 1.8519 16.0059 1.42757 15.5734C0.994978 15.1486 0.660247 14.6346 0.446718 14.0672C0.236778 13.5258 0.0939856 12.9087 0.0514878 12.0043C0.0420217 11.8027 0.0335221 11.6009 0.0259891 11.3992L0.0217394 11.2343C0.00606927 10.6142 -0.00101446 9.99394 0.000490425 9.37368V7.62614C-0.00188177 7.00617 0.0043519 6.3862 0.0191895 5.7664L0.0251392 5.60151C0.0319389 5.41111 0.0404384 5.22242 0.0506379 4.99633C0.0931357 4.09111 0.235928 3.47488 0.445867 2.9326C0.659523 2.36534 0.994909 1.85181 1.42842 1.42815C1.85246 0.995301 2.36589 0.66026 2.93284 0.446431C3.47511 0.236488 4.09133 0.0936927 4.99653 0.0511941L5.6017 0.025695L5.76659 0.0214453C6.38637 0.00578267 7.00633 -0.00130118 7.6263 0.000195891L9.37381 0.0010458ZM8.50005 4.2509C7.93696 4.24294 7.37791 4.34697 6.85537 4.55695C6.33283 4.76693 5.85724 5.07867 5.45623 5.47406C5.05522 5.86944 4.73679 6.34059 4.51944 6.86011C4.3021 7.37963 4.19017 7.93717 4.19017 8.50033C4.19017 9.06349 4.3021 9.62103 4.51944 10.1406C4.73679 10.6601 5.05522 11.1312 5.45623 11.5266C5.85724 11.922 6.33283 12.2337 6.85537 12.4437C7.37791 12.6537 7.93696 12.7577 8.50005 12.7498C9.62717 12.7498 10.7081 12.302 11.5051 11.505C12.3021 10.708 12.7498 9.62704 12.7498 8.49991C12.7498 7.37278 12.3021 6.29181 11.5051 5.4948C10.7081 4.6978 9.62717 4.2509 8.50005 4.2509ZM8.50005 5.95084C8.83877 5.9446 9.17533 6.00592 9.49008 6.13121C9.80483 6.25651 10.0915 6.44327 10.3332 6.68058C10.575 6.9179 10.767 7.20101 10.8982 7.51338C11.0293 7.82575 11.0968 8.16112 11.0969 8.4999C11.097 8.83868 11.0295 9.17407 10.8985 9.48648C10.7675 9.7989 10.5755 10.0821 10.3338 10.3195C10.0921 10.5569 9.80558 10.7437 9.49087 10.8691C9.17616 10.9945 8.83962 11.0559 8.50091 11.0498C7.82464 11.0498 7.17607 10.7812 6.69787 10.303C6.21968 9.82477 5.95104 9.17619 5.95104 8.49991C5.95104 7.82363 6.21968 7.17505 6.69787 6.69685C7.17607 6.21864 7.82464 5.94999 8.50091 5.94999L8.50005 5.95084ZM12.9623 2.97594C12.6881 2.98692 12.4288 3.10357 12.2387 3.30146C12.0486 3.49935 11.9424 3.76313 11.9424 4.03756C11.9424 4.31198 12.0486 4.57577 12.2387 4.77366C12.4288 4.97155 12.6881 5.0882 12.9623 5.09917C13.2441 5.09917 13.5143 4.98723 13.7136 4.78798C13.9128 4.58873 14.0248 4.31849 14.0248 4.03671C14.0248 3.75493 13.9128 3.48468 13.7136 3.28543C13.5143 3.08618 13.2441 2.97424 12.9623 2.97424V2.97594Z" /></svg></span></a>
+        </section>
+        <!-- footer  -->
+        <footer class="bg-secondaryBlack min-h-[450px] flex items-center flex-col justify-between overflow-hidden">
+            <div class="container px-5 pt-52">
+                <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-10">
+                    <div class="flex col-span-2 md:col-span-1 flex-col lg:col-span-3">
+                        <img data-aos="zoom-in" data-aos-duration="1000" class="w-48 h-40" src="./assets/images/logofooter.png" alt="logofooter">
+                        <p data-aos="zoom-in" data-aos-duration="1000" class="bs-primaryWhite ff-rubi font-normal text-base pt-4 opacity-90 max-w-sm">Sit urna ornare sed quam molestie sit placerat convallis. Ac condiment mollis malesuada </p>
+                        <div class="hidden sm:block">
+                            <div data-aos="zoom-in" data-aos-duration="1000" class="flex items-center gap-8 pt-8 svgFill">
+                                <a class="transition duration-300 hover:-translate-y-1" target="_blank" href="http://twitter.com"><span><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 28 24" fill="none"><path d="M25.804 1.76871C26.0929 1.77112 26.3756 1.8525 26.6215 2.00405C26.8675 2.1556 27.0673 2.37154 27.1993 2.62849C27.3313 2.88544 27.3905 3.17361 27.3705 3.46181C27.3505 3.75 27.2521 4.02723 27.0858 4.26348L25.49 6.5316C25.392 14.3207 22.787 19.6089 17.7469 22.2507C15.3451 23.4443 12.6915 24.0426 10.0099 23.9951C6.69401 24.0713 3.41735 23.2659 0.514696 21.6611C0.319433 21.5299 0.168521 21.3425 0.0818546 21.1238C-0.004812 20.9051 -0.0231644 20.6653 0.029217 20.4359C0.078256 20.2031 0.196719 19.9907 0.368972 19.8267C0.541225 19.6626 0.759171 19.5546 0.994049 19.517C2.944 19.2447 4.86417 18.7904 6.72944 18.1601C-1.62937 14.2931 0.193085 5.60046 0.989454 2.9311C1.06709 2.66608 1.21307 2.42615 1.41274 2.23538C1.61241 2.04462 1.85874 1.90973 2.12702 1.84425C2.39529 1.77877 2.67607 1.78501 2.94118 1.86234C3.20628 1.93967 3.44638 2.08537 3.63738 2.28481C6.08413 4.80598 9.32824 6.40233 12.8186 6.80268C12.7567 5.8647 12.9016 4.92458 13.2433 4.04886C13.585 3.17313 14.115 2.38321 14.7957 1.73501C15.9751 0.615757 17.5407 -0.0056661 19.1666 3.89365e-05C20.7925 0.00574397 22.3537 0.638138 23.5252 1.76564L25.804 1.76871ZM2.23148 20.8693C5.0831 22.2048 11.7665 23.6551 17.0363 20.8938C21.5618 18.5215 23.8912 13.6469 23.9601 6.40449C23.9632 6.16501 24.039 5.93214 24.1776 5.73677L25.8331 3.38135L25.7703 3.30018C24.977 3.28946 24.1944 3.27874 23.3965 3.30018C23.0854 3.29306 22.7876 3.17272 22.5588 2.96173C21.6772 2.06809 20.4802 1.55594 19.2251 1.53532C17.9699 1.5147 16.7568 1.98726 15.8463 2.85146C15.2615 3.40764 14.8244 4.10067 14.5744 4.86802C14.3244 5.63537 14.2694 6.45289 14.4144 7.2468C14.4411 7.3947 14.4337 7.54673 14.3928 7.69135C14.3519 7.83598 14.2787 7.96939 14.1785 8.08146C14.0826 8.19451 13.9604 8.28227 13.8226 8.33701C13.6848 8.39176 13.5357 8.41181 13.3883 8.39541C9.27355 8.10827 5.40991 6.31116 2.53931 3.34919C1.51322 6.5316 0.211462 14.2135 8.4646 17.232C8.63829 17.2944 8.79054 17.405 8.90342 17.551C9.0163 17.697 9.08509 17.8722 9.1017 18.056C9.12037 18.237 9.08707 18.4195 9.0057 18.5823C8.92433 18.745 8.79825 18.8812 8.64225 18.9749C6.6255 19.9583 4.45886 20.5986 2.23148 20.8693Z" fill="#FAFAFA"/></svg></span></a>
+                                <a class="transition duration-300 hover:-translate-y-1" target="_blank" href="http://facebook.com"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="26" viewBox="0 0 16 26" fill="none"> <path d="M14.575 1H10.975C9.3837 1 7.85758 1.63214 6.73236 2.75736C5.60714 3.88258 4.975 5.4087 4.975 7V10.6H1.375V15.4H4.975V25H9.775V15.4H13.375L14.575 10.6H9.775V7C9.775 6.68174 9.90143 6.37652 10.1265 6.15147C10.3515 5.92643 10.6567 5.8 10.975 5.8H14.575V1Z" stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+                                <a class="transition duration-300 hover:-translate-y-1" target="_blank" href="http://instagram.com"><span class="transition duration-300 hover:-translate-y-1"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 17 17" fill="none"><radialGradient id="grad1" r="150%" cx="30%" cy="107%"><stop stop-color="#fdf497" offset="0" /><stop stop-color="#fdf497" offset="0.05" /><stop stop-color="#fd5949" offset="0.45" /><stop stop-color="#d6249f" offset="0.6" /><stop stop-color="#285AEB" offset="0.9" /></radialGradient><path fill="#FAFAFA" d="M9.37381 0.0010458C9.99405 -0.00133431 10.6143 0.00489948 11.2344 0.0197452L11.3993 0.025695C11.5896 0.0324948 11.7775 0.0409945 12.0044 0.0511941C12.9088 0.0936927 13.5258 0.236488 14.0673 0.446431C14.6282 0.662323 15.1008 0.954713 15.5734 1.4273C16.0055 1.85195 16.3399 2.36562 16.5534 2.9326C16.7633 3.47403 16.9061 4.09196 16.9486 4.99633C16.9588 5.22242 16.9673 5.41111 16.9741 5.60151L16.9792 5.7664C16.9943 6.38619 17.0008 7.00616 16.9988 7.62614L16.9996 8.26021V9.37368C17.0017 9.99393 16.9952 10.6142 16.9801 11.2343L16.975 11.3992C16.9682 11.5896 16.9597 11.7774 16.9495 12.0043C16.907 12.9087 16.7625 13.5258 16.5534 14.0672C16.3406 14.6348 16.0061 15.1489 15.5734 15.5734C15.1484 16.0054 14.6345 16.3398 14.0673 16.5534C13.5258 16.7633 12.9088 16.9061 12.0044 16.9486C11.7775 16.9588 11.5896 16.9673 11.3993 16.9741L11.2344 16.9792C10.6143 16.9943 9.99405 17.0008 9.37381 16.9988L8.73974 16.9996H7.62715C7.0069 17.0017 6.38666 16.9952 5.76659 16.9801L5.6017 16.975C5.39993 16.9677 5.1982 16.9592 4.99653 16.9495C4.09218 16.907 3.47511 16.7625 2.93284 16.5534C2.36565 16.3403 1.8519 16.0059 1.42757 15.5734C0.994978 15.1486 0.660247 14.6346 0.446718 14.0672C0.236778 13.5258 0.0939856 12.9087 0.0514878 12.0043C0.0420217 11.8027 0.0335221 11.6009 0.0259891 11.3992L0.0217394 11.2343C0.00606927 10.6142 -0.00101446 9.99394 0.000490425 9.37368V7.62614C-0.00188177 7.00617 0.0043519 6.3862 0.0191895 5.7664L0.0251392 5.60151C0.0319389 5.41111 0.0404384 5.22242 0.0506379 4.99633C0.0931357 4.09111 0.235928 3.47488 0.445867 2.9326C0.659523 2.36534 0.994909 1.85181 1.42842 1.42815C1.85246 0.995301 2.36589 0.66026 2.93284 0.446431C3.47511 0.236488 4.09133 0.0936927 4.99653 0.0511941L5.6017 0.025695L5.76659 0.0214453C6.38637 0.00578267 7.00633 -0.00130118 7.6263 0.000195891L9.37381 0.0010458ZM8.50005 4.2509C7.93696 4.24294 7.37791 4.34697 6.85537 4.55695C6.33283 4.76693 5.85724 5.07867 5.45623 5.47406C5.05522 5.86944 4.73679 6.34059 4.51944 6.86011C4.3021 7.37963 4.19017 7.93717 4.19017 8.50033C4.19017 9.06349 4.3021 9.62103 4.51944 10.1406C4.73679 10.6601 5.05522 11.1312 5.45623 11.5266C5.85724 11.922 6.33283 12.2337 6.85537 12.4437C7.37791 12.6537 7.93696 12.7577 8.50005 12.7498C9.62717 12.7498 10.7081 12.302 11.5051 11.505C12.3021 10.708 12.7498 9.62704 12.7498 8.49991C12.7498 7.37278 12.3021 6.29181 11.5051 5.4948C10.7081 4.6978 9.62717 4.2509 8.50005 4.2509ZM8.50005 5.95084C8.83877 5.9446 9.17533 6.00592 9.49008 6.13121C9.80483 6.25651 10.0915 6.44327 10.3332 6.68058C10.575 6.9179 10.767 7.20101 10.8982 7.51338C11.0293 7.82575 11.0968 8.16112 11.0969 8.4999C11.097 8.83868 11.0295 9.17407 10.8985 9.48648C10.7675 9.7989 10.5755 10.0821 10.3338 10.3195C10.0921 10.5569 9.80558 10.7437 9.49087 10.8691C9.17616 10.9945 8.83962 11.0559 8.50091 11.0498C7.82464 11.0498 7.17607 10.7812 6.69787 10.303C6.21968 9.82477 5.95104 9.17619 5.95104 8.49991C5.95104 7.82363 6.21968 7.17505 6.69787 6.69685C7.17607 6.21864 7.82464 5.94999 8.50091 5.94999L8.50005 5.95084ZM12.9623 2.97594C12.6881 2.98692 12.4288 3.10357 12.2387 3.30146C12.0486 3.49935 11.9424 3.76313 11.9424 4.03756C11.9424 4.31198 12.0486 4.57577 12.2387 4.77366C12.4288 4.97155 12.6881 5.0882 12.9623 5.09917C13.2441 5.09917 13.5143 4.98723 13.7136 4.78798C13.9128 4.58873 14.0248 4.31849 14.0248 4.03671C14.0248 3.75493 13.9128 3.48468 13.7136 3.28543C13.5143 3.08618 13.2441 2.97424 12.9623 2.97424V2.97594Z" /></svg></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <ul data-aos="zoom-in" data-aos-duration="1000" class="flex  flex-col gap-5 md:pt-20">
+                            <li class="bs-primaryWhite text-base font-medium ff-rubi">Quick Links</li>
+                            <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
+                            <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">About</a></li>
+                            <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">We’ll help you</a></li>
+                            <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Testimonials</a></li>
+                    </ul>
+                    <ul data-aos="zoom-in" data-aos-duration="1000" class="flex flex-col gap-5 md:pt-20">
+                            <li class="bs-primaryWhite text-base font-medium ff-rubi">Support</li>
+                            <li><a class="bs-primaryWhite text-base font-normal ff-rubi flex items-center gap-[6px] transition duration-300 hover:opacity-100 hover:text-white" href="tel:+" target="_blank" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M12.0179 9.53751L10.4304 9.35626C10.2438 9.33433 10.0546 9.355 9.87702 9.4167C9.69949 9.4784 9.53825 9.57954 9.40542 9.71251L8.25542 10.8625C6.48116 9.96014 5.03903 8.51801 4.13667 6.74376L5.29292 5.58751C5.56167 5.31876 5.69292 4.94376 5.64917 4.56251L5.46792 2.98751C5.43249 2.68262 5.28617 2.4014 5.05682 2.19741C4.82747 1.99342 4.53111 1.88089 4.22417 1.88126H3.14292C2.43667 1.88126 1.84917 2.46876 1.89292 3.17501C2.22417 8.51251 6.49292 12.775 11.8242 13.1063C12.5304 13.15 13.1179 12.5625 13.1179 11.8563V10.775C13.1242 10.1438 12.6492 9.61251 12.0179 9.53751Z" fill="#FAFAFA"/></svg></span> +012 345 67890</a></li>
+                            <li><a class="bs-primaryWhite text-base font-normal ff-rubi flex items-center gap-[6px] transition duration-300 hover:opacity-100 hover:text-white" href="mailto:"><span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M12.5 2.5H2.5C1.8125 2.5 1.25625 3.0625 1.25625 3.75L1.25 11.25C1.25 11.9375 1.8125 12.5 2.5 12.5H12.5C13.1875 12.5 13.75 11.9375 13.75 11.25V3.75C13.75 3.0625 13.1875 2.5 12.5 2.5ZM12.5 5L7.5 8.125L2.5 5V3.75L7.5 6.875L12.5 3.75V5Z" fill="#FAFAFA"/></svg></span>Cvhawk@gmail.com</a></li>
+                    </ul>
+                    <ul data-aos="zoom-in" data-aos-duration="1000" class="flex flex-col gap-5 md:pt-20">
+                            <li class="bs-primaryWhite text-base font-medium ff-rubi">Legal</li>
+                            <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+                            <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Terms & conditions</a></li>
+                </ul>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1000" class="flex items-center gap-8 pt-8 svgFill sm:hidden">
+                    <a class="transition duration-300 hover:-translate-y-1" target="_blank" href="http://twitter.com"><span><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 28 24" fill="none"><path d="M25.804 1.76871C26.0929 1.77112 26.3756 1.8525 26.6215 2.00405C26.8675 2.1556 27.0673 2.37154 27.1993 2.62849C27.3313 2.88544 27.3905 3.17361 27.3705 3.46181C27.3505 3.75 27.2521 4.02723 27.0858 4.26348L25.49 6.5316C25.392 14.3207 22.787 19.6089 17.7469 22.2507C15.3451 23.4443 12.6915 24.0426 10.0099 23.9951C6.69401 24.0713 3.41735 23.2659 0.514696 21.6611C0.319433 21.5299 0.168521 21.3425 0.0818546 21.1238C-0.004812 20.9051 -0.0231644 20.6653 0.029217 20.4359C0.078256 20.2031 0.196719 19.9907 0.368972 19.8267C0.541225 19.6626 0.759171 19.5546 0.994049 19.517C2.944 19.2447 4.86417 18.7904 6.72944 18.1601C-1.62937 14.2931 0.193085 5.60046 0.989454 2.9311C1.06709 2.66608 1.21307 2.42615 1.41274 2.23538C1.61241 2.04462 1.85874 1.90973 2.12702 1.84425C2.39529 1.77877 2.67607 1.78501 2.94118 1.86234C3.20628 1.93967 3.44638 2.08537 3.63738 2.28481C6.08413 4.80598 9.32824 6.40233 12.8186 6.80268C12.7567 5.8647 12.9016 4.92458 13.2433 4.04886C13.585 3.17313 14.115 2.38321 14.7957 1.73501C15.9751 0.615757 17.5407 -0.0056661 19.1666 3.89365e-05C20.7925 0.00574397 22.3537 0.638138 23.5252 1.76564L25.804 1.76871ZM2.23148 20.8693C5.0831 22.2048 11.7665 23.6551 17.0363 20.8938C21.5618 18.5215 23.8912 13.6469 23.9601 6.40449C23.9632 6.16501 24.039 5.93214 24.1776 5.73677L25.8331 3.38135L25.7703 3.30018C24.977 3.28946 24.1944 3.27874 23.3965 3.30018C23.0854 3.29306 22.7876 3.17272 22.5588 2.96173C21.6772 2.06809 20.4802 1.55594 19.2251 1.53532C17.9699 1.5147 16.7568 1.98726 15.8463 2.85146C15.2615 3.40764 14.8244 4.10067 14.5744 4.86802C14.3244 5.63537 14.2694 6.45289 14.4144 7.2468C14.4411 7.3947 14.4337 7.54673 14.3928 7.69135C14.3519 7.83598 14.2787 7.96939 14.1785 8.08146C14.0826 8.19451 13.9604 8.28227 13.8226 8.33701C13.6848 8.39176 13.5357 8.41181 13.3883 8.39541C9.27355 8.10827 5.40991 6.31116 2.53931 3.34919C1.51322 6.5316 0.211462 14.2135 8.4646 17.232C8.63829 17.2944 8.79054 17.405 8.90342 17.551C9.0163 17.697 9.08509 17.8722 9.1017 18.056C9.12037 18.237 9.08707 18.4195 9.0057 18.5823C8.92433 18.745 8.79825 18.8812 8.64225 18.9749C6.6255 19.9583 4.45886 20.5986 2.23148 20.8693Z" fill="#FAFAFA"/></svg></span></a>
+                    <a class="transition duration-300 hover:-translate-y-1" target="_blank" href="http://facebook.com"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="26" viewBox="0 0 16 26" fill="none"><path d="M14.575 1H10.975C9.3837 1 7.85758 1.63214 6.73236 2.75736C5.60714 3.88258 4.975 5.4087 4.975 7V10.6H1.375V15.4H4.975V25H9.775V15.4H13.375L14.575 10.6H9.775V7C9.775 6.68174 9.90143 6.37652 10.1265 6.15147C10.3515 5.92643 10.6567 5.8 10.975 5.8H14.575V1Z" stroke="#FAFAFA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+                    <a class="transition duration-300 hover:-translate-y-1" target="_blank" href="http://instagram.com"><span><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 17 17" fill="none"><radialGradient id="grad2" r="150%" cx="30%" cy="107%"><stop stop-color="#fdf497" offset="0" /><stop stop-color="#fdf497" offset="0.05" /><stop stop-color="#fd5949" offset="0.45" /><stop stop-color="#d6249f" offset="0.6" /><stop stop-color="#285AEB" offset="0.9" /></radialGradient><path fill="#FAFAFA" d="M9.37381 0.0010458C9.99405 -0.00133431 10.6143 0.00489948 11.2344 0.0197452L11.3993 0.025695C11.5896 0.0324948 11.7775 0.0409945 12.0044 0.0511941C12.9088 0.0936927 13.5258 0.236488 14.0673 0.446431C14.6282 0.662323 15.1008 0.954713 15.5734 1.4273C16.0055 1.85195 16.3399 2.36562 16.5534 2.9326C16.7633 3.47403 16.9061 4.09196 16.9486 4.99633C16.9588 5.22242 16.9673 5.41111 16.9741 5.60151L16.9792 5.7664C16.9943 6.38619 17.0008 7.00616 16.9988 7.62614L16.9996 8.26021V9.37368C17.0017 9.99393 16.9952 10.6142 16.9801 11.2343L16.975 11.3992C16.9682 11.5896 16.9597 11.7774 16.9495 12.0043C16.907 12.9087 16.7625 13.5258 16.5534 14.0672C16.3406 14.6348 16.0061 15.1489 15.5734 15.5734C15.1484 16.0054 14.6345 16.3398 14.0673 16.5534C13.5258 16.7633 12.9088 16.9061 12.0044 16.9486C11.7775 16.9588 11.5896 16.9673 11.3993 16.9741L11.2344 16.9792C10.6143 16.9943 9.99405 17.0008 9.37381 16.9988L8.73974 16.9996H7.62715C7.0069 17.0017 6.38666 16.9952 5.76659 16.9801L5.6017 16.975C5.39993 16.9677 5.1982 16.9592 4.99653 16.9495C4.09218 16.907 3.47511 16.7625 2.93284 16.5534C2.36565 16.3403 1.8519 16.0059 1.42757 15.5734C0.994978 15.1486 0.660247 14.6346 0.446718 14.0672C0.236778 13.5258 0.0939856 12.9087 0.0514878 12.0043C0.0420217 11.8027 0.0335221 11.6009 0.0259891 11.3992L0.0217394 11.2343C0.00606927 10.6142 -0.00101446 9.99394 0.000490425 9.37368V7.62614C-0.00188177 7.00617 0.0043519 6.3862 0.0191895 5.7664L0.0251392 5.60151C0.0319389 5.41111 0.0404384 5.22242 0.0506379 4.99633C0.0931357 4.09111 0.235928 3.47488 0.445867 2.9326C0.659523 2.36534 0.994909 1.85181 1.42842 1.42815C1.85246 0.995301 2.36589 0.66026 2.93284 0.446431C3.47511 0.236488 4.09133 0.0936927 4.99653 0.0511941L5.6017 0.025695L5.76659 0.0214453C6.38637 0.00578267 7.00633 -0.00130118 7.6263 0.000195891L9.37381 0.0010458ZM8.50005 4.2509C7.93696 4.24294 7.37791 4.34697 6.85537 4.55695C6.33283 4.76693 5.85724 5.07867 5.45623 5.47406C5.05522 5.86944 4.73679 6.34059 4.51944 6.86011C4.3021 7.37963 4.19017 7.93717 4.19017 8.50033C4.19017 9.06349 4.3021 9.62103 4.51944 10.1406C4.73679 10.6601 5.05522 11.1312 5.45623 11.5266C5.85724 11.922 6.33283 12.2337 6.85537 12.4437C7.37791 12.6537 7.93696 12.7577 8.50005 12.7498C9.62717 12.7498 10.7081 12.302 11.5051 11.505C12.3021 10.708 12.7498 9.62704 12.7498 8.49991C12.7498 7.37278 12.3021 6.29181 11.5051 5.4948C10.7081 4.6978 9.62717 4.2509 8.50005 4.2509ZM8.50005 5.95084C8.83877 5.9446 9.17533 6.00592 9.49008 6.13121C9.80483 6.25651 10.0915 6.44327 10.3332 6.68058C10.575 6.9179 10.767 7.20101 10.8982 7.51338C11.0293 7.82575 11.0968 8.16112 11.0969 8.4999C11.097 8.83868 11.0295 9.17407 10.8985 9.48648C10.7675 9.7989 10.5755 10.0821 10.3338 10.3195C10.0921 10.5569 9.80558 10.7437 9.49087 10.8691C9.17616 10.9945 8.83962 11.0559 8.50091 11.0498C7.82464 11.0498 7.17607 10.7812 6.69787 10.303C6.21968 9.82477 5.95104 9.17619 5.95104 8.49991C5.95104 7.82363 6.21968 7.17505 6.69787 6.69685C7.17607 6.21864 7.82464 5.94999 8.50091 5.94999L8.50005 5.95084ZM12.9623 2.97594C12.6881 2.98692 12.4288 3.10357 12.2387 3.30146C12.0486 3.49935 11.9424 3.76313 11.9424 4.03756C11.9424 4.31198 12.0486 4.57577 12.2387 4.77366C12.4288 4.97155 12.6881 5.0882 12.9623 5.09917C13.2441 5.09917 13.5143 4.98723 13.7136 4.78798C13.9128 4.58873 14.0248 4.31849 14.0248 4.03671C14.0248 3.75493 13.9128 3.48468 13.7136 3.28543C13.5143 3.08618 13.2441 2.97424 12.9623 2.97424V2.97594Z" /></svg></span></a>
+                </div>
             </div>
-        </div>
-        <div class="flex flex-col w-full pt-14">
-            <span class="w-full h-[0.5px] sm:h-[1px] flex bg-white opacity-20"></span>
-            <p data-aos="zoom-out" data-aos-duration="1000" class="bs-primaryWhite text-sm ff-rubi font-normal text-center py-5">Copyright@CVhawk2023</p>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./assets/js/app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        $('.headerSlider').slick({
-            dots: true,infinite: true,speed: 300,centerPadding: "40px",slidesToShow: 3,slidesToScroll: 3,arrows:false,
-            responsive: [
-                { breakpoint: 1140,
-                    settings: {
-                        slidesToShow: 2.3, }},
-                { breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 4.5, }},
-                { breakpoint: 866,
-                    settings: {
-                        slidesToShow: 4,
-                        slidesToScroll: 2 } },
-                { breakpoint: 776,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 4 } },
-                { breakpoint: 576,
-                    settings: {
-                        slidesToShow: 2.5,
-                        slidesToScroll: 4 } },
-                { breakpoint: 480,
-                    settings: {
-                        variableWidth:true,
-                        slidesToShow: 2,
-                        slidesToScroll: 4,
-                        arrows:false,} }
-                 ]
-             });
-    </script>
-    <script>
-        $('.mobileViewSlider').slick({
-            centerMode: true,centerPadding: '60px',slidesToShow: 1,infinite: true,focusOnSelect: true,variableWidth: true,dots:true
-        });
-    </script>
-    <script>
-        $('.sec5Slider').slick({
-            centerMode: true,centerPadding: '60px',slidesToShow: 1,infinite: true,focusOnSelect: true,variableWidth: true,arrows:true,prevArrow:".prev",nextArrow:".next",dots:false
-        });
-    </script>
-    <script>
-        AOS.init(
-           {
-            once:true
-           }     
-        );
-      </script>
-</body>
-</html>
+            <div class="flex flex-col w-full pt-14">
+                <span class="w-full h-[0.5px] sm:h-[1px] flex bg-white opacity-20"></span>
+                <p data-aos="zoom-out" data-aos-duration="1000" class="bs-primaryWhite text-sm ff-rubi font-normal text-center py-5">Copyright@CVhawk2023</p>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./assets/js/app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            $('.headerSlider').slick({
+                dots: true,infinite: true,speed: 300,centerPadding: "40px",slidesToShow: 3,slidesToScroll: 3,arrows:false,
+                responsive: [
+                    { breakpoint: 1140,
+                        settings: {
+                            slidesToShow: 2.3, }},
+                    { breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 4.5, }},
+                    { breakpoint: 866,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 2 } },
+                    { breakpoint: 776,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 4 } },
+                    { breakpoint: 576,
+                        settings: {
+                            slidesToShow: 2.5,
+                            slidesToScroll: 4 } },
+                    { breakpoint: 480,
+                        settings: {
+                            variableWidth:true,
+                            slidesToShow: 2,
+                            slidesToScroll: 4,
+                            arrows:false,} }
+                    ]
+                });
+        </script>
+        <script>
+            $('.mobileViewSlider').slick({
+                centerMode: true,centerPadding: '60px',slidesToShow: 1,infinite: true,focusOnSelect: true,variableWidth: true,dots:true
+            });
+        </script>
+        <script>
+            $('.sec5Slider').slick({
+                centerMode: true,centerPadding: '60px',slidesToShow: 1,infinite: true,focusOnSelect: true,variableWidth: true,arrows:true,prevArrow:".prev",nextArrow:".next",dots:false
+            });
+        </script>
+        <script>
+            AOS.init(
+            {
+                once:true
+            }     
+            );
+        </script>
+    </body>
+    </html>
