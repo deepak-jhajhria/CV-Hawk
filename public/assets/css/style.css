@@ -46,16 +46,16 @@ html {
   display: none !important;
   transition: 0.4s;
 }
-.Btn{
+.Btn {
   border: 1px solid var(--orange);
   transition: 0.3s;
 }
-.Btn:hover{
+.Btn:hover {
   color: var(--orange);
   border: 1px solid var(--orange);
   background: transparent;
 }
-.slider-card{
+.slider-card {
   border: 1px solid rgba(0, 0, 0, 0.03);
   box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.04);
 }
@@ -64,7 +64,7 @@ html {
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.04);
 }
-.headerSlider .slick-track{
+.headerSlider .slick-track {
   margin: 0;
 }
 .headerSlider .slick-slide {
@@ -74,21 +74,43 @@ html {
 .headerSlider .slick-dots {
   bottom: -40px;
 }
-.headerSlider .slick-dots li.slick-active button:before {
-  opacity: 1;
-  color: var(--orange);
+.headerSlider .slick-dots li.slick-active {
+  width: 23px !important;
+  height: 6px !important;
+  border-radius: 6px !important;
+  background: var(--orange) !important;
 }
 .headerSlider .slick-dots li {
-  width: 30px;
+  background: #E6E5E5 !important;
+  width: 16px !important;
+  border-radius: 6px !important;
+  height: 5px !important;
+  margin-top: 40px;
+}
+.headerSlider .slick-dots li button {
+  content: unset !important;
 }
 .headerSlider .slick-dots li button:before {
-  height: 11px;
-  width: 31px;
-  background-color: var(--orange);
-  position: absolute;
-  left: 50%;
-  border-radius: 34px;
-  font-size: 0;
+  content: unset !important;
+}
+.mobileViewSlider .slick-dots li.slick-active {
+  width: 23px !important;
+  height: 6px !important;
+  border-radius: 6px !important;
+  background: var(--orange) !important;
+}
+.mobileViewSlider .slick-dots li {
+  background: #E6E5E5 !important;
+  width: 16px !important;
+  border-radius: 6px !important;
+  height: 5px !important;
+  margin-top: 40px;
+}
+.mobileViewSlider .slick-dots li button {
+  content: unset !important;
+}
+.mobileViewSlider .slick-dots li button:before {
+  content: unset !important;
 }
 .underLine::after {
   display: flex;
@@ -123,7 +145,7 @@ html {
   height: 27.388px;
   transform: rotate(-44.437deg);
 }
-.mobileViewSlider .slick-slide{
+.mobileViewSlider .slick-slide {
   margin-left: 10px;
   margin-right: 15px;
 }
@@ -145,20 +167,24 @@ html {
   background-position: 50% 20%;
   background-repeat: no-repeat;
 }
+.svgFill a:hover span svg path {
+  fill: var(--orange);
+}
 @keyframes bounceOnse {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(-5%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
   }
 
   50% {
     transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
   }
 }
 
 .animate-bounceOnse {
-  animation: bounceOnse 1s ;
+  animation: bounceOnse 1s;
 }
 
 @media (min-width: 640px) {
@@ -191,7 +217,7 @@ html {
     width: 84.808px;
     height: 105px;
   }
-  .animate-shakeRight{
+  .animate-shakeRight {
     animation: shakeRight 5s infinite;
   }
   @keyframes shakeRight {
@@ -205,7 +231,7 @@ html {
       transform: rotate(-30deg);
     }
   }
-  .animate-shakeLeft{
+  .animate-shakeLeft {
     animation: shakeLeft 5s infinite;
   }
   @keyframes shakeLeft {
@@ -219,7 +245,7 @@ html {
       transform: rotate(30deg);
     }
   }
-  .animate-shakeup{
+  .animate-shakeup {
     animation: shakeUp 3s infinite;
   }
   @keyframes shakeUp {
@@ -276,7 +302,7 @@ html {
   }
   .doubleCircle {
     width: 68px;
-    height: 84px; 
+    height: 84px;
   }
 }
 @media (max-width: 1024px) {
