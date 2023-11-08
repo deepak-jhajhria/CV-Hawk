@@ -25,9 +25,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body class="relative overflow-hidden">
-        <!-- back-to-top -->
-        <div class="fixed bottom-0 right-0 z-50 transition duration-300  cursor-grab hover:-translate-y-2"><img src="./assets/images/up-arrow.png" alt="backtotop" id="backtops" class="backto-top  m-4 " onclick="backtop()"> </div>
-            <!-- preloder -->
+    <!-- back-to-top -->
+    <div class="fixed bottom-0 right-0 z-50 transition duration-300  cursor-grab hover:-translate-y-2"><img src="./assets/images/up-arrow.png" alt="backtotop" id="backtops" class="backto-top  m-4 " onclick="backtop()"> </div>
+    <!-- preloder -->
     <div id="preloder" class="min-h-screen bg-white flex justify-center items-center fixed top-0 left-0 w-full z-[70]">
         <span class="animate-pulse text-5xl text-black font-semibold ff-rubi">Please Wait..</span>
     </div>
@@ -51,7 +51,7 @@
         </nav>
         <div class="container px-5 sm:px-10 relative overflow-hidden">
             <div class="max-w-[766px] mx-auto pt-8 sm:pt-20 lg:pt-40 sm:min-h-[589px] lg:min-h-[704px]">
-                <h1 data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="2000" class="text-black text-center ff-rubi font-semibold text-[32px] sm:text-[40px] lg:text-[52px] leading-normal">Unlock Your Potential with a Professional <span> CV Builder</span></h1>
+                <h1 data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="2000" class="text-black text-center ff-rubi font-semibold text-[32px] sm:text-[40px] lg:text-[52px] leading-normal">Unlock Your Potential with a Professional <span class="relative after:absolute after:left-0 after:-bottom-1 after:rounded-2xl after:w-full after:h-2 after:bg-gradient-to-t"> CV Builder</span></h1>
                 <p data-aos="flip-down" data-aos-duration="1000" data-aos-delay="2000" class="text-center ff-rubi font-normal text-base text-black opacity-70 max-w-[565px] mx-auto pt-[14px]"> Our user-friendly platform guides you through the process, allowing you to customize every section to align with your unique career goals.</p>
                 <div data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="2000" class="flex items-center gap-4 justify-center pt-10 flex-col min-[380px]:flex-row">
                     <button class="text-base leading-normal ff-rubi bg-orange-500 text-white Btn py-4 px-9 rounded-full hover:animate-pulse" type="button">Get Started</button>
@@ -109,7 +109,7 @@
                     <p data-aos="zoom-out" data-aos-duration="1000" class="text-black opacity-90 text-base ff-rubi font-normal lg:max-w-lg mt-10">Theme's robust features allow you to showcase your skills, accomplishments, and experiences in a captivating way. From customizing the layout to selecting the perfect color scheme, every detail can be tailored to match your style and industry. </p>
                 </div>
             </div>
-            <span class="absolute left-1/4 lg:left-[30%]  ellipse1 top-[12%] lg:top-[18%] opacity-50"></span>
+            <span class="absolute left-1/4 lg:left-[30%]  ellipse1 top-[12%] lg:top-[18%] opacity-50 -z-10"></span>
         </div>
         <!-- position images  -->
         <img class="absolute md:block hidden top-[10%] lg:top-36 -rotate-[20deg] shadow-lg rounded-xl left-0 lg:left-20 cleanImg -z-10 animate-shakeRight" src="./assets/images/CleanImg.png" alt="CleanImg1">
@@ -126,7 +126,7 @@
     <section class="bg-secondaryWhite min-h-[589px] flex items-center relative overflow-hidden">
         <div class="container px-5 sm:px-10 grid grid-cols-1 md:grid-cols-2 items-center py-10 md:py-0">
             <div class="flex flex-col md:max-w-lg ">
-                <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-4xl bs-primaryBlack ff-rubi font-medium pr-3">Powerful Tools to Create <span class="bs-orange"> Your Standout CV</span></h2>
+                <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-4xl bs-primaryBlack ff-rubi font-medium pr-3">Powerful Tools to Create <span class="bs-orange relative after:absolute after:left-0 after:-bottom-1 after:rounded-2xl after:w-full after:h-2 after:bg-gradient2"> Your <span class="relative after:absolute after:left-0 after:-bottom-[3px] after:rounded-2xl after:w-full after:h-[7px] after:bg-gradient2">Standout CV</span></span></h2>
                 <p data-aos="zoom-out" data-aos-duration="1000" class="text-black ff-rubi font-normal text-base pt-6 opacity-80">Customize your CV to reflect your<span class="font-semibold">unique personality</span> and professional brand. Choose from a wide range of <span class="font-semibold">professionally</span> designed templates and layouts, allowing you to find the <span class="font-semibold">perfect style</span> that aligns with your industry and career goals.</p>
             </div>
             <div data-aos="fade-left" data-aos-duration="1000" class="md:mr-14 mt-10 md:mt-0">
@@ -162,21 +162,15 @@
                 <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium leading-8">20+ <span class="bs-orange">Professionally designed</span> resume sections</h2>
                 <p data-aos="zoom-out" data-aos-duration="1000" class="text-black ff-rubi font-normal text-base pt-4 opacity-80 max-w-lg">Express your professional history without limitations or worry about how your resume looks</p>
                 <div data-aos="zoom-out" data-aos-duration="1000" class="flex items-center pt-6 gap-3">
-                    <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
-                            <path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /> </svg>
-                    </span>
+                    <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /> </svg></span>
                     <p class="text-black ff-rubi font-normal text-base opacity-90">Professional sections like <span class="font-semibold">Experience, Skills, Summary</span> and <span class="font-semibold">Education</span></p>
                 </div>
                 <div data-aos="zoom-out" data-aos-duration="1000" class="flex items-center pt-4 gap-3">
-                    <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
-                            <path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg>
-                    </span>
+                    <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg></span>
                     <p class="text-black ff-rubi font-normal text-base opacity-90">Professional sections like <span class="font-semibold">Strengths, Quotes, Books, Interests</span> and <span class="font-semibold">My Time.</span></p>
                 </div>
                 <div data-aos="zoom-out" data-aos-duration="1000" class="flex  pt-4 gap-3">
-                    <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
-                            <path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg>
-                    </span>
+                    <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg></span>
                     <p class="text-black ff-rubi font-normal text-base opacity-90">Other sections like <span class="font-semibold">Certifications, Awards, Achievements, Language</span> and <span class="font-semibold">Reference</span></p>
                 </div>
                 <div data-aos="zoom-out" data-aos-duration="1000" class="pt-11">
@@ -194,7 +188,7 @@
         <div class="container grid grid-cols-1 md:grid-cols-2 items-center gap-10 px-5 sm:px-10 py-24 md:py-0">
             <img data-aos="zoom-out" data-aos-duration="2000" src="./assets/images/sec4img1.png" alt="sec2img1">
             <div class="flex flex-col order-first md:order-last">
-                <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium md:pr-3 max-w-lg">Resume trailoring based on the <span class="bs-orange underLine">job you’re applying</span> for</h2>
+                <h2 data-aos="zoom-out" data-aos-duration="1000" class="text-[28px] sm:text-3xl lg:text-[40px] bs-primaryBlack ff-rubi font-medium md:pr-3 max-w-lg">Resume trailoring based on the <span class="bs-orange relative after:absolute after:left-0 after:-bottom-2 after:rounded-2xl after:w-full after:h-2 after:bg-gradient2">job you’re applying</span> for</h2>
                 <p data-aos="zoom-out" data-aos-duration="1000" class="text-black ff-rubi font-normal text-base pt-4 opacity-80 max-w-lg">Quickly ensure that your resume covers key skills and experience by pasting the job ad you’re applying for</p>
                 <div data-aos="zoom-out" data-aos-duration="1000" class="flex items-center pt-6 gap-3">
                     <span class="min-w-[24px] h-6 flex items-center justify-center bg-orange rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M7.12328 16.1658L2.20703 11.2495L4.44745 9.00911L7.12328 11.6929L14.9449 3.86328L17.1854 6.1037L7.12328 16.1658Z" fill="#FAFAFA" /></svg></span>
@@ -415,14 +409,10 @@
                         </div>
                     </div>
             </div>
-            <button class="prev absolute left-[32%] md:left-14 bottom-[5%] md:top-[6%] slick-arrow"><span class="w-10 sliderBtn h-10 flex rounded-full transition duration-300 border border-orange-500 items-center justify-center "><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
-                <path d="M17.5484 4.77911L8.34203 14.2235C8.18034 14.3894 8.08984 14.6119 8.08984 14.8436C8.08984 15.0752 8.18034 15.2977 8.34203 15.4636L17.5484 24.9116C17.6237 24.9889 17.7138 25.0504 17.8132 25.0924C17.9127 25.1344 18.0196 25.156 18.1276 25.156C18.2355 25.156 18.3424 25.1344 18.4419 25.0924C18.5414 25.0504 18.6314 24.9889 18.7067 24.9116C18.8617 24.7529 18.9484 24.5399 18.9484 24.3182C18.9484 24.0964 18.8617 23.8834 18.7067 23.7248L10.0493 14.8436L18.7067 5.9641C18.8612 5.80554 18.9476 5.59295 18.9476 5.37161C18.9476 5.15027 18.8612 4.93768 18.7067 4.77911C18.6314 4.70175 18.5414 4.64027 18.4419 4.59828C18.3424 4.5563 18.2355 4.53467 18.1276 4.53467C18.0196 4.53467 17.9127 4.5563 17.8132 4.59828C17.7138 4.64027 17.6237 4.70175 17.5484 4.77911Z" fill="#F36A3E"/>
-              </svg></span></button>
-            <button class="next absolute right-[32%] md:right-14 bottom-[5%] md:top-[6%] slick-arrow"><span class="w-10 sliderBtn h-10 flex rounded-full transition duration-300 border border-orange-500 items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none">
-                <rect width="28.4256" height="28.4256" transform="matrix(-1 0 0 1 28.75 0.632568)" fill="#F36AE"/>
-                <path d="M11.8344 4.77911L21.0408 14.2235C21.2025 14.3894 21.293 14.6119 21.293 14.8436C21.293 15.0752 21.2025 15.2977 21.0408 15.4636L11.8344 24.9116C11.7591 24.9889 11.669 25.0504 11.5696 25.0924C11.4701 25.1344 11.3632 25.156 11.2553 25.156C11.1473 25.156 11.0404 25.1344 10.9409 25.0924C10.8415 25.0504 10.7514 24.9889 10.6761 24.9116C10.5211 24.7529 10.4344 24.5399 10.4344 24.3182C10.4344 24.0964 10.5211 23.8834 10.6761 23.7248L19.3335 14.8436L10.6761 5.9641C10.5217 5.80554 10.4352 5.59295 10.4352 5.37161C10.4352 5.15027 10.5217 4.93768 10.6761 4.77911C10.7514 4.70175 10.8415 4.64027 10.9409 4.59828C11.0404 4.5563 11.1473 4.53467 11.2553 4.53467C11.3632 4.53467 11.4701 4.5563 11.5696 4.59828C11.669 4.64027 11.7591 4.70175 11.8344 4.77911Z" fill="#F36A3E"/>
-              </svg></span></button>
+            <button class="prev absolute left-[32%] md:left-14 bottom-[5%] md:top-[6%] slick-arrow"><span class="w-10 sliderBtn h-10 flex rounded-full transition duration-300 border border-orange-500 items-center justify-center "><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M17.5484 4.77911L8.34203 14.2235C8.18034 14.3894 8.08984 14.6119 8.08984 14.8436C8.08984 15.0752 8.18034 15.2977 8.34203 15.4636L17.5484 24.9116C17.6237 24.9889 17.7138 25.0504 17.8132 25.0924C17.9127 25.1344 18.0196 25.156 18.1276 25.156C18.2355 25.156 18.3424 25.1344 18.4419 25.0924C18.5414 25.0504 18.6314 24.9889 18.7067 24.9116C18.8617 24.7529 18.9484 24.5399 18.9484 24.3182C18.9484 24.0964 18.8617 23.8834 18.7067 23.7248L10.0493 14.8436L18.7067 5.9641C18.8612 5.80554 18.9476 5.59295 18.9476 5.37161C18.9476 5.15027 18.8612 4.93768 18.7067 4.77911C18.6314 4.70175 18.5414 4.64027 18.4419 4.59828C18.3424 4.5563 18.2355 4.53467 18.1276 4.53467C18.0196 4.53467 17.9127 4.5563 17.8132 4.59828C17.7138 4.64027 17.6237 4.70175 17.5484 4.77911Z" fill="#F36A3E"/></svg></span></button>
+            <button class="next absolute right-[32%] md:right-14 bottom-[5%] md:top-[6%] slick-arrow"><span class="w-10 sliderBtn h-10 flex rounded-full transition duration-300 border border-orange-500 items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="30" viewBox="0 0 29 30" fill="none"><rect width="28.4256" height="28.4256" transform="matrix(-1 0 0 1 28.75 0.632568)" fill="#F36AE"/><path d="M11.8344 4.77911L21.0408 14.2235C21.2025 14.3894 21.293 14.6119 21.293 14.8436C21.293 15.0752 21.2025 15.2977 21.0408 15.4636L11.8344 24.9116C11.7591 24.9889 11.669 25.0504 11.5696 25.0924C11.4701 25.1344 11.3632 25.156 11.2553 25.156C11.1473 25.156 11.0404 25.1344 10.9409 25.0924C10.8415 25.0504 10.7514 24.9889 10.6761 24.9116C10.5211 24.7529 10.4344 24.5399 10.4344 24.3182C10.4344 24.0964 10.5211 23.8834 10.6761 23.7248L19.3335 14.8436L10.6761 5.9641C10.5217 5.80554 10.4352 5.59295 10.4352 5.37161C10.4352 5.15027 10.5217 4.93768 10.6761 4.77911C10.7514 4.70175 10.8415 4.64027 10.9409 4.59828C11.0404 4.5563 11.1473 4.53467 11.2553 4.53467C11.3632 4.53467 11.4701 4.5563 11.5696 4.59828C11.669 4.64027 11.7591 4.70175 11.8344 4.77911Z" fill="#F36A3E"/></svg></span></button>
         </div>
+        <span class="absolute top-[2%] right-1/4 md:left-[32%] hidden sm:block"><svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84" fill="none"><g clip-path="url(#clip0_24708_9121)"><path opacity="0.1" d="M18.459 36.75C22.0932 36.75 25.6459 37.8277 28.6676 39.8467C31.6894 41.8658 34.0445 44.7356 35.4353 48.0932C36.826 51.4508 37.1899 55.1454 36.4809 58.7098C35.7719 62.2742 34.0219 65.5483 31.4521 68.1181C28.8823 70.6879 25.6082 72.4379 22.0438 73.1469C18.4794 73.8559 14.7848 73.4921 11.4272 72.1013C8.0696 70.7105 5.19982 68.3554 3.18075 65.3336C1.16167 62.3119 0.084 58.7592 0.084 55.125L0 52.5C0 42.7533 3.87186 33.4058 10.7638 26.5138C17.6558 19.6219 27.0033 15.75 36.75 15.75V26.25C33.3013 26.2407 29.8849 26.9152 26.6985 28.2345C23.5121 29.5538 20.6188 31.4916 18.186 33.936C17.2404 34.8798 16.3682 35.8942 15.5767 36.9705C16.5165 36.8235 17.4773 36.7448 18.4538 36.7448L18.459 36.75ZM65.709 36.75C69.3432 36.75 72.8959 37.8277 75.9176 39.8467C78.9394 41.8658 81.2945 44.7356 82.6853 48.0932C84.076 51.4508 84.4399 55.1454 83.7309 58.7098C83.0219 62.2742 81.2719 65.5483 78.7021 68.1181C76.1323 70.6879 72.8582 72.4379 69.2938 73.1469C65.7294 73.8559 62.0348 73.4921 58.6772 72.1013C55.3196 70.7105 52.4498 68.3554 50.4307 65.3336C48.4117 62.3119 47.334 58.7592 47.334 55.125L47.25 52.5C47.25 42.7533 51.1219 33.4058 58.0138 26.5138C64.9058 19.6219 74.2533 15.75 84 15.75V26.25C80.5513 26.2407 77.1349 26.9152 73.9485 28.2345C70.7621 29.5538 67.8688 31.4916 65.436 33.936C64.4904 34.8798 63.6182 35.8942 62.8268 36.9705C63.7665 36.8235 64.7272 36.75 65.709 36.75Z" fill="#F36A3E"/></g><defs><clipPath id="clip0_24708_9121"><rect width="84" height="84" fill="white"/></clipPath></defs></svg></span>
     </section>
     <!-- section 6 -->
     <section>
@@ -526,20 +516,20 @@
                 </div>
                 <ul data-aos="zoom-in" data-aos-duration="1000" class="flex  flex-col gap-5 md:pt-20">
                         <li class="bs-primaryWhite text-base font-medium ff-rubi">Quick Links</li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90" href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90" href="#" target="_blank" rel="noopener noreferrer">About</a></li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90" href="#" target="_blank" rel="noopener noreferrer">We’ll help you</a></li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90" href="#" target="_blank" rel="noopener noreferrer">Testimonials</a></li>
+                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
+                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">About</a></li>
+                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">We’ll help you</a></li>
+                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Testimonials</a></li>
                 </ul>
                 <ul data-aos="zoom-in" data-aos-duration="1000" class="flex flex-col gap-5 md:pt-20">
                         <li class="bs-primaryWhite text-base font-medium ff-rubi">Support</li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi flex items-center gap-[6px]" href="tel:+" target="_blank" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M12.0179 9.53751L10.4304 9.35626C10.2438 9.33433 10.0546 9.355 9.87702 9.4167C9.69949 9.4784 9.53825 9.57954 9.40542 9.71251L8.25542 10.8625C6.48116 9.96014 5.03903 8.51801 4.13667 6.74376L5.29292 5.58751C5.56167 5.31876 5.69292 4.94376 5.64917 4.56251L5.46792 2.98751C5.43249 2.68262 5.28617 2.4014 5.05682 2.19741C4.82747 1.99342 4.53111 1.88089 4.22417 1.88126H3.14292C2.43667 1.88126 1.84917 2.46876 1.89292 3.17501C2.22417 8.51251 6.49292 12.775 11.8242 13.1063C12.5304 13.15 13.1179 12.5625 13.1179 11.8563V10.775C13.1242 10.1438 12.6492 9.61251 12.0179 9.53751Z" fill="#FAFAFA"/></svg></span> +012 345 67890</a></li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi flex items-center gap-[6px]" href="mailto:"><span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M12.5 2.5H2.5C1.8125 2.5 1.25625 3.0625 1.25625 3.75L1.25 11.25C1.25 11.9375 1.8125 12.5 2.5 12.5H12.5C13.1875 12.5 13.75 11.9375 13.75 11.25V3.75C13.75 3.0625 13.1875 2.5 12.5 2.5ZM12.5 5L7.5 8.125L2.5 5V3.75L7.5 6.875L12.5 3.75V5Z" fill="#FAFAFA"/></svg></span>Cvhawk@gmail.com</a></li>
+                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi flex items-center gap-[6px] transition duration-300 hover:opacity-100 hover:text-white" href="tel:+" target="_blank" rel="noopener noreferrer"><span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M12.0179 9.53751L10.4304 9.35626C10.2438 9.33433 10.0546 9.355 9.87702 9.4167C9.69949 9.4784 9.53825 9.57954 9.40542 9.71251L8.25542 10.8625C6.48116 9.96014 5.03903 8.51801 4.13667 6.74376L5.29292 5.58751C5.56167 5.31876 5.69292 4.94376 5.64917 4.56251L5.46792 2.98751C5.43249 2.68262 5.28617 2.4014 5.05682 2.19741C4.82747 1.99342 4.53111 1.88089 4.22417 1.88126H3.14292C2.43667 1.88126 1.84917 2.46876 1.89292 3.17501C2.22417 8.51251 6.49292 12.775 11.8242 13.1063C12.5304 13.15 13.1179 12.5625 13.1179 11.8563V10.775C13.1242 10.1438 12.6492 9.61251 12.0179 9.53751Z" fill="#FAFAFA"/></svg></span> +012 345 67890</a></li>
+                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi flex items-center gap-[6px] transition duration-300 hover:opacity-100 hover:text-white" href="mailto:"><span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M12.5 2.5H2.5C1.8125 2.5 1.25625 3.0625 1.25625 3.75L1.25 11.25C1.25 11.9375 1.8125 12.5 2.5 12.5H12.5C13.1875 12.5 13.75 11.9375 13.75 11.25V3.75C13.75 3.0625 13.1875 2.5 12.5 2.5ZM12.5 5L7.5 8.125L2.5 5V3.75L7.5 6.875L12.5 3.75V5Z" fill="#FAFAFA"/></svg></span>Cvhawk@gmail.com</a></li>
                 </ul>
                 <ul data-aos="zoom-in" data-aos-duration="1000" class="flex flex-col gap-5 md:pt-20">
                         <li class="bs-primaryWhite text-base font-medium ff-rubi">Legal</li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90" href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
-                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90" href="#" target="_blank" rel="noopener noreferrer">Terms & conditions</a></li>
+                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Privacy Policy</a></li>
+                        <li><a class="bs-primaryWhite text-base font-normal ff-rubi opacity-90 transition duration-300 hover:opacity-100 hover:text-white" href="#" target="_blank" rel="noopener noreferrer">Terms & conditions</a></li>
                </ul>
             </div>
             <div data-aos="zoom-in" data-aos-duration="1000" class="flex items-center gap-8 pt-8 svgFill sm:hidden">

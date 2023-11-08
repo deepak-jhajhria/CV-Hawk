@@ -5,7 +5,22 @@ html {
 .navLinks:hover {
   color: var(--orange);
 }
-
+.after\:bg-gradient-to-t::after {
+  content: var(--tw-content);
+  background:linear-gradient(219deg, #FFA78A 0%, #FF7A34 100%);
+  background-image: url(/public/assets/images/underLine.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.after\:bg-gradient2::after {
+  content: var(--tw-content);
+  background:linear-gradient(219deg, #FFA78A 0%, #FF7A34 100%);
+  background-image: url(/public/assets/images/underLine2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .container {
   max-width: 1140px;
   margin-left: auto;
@@ -81,7 +96,7 @@ html {
   background: var(--orange) !important;
 }
 .headerSlider .slick-dots li {
-  background: #E6E5E5 !important;
+  background: #e6e5e5 !important;
   width: 16px !important;
   border-radius: 6px !important;
   height: 5px !important;
@@ -100,7 +115,7 @@ html {
   background: var(--orange) !important;
 }
 .mobileViewSlider .slick-dots li {
-  background: #E6E5E5 !important;
+  background: #e6e5e5 !important;
   width: 16px !important;
   border-radius: 6px !important;
   height: 5px !important;
